@@ -28,7 +28,7 @@ Please see the 10 simple rules for [FAIR training materials publication](https:/
 
 Please contact Geert van Geest if you want to contribute to this repo.
 
-## Usage 
+## If working locally
 
 This website is generated with [MkDocs](https://www.mkdocs.org/), with the theme [Material](https://squidfunk.github.io/mkdocs-material/).
 
