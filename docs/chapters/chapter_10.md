@@ -14,3 +14,5 @@ In addition, it clarifies the responsibilities of those who contributed to certa
 
 !!! example "Exercise"
     Potential learning experience: Search for training material online and analyse how credit is attributed and to whom. (in groups, 10 mins, 5 min search, 5 min wrap-up)
+
+Great change to this document!
