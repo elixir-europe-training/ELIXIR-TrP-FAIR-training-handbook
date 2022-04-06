@@ -1,5 +1,24 @@
 # FAIR-training-handbook
 
+## How to contribute (for non-git gurus)
+
+If you are authoring one of the chapters, the easy way to contribute would be to edit in the browser. Do this by
+
+- navigating to your chapter at `docs/chapters/` at the top of this page
+- clicking on your chapter's md file (e.g. `chapter_10.md`)
+- clicking on the **edit** buttion:
+
+![](docs/assets/images/edit_button.png)
+
+Now you can edit the markdown. Here is a tutorial on [markdown basics](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). For more advanced functionality, visit the [mkdocs material webpage](https://squidfunk.github.io/mkdocs-material/). For example for information on how to display [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/). 
+
+If you have finished, you can directly commit to main. In order to do that, write a commit message, and click the green button with **Commit changes**:
+
+![](docs/assets/images/commit.png)
+
+After commiting it will take ~30-60 seconds before the website is updated with your changes.
+
+If you want to build large tables, have a look at [markdown tables generator](https://www.tablesgenerator.com/markdown_tables).
 
 ## Aims
 
