@@ -1,1 +1,1 @@
-Fred car write things
+Fred can write things
