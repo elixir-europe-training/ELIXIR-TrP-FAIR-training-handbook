@@ -14,7 +14,9 @@ Now you can edit the markdown. Here is a tutorial on [markdown basics](https://d
 
 If you have finished, you can directly commit to main. In order to do that, write a commit message, and click the green button with **Commit changes**:
 
-![](docs/assets/images/commit.png)
+<figure>
+  <img src="docs/assets/images/commit.png" width="200"/>
+</figure>
 
 After commiting it will take ~30-60 seconds before the website is updated with your changes.
 
