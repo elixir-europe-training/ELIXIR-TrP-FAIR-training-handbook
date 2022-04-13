@@ -27,6 +27,11 @@ theme:
 repo_name: ELIXIR-FAIR-Training/FAIR-training-handbook
 repo_url: https://github.com/ELIXIR-FAIR-Training/FAIR-training-handbook
 
+plugins:
+  - search
+  - bibtex:
+      bib_file: "references.bib"
+
 markdown_extensions:
   - abbr
   - def_list

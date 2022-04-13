@@ -1,6 +1,6 @@
 Building on the FAIR training handbook as outlined by the ELIXIR FAIR training group.
 
-Please see the 10 simple rules for [FAIR training materials publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854). 
+Please see the 10 simple rules for [FAIR training materials publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854). [@Garcia2020]
 
 ## Want to work on this site?
 
@@ -18,3 +18,5 @@ Have a look at the `README` of [https://github.com/ELIXIR-FAIR-Training/FAIR-tra
 - [8. Licensing](chapters/chapter_08.md)
 - [9. Boosting discoverability](chapters/chapter_09.md)
 - [10. Recognition, acknowledgment, authorship](chapters/chapter_10.md)
+
+\bibliography
