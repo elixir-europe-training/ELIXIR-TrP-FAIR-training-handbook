@@ -24,7 +24,13 @@ If you have finished, you can directly commit to main. In order to do that, writ
 
 After commiting it will take ~30-60 seconds before the website is updated with your changes. The website is hosted at [https://elixir-fair-training.github.io/FAIR-training-handbook/](https://elixir-fair-training.github.io/FAIR-training-handbook/).
 
-**Note** If you want to build large tables, have a look at [markdown tables generator](https://www.tablesgenerator.com/markdown_tables).
+### Adding tables 
+
+If you want to build large tables, have a look at [markdown tables generator](https://www.tablesgenerator.com/markdown_tables).
+
+### Adding references
+
+This website supports bibtex (pandoc style). In order to add a reference, add it in bibtex format to `references.bib`, cite it in your markdown document with `[@refid]` (for the ten simple rules paper this would be `[@Garcia2020]`), and at the bottom of the page add the line `\bibliography`. You can find an example in `docs/index.md`. 
 
 ## Aims
 
