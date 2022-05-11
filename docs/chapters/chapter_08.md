@@ -30,23 +30,29 @@ The most common type of licence used for training materials is Creative Commons.
 Your choice of scheme and licence will depend on a number of factors, such as the type of materials, who the materials are targeted at, what you anticipate users wanting your materials for, any rules your institute may have already, and any materials you include within yours. 
 
 !!! example "Learning activity: find some examples of licences on training materials"
-  This learning activity will help you think more critically about how licences can be used.
-  1. Find three examples of training materials that include a licence
-  2. Do they all use the same licence scheme or type of licence? 
-  3. Are you clear on how you can use the materials or do you require more information?
-  4. Were the licences easy to spot?
+
+This learning activity will help you think more critically about how licences can be used.
+
+1. Find three examples of training materials that include a licence
+2. Do they all use the same licence scheme or type of licence? 
+3. Are you clear on how you can use the materials or do you require more information?
+4. Were the licences easy to spot?
 
 ## Creative Commons licences
 
 There are four conditions which can be applied to your materials by Creative Commons licences:
 
-[add image]
+<figure>
+  <img src="docs/assets/images/FourLicenceConditions.png" width="600"/>
+</figure>
 
 Image taken from https://wiki.creativecommons.org/images/6/6d/6licenses-flat.pdf. The image is in the public domain, CC0. 
 
 These four conditions can be combined to make up six different types of Creative Commons licences for you to choose for your materials:
 
-[add image]
+<figure>
+  <img src="docs/assets/images/LicenceCombinations.png" width="600"/>
+</figure>
 
 Image taken from https://wiki.creativecommons.org/images/6/6d/6licenses-flat.pdf. The image is in the public domain, CC0. 
 
@@ -57,10 +63,12 @@ There is also the option to use CC0 which allows you to put materials in the pub
 Before adding a licence to your training materials, it is important to keep in mind that licences cannot be revoked. The materials will remain covered by the licence you chose, even if you decide to stop distributing the materials later on.
 
 !!! example "Learning activity: choosing a licence"
-  To help you decide which licence is most suitable for your materials, Creative Commons provides a licence chooser. In the following activity, you will try out the Creative Commons licence chooser for yourself.
-  1. Select some of your training materials that you would like to add a licence to.
-  2. Try the Creative Commons Licence Chooser to determine which licence is most suitable for your selected materials.
-  3. Consider the licence the Chooser identified, do you think it is suitable for your materials? Remember, you may also need to consider requirements and restrictions set by your institute or company.
+
+To help you decide which licence is most suitable for your materials, Creative Commons provides a licence chooser. In the following activity, you will try out the Creative Commons licence chooser for yourself.
+
+1. Select some of your training materials that you would like to add a licence to.
+2. Try the Creative Commons Licence Chooser to determine which licence is most suitable for your selected materials.
+3. Consider the licence the Chooser identified, do you think it is suitable for your materials? Remember, you may also need to consider requirements and restrictions set by your institute or company.
 
 ## Attaching a licence to your materials
 
