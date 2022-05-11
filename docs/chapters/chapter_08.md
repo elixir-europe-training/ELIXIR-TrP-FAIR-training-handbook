@@ -29,7 +29,8 @@ The most common type of licence used for training materials is Creative Commons.
 
 Your choice of scheme and licence will depend on a number of factors, such as the type of materials, who the materials are targeted at, what you anticipate users wanting your materials for, any rules your institute may have already, and any materials you include within yours. 
 
-## Learning activity: find some examples of licences on training materials
+!!! example "Activity"
+  Learning activity: find some examples of licences on training materials
 
 This learning activity will help you think more critically about how licences can be used.
 
@@ -58,7 +59,8 @@ There is also the option to use CC0 which allows you to put materials in the pub
 
 Before adding a licence to your training materials, it is important to keep in mind that licences cannot be revoked. The materials will remain covered by the licence you chose, even if you decide to stop distributing the materials later on.
 
-## Learning activity: choosing a licence 
+!!! example "Activity"
+  Learning activity: choosing a licence 
 
 To help you decide which licence is most suitable for your materials, Creative Commons provides a licence chooser. In the following activity, you will try out the Creative Commons licence chooser for yourself.
 
