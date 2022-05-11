@@ -43,7 +43,7 @@ This learning activity will help you think more critically about how licences ca
 There are four conditions which can be applied to your materials by Creative Commons licences:
 
 <figure>
-  <img src="docs/assets/images/FourLicenceConditions.png" width="600"/>
+  <img src="https://github.com/ELIXIR-FAIR-Training/FAIR-training-handbook/blob/main/docs/assets/images/FourLicenceConditions.png" width="500"/>
 </figure>
 
 Image taken from https://wiki.creativecommons.org/images/6/6d/6licenses-flat.pdf. The image is in the public domain, CC0. 
@@ -51,7 +51,7 @@ Image taken from https://wiki.creativecommons.org/images/6/6d/6licenses-flat.pdf
 These four conditions can be combined to make up six different types of Creative Commons licences for you to choose for your materials:
 
 <figure>
-  <img src="docs/assets/images/LicenceCombinations.png" width="600"/>
+  <img src="https://github.com/ELIXIR-FAIR-Training/FAIR-training-handbook/blob/main/docs/assets/images/LicenceCombinations.png" width="500"/>
 </figure>
 
 Image taken from https://wiki.creativecommons.org/images/6/6d/6licenses-flat.pdf. The image is in the public domain, CC0. 
