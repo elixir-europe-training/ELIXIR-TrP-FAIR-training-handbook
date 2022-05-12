@@ -26,6 +26,7 @@ theme:
 # Repository
 repo_name: ELIXIR-FAIR-Training/FAIR-training-handbook
 repo_url: https://github.com/ELIXIR-FAIR-Training/FAIR-training-handbook
+edit_uri: edit/main/docs/
 
 plugins:
   - search
