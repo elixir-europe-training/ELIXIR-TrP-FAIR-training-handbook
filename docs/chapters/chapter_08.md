@@ -43,18 +43,18 @@ This learning activity will help you think more critically about how licences ca
 There are four conditions which can be applied to your materials by Creative Commons licences:
 
 <figure>
-  <img src="/../main/docs/assets/images/FourLicenceConditions.png" width="500"/>
+  <img src="../../assets/images/FourLicenceConditions.png" width="500"/>
+    <figcaption>Image taken from https://wiki.creativecommons.org/images/6/6d/6licenses-flat.pdf. The image is in the public domain, CC0. </figcaption>
 </figure>
-
-Image taken from https://wiki.creativecommons.org/images/6/6d/6licenses-flat.pdf. The image is in the public domain, CC0. 
 
 These four conditions can be combined to make up six different types of Creative Commons licences for you to choose for your materials:
 
 <figure>
-  <img src="/../main/docs/assets/images/LicenceCombinations.png" width="500"/>
+  <img src="../../assets/images/LicenceCombinations.png" width="500"/>
+  <figcaption>Image taken from https://wiki.creativecommons.org/images/6/6d/6licenses-flat.pdf. The image is in the public domain, CC0. </figcaption>
 </figure>
 
-Image taken from https://wiki.creativecommons.org/images/6/6d/6licenses-flat.pdf. The image is in the public domain, CC0. 
+
 
 You can label your materials with the above logos to help users quickly know which licence you have applied to your materials. Logo images are available for download from Creative Commons. 
 
