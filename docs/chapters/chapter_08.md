@@ -15,7 +15,7 @@ Learners should have material that they would like to share and consider attachi
 
 Licences are a standardised way of giving others specific permissions to use work you created. They allow you to put your work out publicly, while providing guidance to users about how they can use your materials and whether there are any restrictions. 
 
-By making your training materials public, others can benefit from your work and experience. By attaching a licence to your materials, you get to keep some control over how they can be used. For example, you may be happy for anyone to use your materials, provided you are credited, or perhaps you would like to allow anyone to use the materials, but only if they make no changes to them. Selecting the right licence allows you to make these choices and communicate them to your users.
+By making your training materials public, others can benefit from your work and experience. It also benefits you as it increases the possibility of your materials being used in the way you would like and in a way that provides you with credit for your work. By attaching a licence to your materials, you get to keep some control over how they can be used. For example, you may be happy for anyone to use your materials, provided you are credited, or perhaps you would like to allow anyone to use the materials, but only if they make no changes to them. Selecting the right licence allows you to make these choices and communicate them to your users.
 
 It’s important to remember that not having a licence assigned does not mean that anyone is allowed to do anything with the material, but instead creates confusion around what is allowed.
 
@@ -25,7 +25,7 @@ There are many different licensing schemes available, each with different types 
 
 Some common licensing schemes include Creative Commons, MIT License, Apache, and GNU General Public License.
 
-The most common type of licence used for training materials is Creative Commons.
+The most common type of licence used for training materials is Creative Commons and we’ll discuss these further later on in this chapter.
 
 Your choice of scheme and licence will depend on a number of factors, such as the type of materials, who the materials are targeted at, what you anticipate users wanting your materials for, any rules your institute may have already, and any materials you include within yours. 
 
@@ -74,7 +74,13 @@ To help you decide which licence is most suitable for your materials, Creative C
 
 Once you have chosen a licence for your materials, you need to ensure you communicate that licence to all users of your materials. 
 
-Logos and images that illustrate the chosen licence can be a great way of adding the licence to your materials. But to make sure all users understand what the licence means, you should add a link to the page that details the licence. For example, if you use a CC-BY licence, link to the relevant page on the Creative Commons website.
+Logos and images that illustrate the chosen licence can be a great way of adding the licence to your materials. But to make sure all users understand what the licence means, you should add a link to the page that details the licence where possible. For example, if you use a CC-BY licence, link to the relevant page on the Creative Commons website.
+
+## Reusing licenced materials
+
+If you wish to reuse someone else’s materials you must first check that the licence they have applied to them allows it. You will also need to ensure that you recognise and cite their work appropriately (<a href="https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_10/">see Chapter 10</a>).
+
+The licence that you can apply to the new version of the materials depends on the original licence and how you have changed, adapted or remixed the materials. Creative Commons provides a <a href="https://certificates.creativecommons.org/cccertedu/chapter/4-4-remixing-cc-licensed-work/">guide on how to do this in different situations</a>.
 
 ## Licences checklist 
 
@@ -83,3 +89,6 @@ Logos and images that illustrate the chosen licence can be a great way of adding
 - Cite any other creators’ materials that you include in yours - do not reuse others’ works if you are not sure about their permissions 
 - Check with your institute/company if there are any specific licence rules or guidance 
 
+## Next steps
+
+Choosing an appropriate licence is an important step in encouraging appropriate recognition of your work and encouraging contributions and collaborations. Read more about recognition and contributions to training materials in <a href="https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_10/">Chapter 10</a>.
