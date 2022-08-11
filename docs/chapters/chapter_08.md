@@ -40,7 +40,7 @@ Your choice of scheme and licence will depend on a number of factors, such as th
 
 ## Creative Commons licences
 
-There are four conditions which can be applied to your materials by Creative Commons licences:
+There are four conditions which can be applied to your materials by Creative Commons licences [creative_commons_2022]:
 
 <figure>
   <img src="../../assets/images/FourLicenceConditions.png" width="500"/>
