@@ -44,14 +44,14 @@ There are four conditions which can be applied to your materials by Creative Com
 
 <figure>
   <img src="../../assets/images/FourLicenceConditions.png" width="500"/>
-    <figcaption>Image taken from https://wiki.creativecommons.org/images/6/6d/6licenses-flat.pdf. The image is in the public domain, CC0. </figcaption>
+    <figcaption>Image taken from https://wiki.creativecommons.org/images/6/6d/6licenses-flat.pdf. The image is in the public domain, <a href="https://creativecommons.org/share-your-work/public-domain/cc0">CC0</a>. </figcaption>
 </figure>
 
 These four conditions can be combined to make up six different types of Creative Commons licences for you to choose for your materials:
 
 <figure>
   <img src="../../assets/images/LicenceCombinations.png" width="500"/>
-  <figcaption>Image taken from https://wiki.creativecommons.org/images/6/6d/6licenses-flat.pdf. The image is in the public domain, CC0. </figcaption>
+  <figcaption>Image taken from https://wiki.creativecommons.org/images/6/6d/6licenses-flat.pdf. The image is in the public domain, <a href="https://creativecommons.org/share-your-work/public-domain/cc0">CC0</a>. </figcaption>
 </figure>
 
 
@@ -64,7 +64,7 @@ Before adding a licence to your training materials, it is important to keep in m
 
 !!! example "Learning activity: choosing a licence"
 
-    To help you decide which licence is most suitable for your materials, Creative Commons provides a licence chooser. In the following activity, you will try out the Creative Commons licence chooser for yourself.
+    To help you decide which licence is most suitable for your materials, Creative Commons provides a licence chooser. In the following activity, you will try out the <a href="https://creativecommons.org/choose/">Creative Commons licence chooser</a> for yourself.
 
     1. Select some of your training materials that you would like to add a licence to.
     2. Try the Creative Commons Licence Chooser to determine which licence is most suitable for your selected materials.
