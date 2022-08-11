@@ -64,11 +64,11 @@ Before adding a licence to your training materials, it is important to keep in m
 
 !!! example "Learning activity: choosing a licence"
 
-To help you decide which licence is most suitable for your materials, Creative Commons provides a licence chooser. In the following activity, you will try out the Creative Commons licence chooser for yourself.
+    To help you decide which licence is most suitable for your materials, Creative Commons provides a licence chooser. In the following activity, you will try out the Creative Commons licence chooser for yourself.
 
-1. Select some of your training materials that you would like to add a licence to.
-2. Try the Creative Commons Licence Chooser to determine which licence is most suitable for your selected materials.
-3. Consider the licence the Chooser identified, do you think it is suitable for your materials? Remember, you may also need to consider requirements and restrictions set by your institute or company.
+    1. Select some of your training materials that you would like to add a licence to.
+    2. Try the Creative Commons Licence Chooser to determine which licence is most suitable for your selected materials.
+    3. Consider the licence the Chooser identified, do you think it is suitable for your materials? Remember, you may also need to consider requirements and restrictions set by your institute or company.
 
 ## Attaching a licence to your materials
 
