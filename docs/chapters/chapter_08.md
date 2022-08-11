@@ -40,7 +40,7 @@ Your choice of scheme and licence will depend on a number of factors, such as th
 
 ## Creative Commons licences
 
-There are four conditions which can be applied to your materials by Creative Commons licences [creative_commons_2022]:
+There are four conditions which can be applied to your materials by Creative Commons licences [@creative_commons_2022]:
 
 <figure>
   <img src="../../assets/images/FourLicenceConditions.png" width="500"/>
@@ -92,3 +92,5 @@ The licence that you can apply to the new version of the materials depends on th
 ## Next steps
 
 Choosing an appropriate licence is an important step in encouraging appropriate recognition of your work and encouraging contributions and collaborations. Read more about recognition and contributions to training materials in <a href="https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_10/">Chapter 10</a>.
+
+\bibliography
