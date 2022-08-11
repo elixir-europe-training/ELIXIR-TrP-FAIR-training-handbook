@@ -31,12 +31,12 @@ Your choice of scheme and licence will depend on a number of factors, such as th
 
 !!! example "Learning activity: find some examples of licences on training materials"
 
-This learning activity will help you think more critically about how licences can be used.
+    This learning activity will help you think more critically about how licences can be used.
 
-1. Find three examples of training materials that include a licence
-2. Do they all use the same licence scheme or type of licence? 
-3. Are you clear on how you can use the materials or do you require more information?
-4. Were the licences easy to spot?
+    1. Find three examples of training materials that include a licence
+    2. Do they all use the same licence scheme or type of licence? 
+    3. Are you clear on how you can use the materials or do you require more information?
+    4. Were the licences easy to spot?
 
 ## Creative Commons licences
 
