@@ -82,12 +82,12 @@ If you wish to reuse someone else’s materials you must first check that the li
 
 The licence that you can apply to the new version of the materials depends on the original licence and how you have changed, adapted or remixed the materials. Creative Commons provides a <a href="https://certificates.creativecommons.org/cccertedu/chapter/4-4-remixing-cc-licensed-work/">guide on how to do this in different situations</a>.
 
-## Licences checklist 
+!!! Licences checklist 
 
-- Clearly label your materials with the chosen licence
-- Include your contact information in case anyone needs to ask you any questions about your materials or their use 
-- Cite any other creators’ materials that you include in yours - do not reuse others’ works if you are not sure about their permissions 
-- Check with your institute/company if there are any specific licence rules or guidance 
+    - Clearly label your materials with the chosen licence
+    - Include your contact information in case anyone needs to ask you any questions about your materials or their use 
+    - Cite any other creators’ materials that you include in yours - do not reuse others’ works if you are not sure about their permissions 
+    - Check with your institute/company if there are any specific licence rules or guidance 
 
 ## Next steps
 
