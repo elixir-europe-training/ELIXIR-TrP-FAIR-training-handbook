@@ -126,7 +126,7 @@ The same is true for training materials. Sharing metadata alongside your trainin
 
 Whichever format you choose, use a consistent method for all of your training materials. This will save you time and make it easier to find, compare and contrast materials.
 
-!!! Checklist 
+!!! Checklist "Structuring metadata for machines"
 Metadata can also be structured to help machines search and catalogue this information. For more on this see [Chapter 4](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_04/).
 
 Now it’s your turn to write a training recipe.
