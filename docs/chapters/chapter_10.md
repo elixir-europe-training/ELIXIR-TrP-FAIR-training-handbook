@@ -1,8 +1,6 @@
 
 **Keywords**: Recognition, acknowledgment, authorship
 
-We have just added this sentence!
-
 ## Description
 
 This chapter will explain why it is important to add attributions to your training material. We will define the roles of author, trainers and contributor and ways of how to attribute credit to them in the contact of training material. It will also discuss of how you can encourage others to contribute to your material. 
