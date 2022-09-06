@@ -29,9 +29,11 @@ repo_url: https://github.com/ELIXIR-FAIR-Training/FAIR-training-handbook
 edit_uri: edit/main/docs/
 
 plugins:
+  - tags:
   - search
   - bibtex:
       bib_file: "references.bib"
+  
 
 markdown_extensions:
   - abbr

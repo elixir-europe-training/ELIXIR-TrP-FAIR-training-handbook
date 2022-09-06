@@ -1,5 +1,10 @@
-
-**Keywords**: Recognition, acknowledgment, authorship
+---
+tags:
+    - Recognition
+    - Acknowledgement
+    - Authorship
+    - Citation
+---
 
 ## Description
 
