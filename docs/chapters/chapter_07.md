@@ -15,10 +15,10 @@ How you manage the metadata associated with your training materials depends on w
 
 
 
-* [Chapter 2: Structure materials for FAIRness](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/),  
+* [Chapter 2: Structure materials for FAIRness](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/)  
 * [Chapter 3: Getting ready to create your materials for reuse](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/) 
 * [Chapter 4: Metadata and annotation](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_04/)
-* [Chapter 8 - Licensing](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_08/).
+* [Chapter 8 - Licensing](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_08/)
 
 ## Keywords
 
@@ -64,7 +64,7 @@ Information about training sessions and materials is referred to as [metadata](h
 
 Making training FAIR requires materials and sessions to be described with rich metadata. Ideally, this includes a universally agreed set of information. Many training communities, including [Bioschemas](https://bioschemas.org/profiles/Course/0.9-DRAFT-2020_12_08) and the [Research Data Alliance (RDA)](https://www.google.com/url?q=https://doi.org/10.15497/RDA00073&sa=D&source=docs&ust=1661905403636069&usg=AOvVaw17J5RLnyWOwcoTVR6YbELT) [@hoebelheinrich_nancy_j_2022_6769695], are working towards defining these sets of information but broad agreement on the categories to be included is yet to be reached. In our paper [10 simple rules for making training materials FAIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854) [@Garcia2020] we used the Bioschema and RDA sets to create a list of the information (metadata) that is important for training materials.
 
-**Table 1:** Metadata that is important for training materials and guidance on what to include in each category (reproduced from [@Garcia2020] under CC BY 4.0)
+**Table 1:** Metadata that is important for training materials and guidance on what to include in each category (reproduced from Garcia _et al_ 2020 [@Garcia2020] under CC BY 4.0)
 
 <figure>
   <img src="../../assets/images/MetadataTable10SR.png" width="500"/>
@@ -126,7 +126,8 @@ The same is true for training materials. Sharing metadata alongside your trainin
 
 Whichever format you choose, use a consistent method for all of your training materials. This will save you time and make it easier to find, compare and contrast materials.
 
-!!! Checklist metadata can also be structured to help machines search and catalogue this information. For more on this see [Chapter 4](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_04/).
+!!! Checklist 
+Metadata can also be structured to help machines search and catalogue this information. For more on this see [Chapter 4](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_04/).
 
 Now it’s your turn to write a training recipe.
 
@@ -156,15 +157,15 @@ Here are some recommendations to help get you started:
 
 !!! Checklist
 
-Required: Collate metadata
+* Required: Collate metadata
 
-Required: Share metadata alongside the materials
+* Required: Share metadata alongside the materials
 
-Recommended: Write learning outcomes in a SMART format
+* Recommended: Write learning outcomes in a SMART format
 
-Recommended: Include detailed but brief information in the metadata to allow others to understand the context in which the training materials were originally used.
+* Recommended: Include detailed but brief information in the metadata to allow others to understand the context in which the training materials were originally used.
 
-Optional: Choose keywords from an ontology or controlled vocabulary that is relevant to your field
+* Optional: Choose keywords from an ontology or controlled vocabulary that is relevant to your field
 
 ## Resources and references
 \bibliography
