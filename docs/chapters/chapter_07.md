@@ -52,13 +52,13 @@ Training materials and sessions can be (re)used in whole, in part or simply as i
 
 !!! example "Learning activity: What to include in your recipe"
 
-  In this activity we consider what types of information to include in a training recipe. 
+    In this activity we consider what types of information to include in a training recipe. 
 
 
-  1. Find three examples of training materials relevant to your field. This may be an individual training material or a training session. (Alternatively, take a look at some of the case studies linked below).
-  2. What information is included in the training recipe for these materials?
-  3. Is the same information provided in all three examples?
-  4. Would you need more information to decide whether you could reuse them and how?
+    1. Find three examples of training materials relevant to your field. This may be an individual training material or a training session. (Alternatively, take a look at some of the case studies linked below).
+    2. What information is included in the training recipe for these materials?
+    3. Is the same information provided in all three examples?
+    4. Would you need more information to decide whether you could reuse them and how?
 
 Information about training sessions and materials is referred to as [metadata](https://faircookbook.elixir-europe.org/content/recipes/introduction/metadata-fair.html). Metadata makes it easier for you and others to understand how a particular material or set of materials can be (re)used. 
 
@@ -81,9 +81,9 @@ Let’s look at ‘learning outcomes’ and ‘additional information’ in more
 
 !!! Checklists "A word on keywords, ontologies and controlled vocabularies"
 
-  Keywords are important for boosting the findability of training materials. Where possible, keywords should be chosen from an agreed upon list of terms (i.e an ontology or controlled vocabulary) that is relevant to your field. This helps ensure that keywords are used consistently and reduces ambiguity. For biology and bioinformatics [EDAM](https://edamontology.org/page) [@10.1093/bioinformatics/btt113] is an example of an ontology that includes agreed terms for data types, data identifiers, data formats, operations, and topics and you can use services like the [Ontology Lookup Service](https://www.ebi.ac.uk/ols/index) to look up terms and keywords. 
+    Keywords are important for boosting the findability of training materials. Where possible, keywords should be chosen from an agreed upon list of terms (i.e an ontology or controlled vocabulary) that is relevant to your field. This helps ensure that keywords are used consistently and reduces ambiguity. For biology and bioinformatics [EDAM](https://edamontology.org/page) [@10.1093/bioinformatics/btt113] is an example of an ontology that includes agreed terms for data types, data identifiers, data formats, operations, and topics and you can use services like the [Ontology Lookup Service](https://www.ebi.ac.uk/ols/index) to look up terms and keywords. 
 
-  You can learn more about ontologies in this [video from the EMBL-EBI](https://www.ebi.ac.uk/training/online/courses/biocuration-collection/ontologies/).
+    You can learn more about ontologies in this [video from the EMBL-EBI](https://www.ebi.ac.uk/training/online/courses/biocuration-collection/ontologies/).
 
 
 ## Writing learning outcomes
@@ -92,11 +92,11 @@ Writing learning outcomes in a consistent format makes them easier to understand
 
 A bonus to writing learning outcomes is that it can help you define the purpose, intended audience  of your training session and what participants need to know (the prerequisites) before joining it.
 
-**Learning experience: writing learning outcomes**
+!!! example "Learning experience: writing learning outcomes"
 
-  1. Watch this video on [how to write SMART learning outcomes](https://drive.google.com/file/d/1T078jh5wWD5k5CdN1tf-YldXdyXZ3FnR/view?usp=sharing)
-  2. Now write a set of learning outcomes for your own materials. 
-  3. Share your learning outcomes with a friend. Are they able to tell what the goals of your training are?
+    1. Watch this video on [how to write SMART learning outcomes](https://drive.google.com/file/d/1T078jh5wWD5k5CdN1tf-YldXdyXZ3FnR/view?usp=sharing)
+    2. Now write a set of learning outcomes for your own materials. 
+    3. Share your learning outcomes with a friend. Are they able to tell what the goals of your training are?
 
 
 ## Providing additional contextual information
@@ -109,9 +109,9 @@ For example, were these materials part of a workshop? Was the training delivered
 
 !!! example "Learning experience: adding contextual information"
 
-  1. Find some examples of ways in which trainers provide ‘additional information’ and context about how to use training materials.
-  2. How did they include this information?
-  3. What information did they include?
+    1. Find some examples of ways in which trainers provide ‘additional information’ and context about how to use training materials.
+    2. How did they include this information?
+    3. What information did they include?
 
 There are several ways to include additional information. For example [Carpentries lessons](https://swcarpentry.github.io/shell-novice/) include ‘Instructor notes’ while [this example from the Swiss Institute of Bioinformatics](https://github.com/sib-swiss/first-steps-with-python-training/) uses a README file in their GitHub repository to collate this information and the [Australian BioCommons](https://zenodo.org/record/6350808#.YqfKV-xBw3Q) provides information in a table of metadata. You might even consider adding an extra slide to your slide deck when you share it.  In fact what you include and how, really depends on the materials and training session in question. To write your own notes, start by thinking of this as a training love letter to yourself. If you were to reuse these materials in 2, 5, 10 years time, what else would you need to know about the session?
 
@@ -127,15 +127,15 @@ The same is true for training materials. Sharing metadata alongside your trainin
 Whichever format you choose, use a consistent method for all of your training materials. This will save you time and make it easier to find, compare and contrast materials.
 
 !!! Checklist "Structuring metadata for machines"
-  Metadata can also be structured to help machines search and catalogue this information. For more on this see [Chapter 4](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_04/).
+    Metadata can also be structured to help machines search and catalogue this information. For more on this see [Chapter 4](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_04/).
 
 Now it’s your turn to write a training recipe.
 
 !!! example "Learning experience: Write your own training recipe"
 
-  1. Make a table of the types of information you need to include in your metadata (you may wish to use the table above for inspiration). 
-  2. Complete the table for your training material providing detailed information.
-  3. Ask a friend to read your recipe. Do they have enough information to understand the materials and the context they were used in?
+    1. Make a table of the types of information you need to include in your metadata (you may wish to use the table above for inspiration). 
+    2. Complete the table for your training material providing detailed information.
+    3. Ask a friend to read your recipe. Do they have enough information to understand the materials and the context they were used in?
 
 Here are some recommendations to help get you started:
 
@@ -157,15 +157,15 @@ Here are some recommendations to help get you started:
 
 !!! Checklist
 
-  * Required: Collate metadata
+    * Required: Collate metadata
 
-  * Required: Share metadata alongside the materials
+    * Required: Share metadata alongside the materials
 
-  * Recommended: Write learning outcomes in a SMART format
+    * Recommended: Write learning outcomes in a SMART format
 
-  * Recommended: Include detailed but brief information in the metadata to allow others to understand the context in which the training materials were originally used.
+    * Recommended: Include detailed but brief information in the metadata to allow others to understand the context in which the training materials were originally used.
 
-  * Optional: Choose keywords from an ontology or controlled vocabulary that is relevant to your field
+    * Optional: Choose keywords from an ontology or controlled vocabulary that is relevant to your field
 
 ## Resources and references
 \bibliography
