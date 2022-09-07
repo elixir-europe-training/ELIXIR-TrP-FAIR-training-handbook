@@ -96,7 +96,7 @@ A bonus to writing learning outcomes is that it can help you define the purpose,
 
     1. Watch this video on [how to write SMART learning outcomes](https://drive.google.com/file/d/1T078jh5wWD5k5CdN1tf-YldXdyXZ3FnR/view?usp=sharing)
     
-    <iframe src="https://drive.google.com/file/d/1T078jh5wWD5k5CdN1tf-YldXdyXZ3FnR/preview" width="500" height="376" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/1T078jh5wWD5k5CdN1tf-YldXdyXZ3FnR/preview" width="320" height="240" allow="autoplay"></iframe>
     
     2. Now write a set of learning outcomes for your own materials. 
     3. Share your learning outcomes with a friend. Are they able to tell what the goals of your training are?
