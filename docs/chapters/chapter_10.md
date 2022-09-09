@@ -6,6 +6,12 @@ tags:
     - Citation
 ---
 
+**Authors:**
+
+- Alexandra Holinski [:custom-orcid:](https://orcid.org/0000-0003-2321-5568)
+- Iryna Kuchma [:custom-orcid:](https://orcid.org/0000-0002-2064-3439)
+- Geert van Geest [:custom-orcid:](https://orcid.org/0000-0002-1561-078X)
+
 ## Description
 
 This chapter will explain why it is important to add attributions to your training material. We will define the roles of author, trainers and contributor and ways of how to attribute credit to them in the contact of training material. It will also discuss of how you can encourage others to contribute to your material. 
