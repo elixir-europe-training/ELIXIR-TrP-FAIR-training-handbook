@@ -1,3 +1,9 @@
+ 
+**Authors:**
+
+- Daniel Wibberg
+- Helena Schnitzer
+ 
  <h2>Chapter 9: Boosting discoverability of Training Materials</h2>
 
  <h3>Chapter 9.1. - Should I share my training material?</h3>

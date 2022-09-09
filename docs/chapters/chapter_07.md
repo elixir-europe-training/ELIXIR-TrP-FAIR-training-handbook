@@ -1,3 +1,11 @@
+
+**Authors:**
+
+- Melissa Burke [:custom-orcid:](https://orcid.org/0000-0002-5571-8664)
+- Anna Swann
+- Hélène Chiapelo 
+- Helen Clare [:custom-orcid:](https://orcid.org/0000-0002-6656-3012)
+
 ## Description
 
 In this chapter, we explore the type of information required for people to decide if and how they can reuse training materials they are otherwise unfamiliar with. This information is an important part of the metadata and should be included alongside the materials. We consider existing metadata recommendations for training materials and different ways of representing this information in a detailed but logical and useful format.

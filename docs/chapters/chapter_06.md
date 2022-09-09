@@ -1,3 +1,11 @@
+
+**Authors:**
+
+- Helena Schnitzer
+- Daniel Wibberg
+- Fred de Lamotte [:custom-orcid:](https://orcid.org/0000-0003-4234-1172)
+- Helen Clare [:custom-orcid:](https://orcid.org/0000-0002-6656-3012)
+
 ## Description
 
 Making training material (re)usable for others, it is necessary to ensure its accessibility. Generally, the access of data and training material should be provided by using universally implementations and standardised communication protocols, with optional fully mechanised protocols. Anyone with a computer and an internet connection should (down)load the metadata without specialised tools. Therefore, a unique identifier and the choice of the repository where the training material is stored is a crucial factor (see chapter 5 and chapter 9).

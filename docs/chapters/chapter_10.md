@@ -11,6 +11,7 @@ tags:
 - Alexandra Holinski [:custom-orcid:](https://orcid.org/0000-0003-2321-5568)
 - Iryna Kuchma [:custom-orcid:](https://orcid.org/0000-0002-2064-3439)
 - Geert van Geest [:custom-orcid:](https://orcid.org/0000-0002-1561-078X)
+- Hugh Shanahan
 
 ## Description
 

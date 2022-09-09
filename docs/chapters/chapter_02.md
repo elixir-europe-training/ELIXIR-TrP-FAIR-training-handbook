@@ -1,5 +1,10 @@
 # How to structure your materials   to facilitate FAIRness?
 
+**Authors:**
+
+- Roland Krause
+- Allegra Via
+
 ## Short description
 
 Decision on the technical implementation of training materials and their educated use can make major contributions to deliver FAIR training materials. 
