@@ -7,5 +7,4 @@
 - Iulianna van der Lek
 - Helen Clare [:custom-orcid:](https://orcid.org/0000-0002-6656-3012)
 
-Fred can write things
-As far as I understand, I have the rights for editing !
+
