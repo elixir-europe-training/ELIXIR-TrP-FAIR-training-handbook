@@ -1,7 +1,7 @@
 
 **Authors:**
 
-- Anna Swann
+- Anna Swan [:custom-orchid:](https://orcid.org/0000-0003-1810-3756)
 - Alexandra Holinski [:custom-orcid:](https://orcid.org/0000-0003-2321-5568)
 
 ## Description
