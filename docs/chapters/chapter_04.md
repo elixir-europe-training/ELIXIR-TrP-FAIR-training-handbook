@@ -18,8 +18,13 @@ F,A,I,R
 Bioschemas
 ## Learning Outcomes
 By the end of this Chapter, learners will be able to:
+
 1. Minimum, Understand - Explain the concept of metadata 
+
 2. Minimum, Understand - Explain the relevance of metadata to FAIR Training Materials
+
 3. Minimum, Remember - Identify metadata standards used in your communities/institutions to annotate training materials
+
 4. Recommended, Apply - Describe their training materials with a metadata standard suitable for their domain/discipline (note: from the point of view of content, this could be a LE. bring your TrM, and structure/insert/compile the metadata)
+
 5. Optional, Understand - Explain the concept of structured metadata
