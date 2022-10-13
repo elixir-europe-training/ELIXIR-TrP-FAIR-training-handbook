@@ -1,5 +1,7 @@
 # FAIR-training-handbook
 
+**Any issues?** Contact Geert van Geest (@GeertvanGeest)
+
 ## How to contribute (for non-git gurus)
 
 First, you will need to be able to edit this repository. Ask for permissions at the repository admins (currently Geert van Geest). 
