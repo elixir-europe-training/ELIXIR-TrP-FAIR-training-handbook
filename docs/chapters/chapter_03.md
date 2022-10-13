@@ -28,7 +28,7 @@ By the end of this chapter you will be able to:
 - For each phase, identify platforms that best comply with the FAIR principles according to user’s needs and priorities
 - Document/justify their choices for a given learning platform
 
- ## Learning Experiences
+## Learning Experiences
 #### LO: Describe the four phases of training materials life cycle (development, running course, sharing, archiving) 
 1. Lecture describing the four phases of training materials life cycle. 
 ```
