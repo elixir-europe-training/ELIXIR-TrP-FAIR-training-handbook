@@ -10,12 +10,7 @@ Metadata can be defined as data used to describe _other data_. That _other data_
 ## Prerequisites
 Chapter 1
 ## Keywords
-Metadata (minimal & extended)
-Training-related metadata
-Controlled vocabularies (CVs)
-Annotation
-F,A,I,R
-Bioschemas
+Metadata (minimal & extended), Training-related metadata, Controlled vocabularies (CVs), Annotation, Findable, Accessible, Interopeerable, Reusable, Bioschemas
 ## Learning Outcomes
 By the end of this Chapter, learners will be able to:
 
