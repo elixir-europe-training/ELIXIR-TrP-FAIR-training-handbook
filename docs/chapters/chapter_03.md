@@ -10,8 +10,11 @@ Here, we will describe a few platforms that can be used to host and share your m
 
 
 ## Prerequisites
+Learners are expected to have done Chapter 1 & 2 and understand the need for FAIRifying their training materials and/or building their training materials FAIR from the beginning
+From Chapter 2, be aware of what types of material they have or will have (lectures, exercises, video, datasets etc.). 
 
 ## Related chapters:
+Chapter 1 & Chapter 2
 
 ## Keywords
 
@@ -25,4 +28,32 @@ By the end of this chapter you will be able to:
 - For each phase, identify platforms that best comply with the FAIR principles according to user’s needs and priorities
 - Document/justify their choices for a given learning platform
 
- 
+ ## Learning Experiences
+#### LO: Describe the four phases of training materials life cycle (development, running course, sharing, archiving)
+LE(s): 
+1. Lecture describing the four phases of training materials life cycle. 
+```
+Supporting materials:
+- Narrative in the handbook
+- Annotated slides for the delivery
+```
+2. (Tentative) Exercise: learners describe what they currently do with their materials in each of the four phases. 
+
+LO: Describe how to use the Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS) 
+Brief narrative presenting the different platforms
+Exercise: share in groups which ones you use / test quickly those you never used. 
+List the (long-term) implications in terms of FAIR of choosing technologies such as Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS) (ALLEGRA)
+Exercise: in groups, learners discuss what could be the implications in terms of FAIR of choosing technologies such as Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS) and write the outcomes of their discussion in a shared document (the document will contain a table listing the technologies in the first column and empty cells in the second column for the implications).  Learners compare their table with the table provided in the chapter, where some possible implications are provided. 
+Table XX
+Compare the advantages and disadvantages of the platforms in each of the four phases (ALLEGRA)
+Exercise: in groups, learners write  the advantages and disadvantages of the platforms in each of the four phases in a shared Doc. They compare and discuss their results with the table “Pros & Cons” provided in the chapter:
+Table XXX
+For each phase, explain how to interpret FAIR principles 
+Narrative explaining the table structure and providing examples for each couple of dimensions
+Exercise: Fill the Phases x FAIR table. 
+For each phase, identify platforms that best comply with the FAIR principles according to user’s needs and priorities
+Brief narrative explaining why to focus on the user’s needs
+Exercise: Highlight the more important columns of table 1.2 and 1.3 and fill those.
+Documenting/justifying their choices for a given learning platform
+Exercise: justify the choice of one or multiple platforms.
+
