@@ -26,3 +26,22 @@ By the end of this chapter, learners will be able to:
 3. Minimum: Determine whether a given type of training material can in principle be FAIRifyed
 4. Recommended: Describe the difference between FAIR and Open
 5. Recommended: Explain the difference between FAIRifying training materials vs FAIRifying data / software
+
+## Learning experiences
+
+LE (LO1 - Explain what FAIR means): 
+. Lecture: Instructor provides a live lecture explaining the theory on FAIR, History, Open, etc - background. Alternative = video with the recorded lecture
+. Quizz: with some key terms / points to assess if the learners have got them.
+
+LE (LO2 - List main pros and cons of FAIRifying training materials): 
+. Exercise - working in pairs: Ask the learners to provide a list of 3 pros and cons in a shared document.
+. Formative assessment and Q&A: Instructor to discuss the shared document, and comment on the results described by the pairs.
+
+LE (LO3 - Determine whether a given type of training material can in principle be FAIRifyed)
+. Exercise - working in pairs: Each learner reflects on a set of training material they use to teach, and whether it is FAIRifiable given the LO1.
+
+LE (LO4 - Describe the difference between FAIR and Open): 
+. Lecture: Instructor provides a lecture explaining the differences between FAIR and Open (some links or material, provide the answer right away).
+
+LE (LO5 - Explain the difference between FAIRifying training materials vs FAIRifying data / software):
+. Provide the reading materials - papers about FAIRifying data / software, and let the learners bring the differences to the classroom and discuss.

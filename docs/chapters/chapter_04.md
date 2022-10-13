@@ -7,6 +7,7 @@
 
 ## Description
 This chapter will focus on explaining how to annotate training materials and events with rich metadata to improve F, I, R.
+Metadata can be defined as data used to describe _other data_. That _other data_ is complete on its own even without the metadata; however, the metadata makes it easier, for instance, to quickly grasp what that _other data_ is about and to establish some common parameters that can be used to find and compare similar data, even if you have no access to that _other data_. This chapter will focus on explaining how to annotate training materials and events with rich metadata to improve their Findability, Interoperability, and Reusability.
 ## Prerequisites
 Chapter 1
 ## Keywords
