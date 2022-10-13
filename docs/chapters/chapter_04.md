@@ -20,13 +20,14 @@ Metadata (minimal & extended), Training-related metadata, Controlled vocabularie
 
 ## Learning Outcomes
 **Minimum**
-* Explain the concept of metadata 
-* Explain the relevance of metadata to FAIR Training Materials
-* Identify metadata standards used in your communities/institutions to annotate training materials
-
+1. Explain the concept of metadata 
+2. Explain the relevance of metadata to FAIR Training Materials
+3. Identify metadata standards used in your communities/institutions to annotate training materials
+ 
 **Recommended**
 
-* Describe your training materials with a metadata standard suitable for your domain/discipline 
+4. Describe your training materials with a metadata standard suitable for your domain/discipline 
 
 **Optional**
-* Explain the concept of structured metadata
+
+5. Explain the concept of structured metadata
