@@ -1,4 +1,4 @@
-:root {
+:root > * {
   --md-primary-fg-color:        #0c3450ff;
   --md-accent-fg-color:         #eb8339ff;
   --md-typeset-a-color:         #047eaaff;
