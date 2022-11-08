@@ -4,6 +4,7 @@ tags:
     - Acknowledgement
     - Authorship
     - Citation
+    - Attribution
 ---
 
 **Contact persons:**
