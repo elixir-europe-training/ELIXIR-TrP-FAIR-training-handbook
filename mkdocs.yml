@@ -15,6 +15,7 @@ nav:
       - "8. Licensing": chapters/chapter_08.md
       - "9. Boosting discoverability": chapters/chapter_09.md
       - "10. Recognition, acknowledgment, authorship": chapters/chapter_10.md
+    - Keywords list: keywords.md
 
 theme:
   name: material
@@ -31,6 +32,7 @@ edit_uri: edit/main/docs/
 
 plugins:
   - tags:
+      tags_file: keywords.md
   - search
   - bibtex:
       bib_file: "references.bib"
