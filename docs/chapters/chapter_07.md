@@ -3,7 +3,7 @@
 
 - Melissa Burke [:custom-orcid:](https://orcid.org/0000-0002-5571-8664)
 - Anna Swann
-- Hélène Chiapelo 
+- Hélène Chiapello [:custom-orcid:](https://orcid.org/0000-0001-5102-0632)
 - Helen Clare [:custom-orcid:](https://orcid.org/0000-0002-6656-3012)
 
 ## Description
