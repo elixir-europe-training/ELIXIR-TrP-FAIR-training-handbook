@@ -1,4 +1,11 @@
-# How to structure your materials   to facilitate FAIRness?
+---
+tags:
+     - Interoperable
+     - File format
+     - README file
+     - Master Doc
+     - Reusability 
+---
 
 **Authors:**
 

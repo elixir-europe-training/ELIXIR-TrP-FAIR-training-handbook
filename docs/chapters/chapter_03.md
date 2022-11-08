@@ -1,3 +1,17 @@
+---
+tags:
+    - Types of training materials
+    - Training Development platform
+    - Archiving
+    - Collaborative development 
+    - Repository
+    - GitHub
+    - Markdown
+    - Version control
+    - Content management
+    - Technological platform
+---
+
 
 **Authors:**
 

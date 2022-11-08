@@ -1,3 +1,19 @@
+---
+tags:
+    - FAIR
+    - Open
+    - Findable
+    - Accessibility
+    - Interoperability
+    - Reusability
+    - Reproducibility
+    - Training
+    - Training materials
+    - Types of training materials
+    - Regulations
+    - Procedures
+    - FAIR software 
+---
 
 **Authors:**
 

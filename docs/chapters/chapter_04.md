@@ -1,3 +1,11 @@
+---
+tags:
+    - Metadata
+    - Controlled vocabularies
+    - Annotation
+    - FAIR
+    - Bioschemas
+---
 
 **Authors:**
 

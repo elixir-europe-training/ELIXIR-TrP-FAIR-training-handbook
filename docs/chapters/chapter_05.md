@@ -1,3 +1,12 @@
+---
+tags:
+    - Unique identifier
+    - ID
+    - DOI
+    - ORCID
+    - PMID
+    - Persistent identifier
+---
 
 **Authors:**
 

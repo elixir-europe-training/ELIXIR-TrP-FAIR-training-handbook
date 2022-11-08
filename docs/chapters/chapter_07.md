@@ -1,3 +1,10 @@
+---
+tags:
+    - Metadata
+    - Contextual information
+    - Reusability
+    - Learning outcomes
+---
 
 **Authors:**
 

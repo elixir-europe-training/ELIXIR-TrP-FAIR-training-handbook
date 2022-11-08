@@ -1,4 +1,12 @@
- 
+---
+tags:
+    - Training portals
+    - Registry
+    - Repository
+    - Dissemination
+    - Discoverability
+---
+
 **Authors:**
 
 - Daniel Wibberg
