@@ -24,8 +24,8 @@ Here should be the prerequisites of this chapter.
 ## Learning Outcomes
 
 !!! info
-    **At the end of this chapter you should be able to:
-    
+    **At the end of this chapter you should be able to:**
+
     1. Recognise the importance of attribution and citations
     2. Explain why it is important to encourage continuous contributions and acknowledgements
     3. Define the difference between author, trainer and contributor 
