@@ -7,12 +7,12 @@
 
 ## Description
 Metadata can be defined as data used to describe _other data_. That _other data_ is complete on its own even without the metadata; however, the metadata makes it easier, for instance, to quickly grasp what that _other data_ is about and to establish some common parameters that can be used to find and compare similar data, even if you have no access to that _other data_. This chapter will focus on explaining how to annotate training materials and events with rich metadata to improve their Findability, Interoperability, and Reusability.
+## Keywords
+Metadata (minimal & extended), Training-related metadata, Controlled vocabularies (CVs), Annotation, Findable, Accessible, Interoperable, Reusable, Bioschemas
 ## Prerequisites
 * [Chapter 1: Why FAIR training & training materials?](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_01/)
 ## Related chapters
 * [Chapter 7: Make it reusable](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_07/)
-## Keywords
-Metadata (minimal & extended), Training-related metadata, Controlled vocabularies (CVs), Annotation, Findable, Accessible, Interoperable, Reusable, Bioschemas
 ## Learning Outcomes
 By the end of this Chapter, learners will be able to:
 
