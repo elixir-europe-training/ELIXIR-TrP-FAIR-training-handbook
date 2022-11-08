@@ -1,3 +1,9 @@
+---
+tags:
+  - Licensing
+  - Reusability
+  - Accessibility
+---
 
 **Authors:**
 
