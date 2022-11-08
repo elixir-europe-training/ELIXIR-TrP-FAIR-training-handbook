@@ -23,7 +23,7 @@ Here should be the prerequisites of this chapter.
 
 ## Learning Outcomes
 
-!!! info
+!!! info "Learning outcomes"
     **At the end of this chapter you should be able to:**
 
     1. Recognise the importance of attribution and citations
