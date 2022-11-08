@@ -55,12 +55,7 @@ In the end, attributing contact creates a community of trainers and contributors
 
 Each **author** is expected to:
 
-- Have made substantial contributions to at least one of the following:
-    a. conception or design
-    b. creation of exercises
-    c. creation of lectures
-    d. creation of the learner’s environment
-    e. drafting/revision
+- Have made substantial contributions in the capacity of one of the roles in the [credit matrix](#credit-matrix)
 - Have approved the course version
 - Be personally accountable for their contributions
 
