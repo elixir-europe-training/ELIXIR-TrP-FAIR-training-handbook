@@ -6,7 +6,7 @@ tags:
     - Citation
 ---
 
-**Authors:**
+**Contact persons:**
 
 - Alexandra Holinski [:custom-orcid:](https://orcid.org/0000-0003-2321-5568)
 - Iryna Kuchma [:custom-orcid:](https://orcid.org/0000-0002-2064-3439)
@@ -17,18 +17,22 @@ tags:
 
 This chapter will explain why it is important to add attributions to your training material. We will define the roles of author, trainers and contributor and ways of how to attribute credit to them in the contact of training material. It will also discuss of how you can encourage others to contribute to your material. 
 
-## Learning Outcomes
+## Prerequisites
 
-1. Recognise the importance of attribution and citations
-2. Explain why it is important to encourage continuous contributions and acknowledgements
-3. Define the difference between author, trainer and contributor 
-4. Define criteria for acknowledgements
-5. Describe roles for credit attribution as an additional way of credit attribution
-6. Describe ways to engage communities (trainers and trainees) to get contributions and feedback
-7. Use persistent identifiers for people in the context of attribution
-8. Describe how to capture contributors and authors depending on the repository / platform
-9. Provide credit for other training material
+Here should be the prerequisites of this chapter. 
 
+!!! info
+    ## Learning Outcomes
+
+    1. Recognise the importance of attribution and citations
+    2. Explain why it is important to encourage continuous contributions and acknowledgements
+    3. Define the difference between author, trainer and contributor 
+    4. Define criteria for acknowledgements
+    5. Describe roles for credit attribution as an additional way of credit attribution
+    6. Describe ways to engage communities (trainers and trainees) to get contributions and feedback
+    7. Use persistent identifiers for people in the context of attribution
+    8. Describe how to capture contributors and authors depending on the repository / platform
+    9. Provide credit for other training material
 
 ## Importance of attribution of credit
 
@@ -156,3 +160,7 @@ The CRediT matrix can be helpful in evaluating whether a person is an author or 
     How useful do you think the matrix is and which roles still need to be adapted for training material?
 
     OR: Use the provided credit matrix and apply it to your training material.
+
+## Evaluate yourself
+
+Now you have completed the chapter, you should have reached the [learning outcomes](#learning-outcomes). Scroll up, and see whether you managed. 
