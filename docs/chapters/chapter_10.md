@@ -45,20 +45,14 @@ Attributing credit is as important for training material as it is for scientific
 * Teacher / trainer
 * Contributor
 
-In addition to this, there may also be a need to consider the funder(s) and organisation or community that enabled the development of the materials.
-
-We will define these roles in more detail in the next section and also clarify how credit is attributed for each of them.
-
-Attributing credit to these roles makes them (most often scientists) more visible, serves as a proof of their effort beyond pure research and can bring these scientists additional recognition.
-
-In addition, it clarifies the responsibilities of those who contributed to certain content of the training material and the training session and thus allows trainers who will re-use the training material to contact these people with potential follow-up questions. It makes those who contributed to the material personally accountable for their contributions. Beyond the individual author, Teacher/trainer and contributor, the funder(s), developing organisation or community play a role in the longer term maintenance of the materials.
-
-In the end, attributing contact creates a community of trainers and contributors.
+In addition to this, there may also be a need to consider the funder(s) and organisation or community that enabled the development of the materials. We will define these roles in more detail in the next section and also clarify how credit is attributed for each of them. Attributing credit to these roles makes them (most often scientists) more visible, serves as a proof of their effort beyond pure research and can bring these scientists additional recognition. In addition, it clarifies the responsibilities of those who contributed to certain content of the training material and the training session and thus allows trainers who will re-use the training material to contact these people with potential follow-up questions. It makes those who contributed to the material personally accountable for their contributions. Beyond the individual author, Teacher/trainer and contributor, the funder(s), developing organisation or community play a role in the longer term maintenance of the materials. In the end, attributing contact creates a community of trainers and contributors, which not only makes your course material better, but it's also a great way together. 
 
 !!! example "Exercise"
     Learning experience: Search for training material online and analyse how credit is attributed and to whom. (in groups, 10 mins, 5 min search, 5 min wrap-up)
 
 ## Different roles 
+
+The three different roles have different characteristics that you can use to define them.
 
 Each **author** is expected to:
 
@@ -73,25 +67,21 @@ Each **contributor** has contributed to the course material including, but not l
 - Improvement of exercises and lectures
 - Testing and evaluation of exercises/lectures/learner’s environment
 
-Everyone who does not meet authorship, contributor or trainer criteria but deserves so should be acknowledged. For example, persons or organisations should be **attributed** if their course material was used as inspiration for the current course material version. Ideally this should be in the form of a citation.
+## Using material of others
 
-A funder has provided financial support for the development of the materials. An organisation or community has coordinated the development of the materials and has undertaken to develop the materials in the longer term. 
+Everyone who does not meet authorship, contributor or trainer criteria but deserves so should be acknowledged. For example, persons or organisations should be **cited** if their course material was used as inspiration for the current course material version. The amount of acknowledgment for a piece of training materials is dependent on the amount of reuse of those materials. Sources used for teaching or training materials should, at minimum, follow academic guidelines for citation. This level of acknowledgment is appropriate in the case when a relatively small amount of materials are being used from a source in the context of other developed work. 
 
 !!! note 
     Minimum information for citations: 
     Author, year, material title, version, DOI
 
-If the materials have been explicitly developed with support from a grant then the grant code should also be quoted.
+When you are citing/referencing training materials, try to follow the academic citations/reference style that you use for citing literature. To eliminate name confusion and ensure appropriate attribution to the authors and teachers, it is highly recommended to adopt [ORCID iDs](https://orcid.org/).
 
-To eliminate name confusion and ensure appropriate attribution to the authors and teachers, it is highly recommended to adopt [ORCID iDs](https://orcid.org/).
+ Remember to cite "invisible" training materials as well - e.g. quizzes, literature lists, etc.  In the case where individual figures or tables are taken from a source then should be cited as and when the figure or table appears. At the other end of the spectrum, whole-scale reuse of materials, e.g. the content of an entire lecture or web-site should maintain the overall original appearance of the materials. This includes keeping any logos and branding on materials and footnotes or headers that identify the authors. 
 
-When you are citing/referencing training materials, try to follow the academic citations/reference style that you use for citing literature. And remember to cite “invisible” training materials as well - e.g. quizzes, literature lists, etc.   
+A **funder** has provided financial support for the development of the materials. An organisation or community has coordinated the development of the materials and has undertaken to develop the materials in the longer term. If the materials have been explicitly developed with support from a grant then the grant code should also be quoted.
 
-The amount of acknowledgment for a piece of training materials is dependent on the amount of reuse of those materials. 
-Sources used for teaching or training materials should, at minimum, follow academic guidelines for citation. This level of acknowledgment is appropriate in the case when a relatively small amount of materials are being used from a source in the context of other developed work. 
-
-In the case where individual figures or tables are taken from a source then should be cited as and when the figure or table appears.   
-At the other end of the spectrum, whole-scale reuse of materials, e.g. the content of an entire lecture or web-site should maintain the overall original appearance of the materials. This includes keeping any logos and branding on materials and footnotes or headers that identify the authors. 
+In the table below you will find an overview of how and where you can specify different roles and citation in training materials. 
 
 *Table 1. Guidance on where to specify the different roles/citations*
 
@@ -105,9 +95,9 @@ At the other end of the spectrum, whole-scale reuse of materials, e.g. the conte
 | video - lectures        	| In the description on the page where a recording   is made available; also on the Intro page of the video.  	| Often identical with the author, if not also   listed in the description, also on the Intro page of the video  	| In the acknowledgement or anywhere else where   appropriate. Quite often videos include logos of organizations and   funders.  	| In the extended description if possible                                                                                                                      	|
 | software                	| In the README.md/metadata in the github/other   repository and .zenodo.json file                            	| Often identical with the author, if not listed   in the README.md/metadata                                     	| As an automatic contributor of the github   repository                                                                         	| In the README.md                                                                                                                                             	|
 
-When you are creating training materials, provide guidelines on how to cite them and credit the authors and other contributors.  
-Make sure that you are acknowledging all relevant organizations and funders who contributed  to the creation of training materials.
-And it’s a good practice to refer to the entire course and cite the course host when you are citing the elements of the course.
+### Get cited!
+
+When you are creating training materials, provide guidelines on how to cite them and credit the authors and other contributors. If you are using a git repository, you can for example add it to a [`CITATION.cff` file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files). An easy way to get a DOI and therefore a way to be cited is by registering your material to [zenodo](https://zenodo.org/). 
 
 ## Importance to encourage contribution
 
