@@ -47,6 +47,13 @@ Attributing credit is as important for training material as it is for scientific
 
 In addition to this, there may also be a need to consider the funder(s) and organisation or community that enabled the development of the materials. We will define these roles in more detail in the next section and also clarify how credit is attributed for each of them. Attributing credit to these roles makes them (most often scientists) more visible, serves as a proof of their effort beyond pure research and can bring these scientists additional recognition. In addition, it clarifies the responsibilities of those who contributed to certain content of the training material and the training session and thus allows trainers who will re-use the training material to contact these people with potential follow-up questions. It makes those who contributed to the material personally accountable for their contributions. Beyond the individual author, Teacher/trainer and contributor, the funder(s), developing organisation or community play a role in the longer term maintenance of the materials. In the end, attributing contact creates a community of trainers and contributors, which not only makes your course material better, but it's also a great way together. 
 
+All of the different roles are related to each other. The author(s) initiate and generate the material, and the trainer interacts with the learners. Contributors interact with the authors and trainers in order to improve the material. The community provides existing material and knowledge where the trainer, author and contributor can rely on, while at the same time the community profits from the generated material. Below there's figure representing these relationhips. 
+
+<figure>
+  <img src="../../assets/images/Different_roles.png" width="600"/>
+    <figcaption>Different roles and their relationships</figcaption>
+</figure>
+
 !!! example "Exercise"
     Learning experience: Search for training material online and analyse how credit is attributed and to whom. (in groups, 10 mins, 5 min search, 5 min wrap-up)
 
@@ -70,11 +77,6 @@ Each **contributor** has contributed to the course material including, but not l
 ## Using material of others
 
 Everyone who does not meet authorship, contributor or trainer criteria but deserves so should be acknowledged. For example, persons or organisations should be **cited** if their course material was used as inspiration for the current course material version. The amount of acknowledgment for a piece of training materials is dependent on the amount of reuse of those materials. Sources used for teaching or training materials should, at minimum, follow academic guidelines for citation. This level of acknowledgment is appropriate in the case when a relatively small amount of materials are being used from a source in the context of other developed work. 
-
-<figure>
-  <img src="../assets/images/Different_roles.png" width="450"/>
-    <figcaption>Different roles illustration</figcaption>
-</figure>
 
 !!! note 
     Minimum information for citations: 
