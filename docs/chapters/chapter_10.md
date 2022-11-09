@@ -71,6 +71,11 @@ Each **contributor** has contributed to the course material including, but not l
 
 Everyone who does not meet authorship, contributor or trainer criteria but deserves so should be acknowledged. For example, persons or organisations should be **cited** if their course material was used as inspiration for the current course material version. The amount of acknowledgment for a piece of training materials is dependent on the amount of reuse of those materials. Sources used for teaching or training materials should, at minimum, follow academic guidelines for citation. This level of acknowledgment is appropriate in the case when a relatively small amount of materials are being used from a source in the context of other developed work. 
 
+<figure>
+  <img src="../assets/images/Different_roles.png" width="450"/>
+    <figcaption>Different roles illustration</figcaption>
+</figure>
+
 !!! note 
     Minimum information for citations: 
     Author, year, material title, version, DOI
