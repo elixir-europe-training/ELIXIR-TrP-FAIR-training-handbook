@@ -18,12 +18,6 @@ tags:
 
 This chapter will explain why it is important to add attributions to your training material. We will define the roles of author, trainers and contributor and ways of how to attribute credit to them in the contact of training material. It will also discuss of how you can encourage others to contribute to your material. 
 
-## Prerequisites
-
-Here should be the prerequisites of this chapter. 
-
-## Learning Outcomes
-
 !!! info "Learning outcomes"
     **At the end of this chapter you should be able to:**
 
@@ -31,11 +25,16 @@ Here should be the prerequisites of this chapter.
     2. Explain why it is important to encourage continuous contributions and acknowledgements
     3. Define the difference between author, trainer and contributor 
     4. Define criteria for acknowledgements
-    5. Describe roles for credit attribution as an additional way of credit attribution
+    5. Define author/contributor roles based on the Contributor Roles Taxonomy (CRediT) matrix
     6. Describe ways to engage communities (trainers and trainees) to get contributions and feedback
     7. Use persistent identifiers for people in the context of attribution
     8. Describe how to capture contributors and authors depending on the repository / platform
     9. Provide credit for other training material
+
+## Prerequisites
+
+- Know what an ORCiD is. More information in [chapter 5](chapter_05.md)
+- Know the different file formats and tools that are around to develop, store and share training materials. More information in [chapter 1](chapter_01.md) and [chapter 2](chapter_02.md)
 
 ## Importance of attribution of credit
 
@@ -109,6 +108,8 @@ When you are creating training materials, provide guidelines on how to cite them
 ## Importance to encourage contribution
 
 It is important to encourage contribution to training material as this will allow for the training content to develop over time, and thus to be kept updated. In addition potential mistakes can be identified and corrected, thus the quality of the material will increase with more contributions. Acknowledging contributions serves as a motivation for people to provide input and will drive the formation of a community of interest.
+
+A first step in encouraging contributions would be creating a warm environment for people that are interested to work on your material. You can do that by encouraging people you that might be interested, but also online, by writing encouragements associated with your material, and provide instructions on how to contribute. In a git repository, this is typically done in a file called `CONTRIBUTING.md`. 
  
 ## Credit matrix
 
