@@ -50,7 +50,7 @@ In addition to this, there may also be a need to consider the funder(s) and orga
 All of the different roles are related to each other. The author(s) initiate and generate the material, and the trainer interacts with the learners. Contributors interact with the authors and trainers in order to improve the material. The community provides existing material and knowledge where the trainer, author and contributor can rely on, while at the same time the community profits from the generated material. Below there's figure representing these relationhips. 
 
 <figure>
-  <img src="../../assets/images/Different_roles.png" width="600"/>
+  <img src="../../assets/images/Different_roles.png" width="600" alt="Infographic with different roles and their relationships"/>
     <figcaption>Different roles and their relationships</figcaption>
 </figure>
 
