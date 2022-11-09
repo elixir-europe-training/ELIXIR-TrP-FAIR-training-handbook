@@ -77,6 +77,11 @@ Everyone who does not meet authorship, contributor or trainer criteria but deser
 
 A funder has provided financial support for the development of the materials. An organisation or community has coordinated the development of the materials and has undertaken to develop the materials in the longer term. 
 
+<figure>
+  <img src="../assets/images/Different_roles.png" width="450"/>
+    <figcaption>Different roles illustration</figcaption>
+</figure>
+
 !!! note 
     Minimum information for citations: 
     Author, year, material title, version, DOI
