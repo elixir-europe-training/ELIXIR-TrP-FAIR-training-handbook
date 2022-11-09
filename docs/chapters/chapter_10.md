@@ -87,8 +87,13 @@ To eliminate name confusion and ensure appropriate attribution to the authors an
 
 When you are citing/referencing training materials, try to follow the academic citations/reference style that you use for citing literature. And remember to cite “invisible” training materials as well - e.g. quizzes, literature lists, etc.   
 
+The amount of acknowledgment for a piece of training materials is dependent on the amount of reuse of those materials. 
+Sources used for teaching or training materials should, at minimum, follow academic guidelines for citation. This level of acknowledgment is appropriate in the case when a relatively small amount of materials are being used from a source in the context of other developed work. 
 
-### Where to list them?
+In the case where individual figures or tables are taken from a source then should be cited as and when the figure or table appears.   
+At the other end of the spectrum, whole-scale reuse of materials, e.g. the content of an entire lecture or web-site should maintain the overall original appearance of the materials. This includes keeping any logos and branding on materials and footnotes or headers that identify the authors. 
+
+*Table 1. Guidance on where to specify the different roles/citations*
 
 | Type of material        	| Author                                                                                                      	| Trainer                                                                                                        	| Contributor                                                                                                                    	| Citations                                                                                                                                                    	|
 |-------------------------	|-------------------------------------------------------------------------------------------------------------	|----------------------------------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------------------------------------------	|
@@ -103,34 +108,6 @@ When you are citing/referencing training materials, try to follow the academic c
 When you are creating training materials, provide guidelines on how to cite them and credit the authors and other contributors.  
 Make sure that you are acknowledging all relevant organizations and funders who contributed  to the creation of training materials.
 And it’s a good practice to refer to the entire course and cite the course host when you are citing the elements of the course.
-
-**Authors**
-
-- On the course website main page, including ORCiD.
-- In the README.md/metadata in the github/other repository.
-- In the .zenodo.json file
-- Any other appropriate metadata file
-
-**Teachers/Trainers**
-
-On the course website main page, including ORCiD.
-
-**Contributors**
-
-- In the case of a repository: automatic contributor of the repository.
-- Otherwise, where appropriate (see below at *Acknowledgment/citation*)
-
-**Acknowledgement / Citation**
-
-The amount of acknowledgment for a piece of training materials is dependent on the amount of reuse of those materials. 
-Sources used for teaching or training materials should, at minimum, follow academic guidelines for citation. This level of acknowledgment is appropriate in the case when a relatively small amount of materials are being used from a source in the context of other developed work. Citation should be carried out, where appropriate:    
-
-- at the course website main page for general acknowledgement (e.g. *‘this course uses materials from …’*)
-- At the appropriate presentation slide
-- At the appropriate course page
-
-In the case where individual figures or tables are taken from a source then should be cited as and when the figure or table appears.   
-At the other end of the spectrum, whole-scale reuse of materials, e.g. the content of an entire lecture or web-site should maintain the overall original appearance of the materials. This includes keeping any logos and branding on materials and footnotes or headers that identify the authors. 
 
 ## Importance to encourage contribution
 
