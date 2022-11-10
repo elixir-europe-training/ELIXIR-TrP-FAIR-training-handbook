@@ -20,10 +20,6 @@ tags:
 
 This chapter explains how to make your training materials accessible, decide on the appropriate access rules, implement authentication and authorization to eventually limit the access, as well as the pros and cons of using repositories to share your training materials. We will provide guidelines for choosing a repository and making your materials accessible to as many people as possible (inclusive).
 
-
-
-## Learning Outcomes
-
 !!! info "Learning outcomes"
     **At the end of this chapter you should be able to:**
 
