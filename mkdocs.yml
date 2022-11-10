@@ -4,7 +4,8 @@ nav:
     - General info: 
       - Precourse preparations: precourse.md
       - Course schedule: course_schedule.md
-    - Chapters: 
+    - Chapters:
+      - "Preface": chapters/Preface.md
       - "1. Why FAIR training & training materials?": chapters/chapter_01.md
       - "2. Structure materials for FAIRness": chapters/chapter_02.md
       - "3. Getting ready to create your materials or reuse": chapters/chapter_03.md
