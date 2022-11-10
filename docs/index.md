@@ -8,6 +8,7 @@ Have a look at the `README` of [https://github.com/ELIXIR-FAIR-Training/FAIR-tra
 
 ## Directly to the chapters
 
+- [Preface](chapters/Preface.md)
 - [1. Why FAIR training & training materials?](chapters/chapter_01.md)
 - [2. Structure materials for FAIRness](chapters/chapter_02.md)
 - [3. Getting ready to(reate your materials or reuse](chapters/chapter_03.md)
