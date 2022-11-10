@@ -53,9 +53,9 @@ Anyone with a computer and an internet connection should be able to obtain a des
 
 That said, access to training materials may be open or limited. Consider the following levels of access: 
 
-    1. **Open access**:  The training materials are shared publicly. Anyone can access the materials. 
-    2. **Registered access**: Anyone can access the materials provided they register beforehand and agree to the terms and conditions. 
-    3. **Controlled access**: Only specific persons can access the materials after requesting and being granted access. 
+1. **Open access**:  The training materials are shared publicly. Anyone can access the materials. 
+2. **Registered access**: Anyone can access the materials provided they register beforehand and agree to the terms and conditions. 
+3. **Controlled access**: Only specific persons can access the materials after requesting and being granted access. 
 
 Depending on the repository you choose (see Chapter 3), access to the material will differ. 
 
