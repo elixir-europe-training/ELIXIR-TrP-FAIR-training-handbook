@@ -56,9 +56,9 @@ Ideally, data and training material should be accessible using standard protocol
 Anyone with a computer and an internet connection should be able to obtain a description of the training materials and who to contact, without necessarily having access to the materials themselves. In other words, you should be able to view and (down)load the metadata (see Chapter 4) without specialised tools. Therefore, a unique identifier (see Chapter 5) and the location (see Chapter 9) where the training material is stored, are essential elements.
 
 That said, access to training materials may be open or limited. Consider the following levels of access:
-1. **Open access**:  The training materials are shared publicly. Anyone can access the materials. 
-2. **Registered access**: Anyone can access the materials provided they register beforehand and agree to the terms and conditions. 
-3. **Controlled access**: Only specific persons can access the materials after requesting and being granted access.
+    1. **Open access**:  The training materials are shared publicly. Anyone can access the materials. 
+    2. **Registered access**: Anyone can access the materials provided they register beforehand and agree to the terms and conditions. 
+    3. **Controlled access**: Only specific persons can access the materials after requesting and being granted access.
 
 Depending on the repository you choose (see Chapter 3), access to the material will differ. 
 
