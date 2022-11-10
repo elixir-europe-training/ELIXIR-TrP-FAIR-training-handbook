@@ -26,7 +26,7 @@ This chapter explains how to make your training materials accessible, decide on 
     1. Define what accessible means in the context of FAIR 
     2. Explain the relevance of accessibility to FAIR Training Materials
     3. Explain the different levels of access
-    4. Min, apply: Describe access requirements using clear language
+    4. Describe access requirements using clear language
     5. Choose the appropriate level of access for your training materials, including depositing your materials in a FAIR way
     6. Describe access to your materials using clear language
     7. Explain what is meant by accessibility for inclusiveness
