@@ -25,6 +25,18 @@ By the end of this Chapter, learners will be able to:
 4. Recommended, Apply - Describe their training materials with a metadata standard suitable for their domain/discipline (note: from the point of view of content, this could be a LE. bring your TrM, and structure/insert/compile the metadata)
 
 5. Optional, Understand - Explain the concept of structured metadata
+## Introduction to metadata
+(Min, Understand: Explain the concept of metadata )
+## Why do we need to describe training materials with metadata?
+(Min, Understand Explain the relevance of metadata to FAIR Training Materials)
+Metadata will improve F, I, R
+## Metadata for training materials
+(Min, Remember: Identify metadata standards used in your communities/institutions to annotate training materials)
+## Metadata in action - case studies
+## Metadata in action - hands-on
+
+## Further reading about structured metadata
+(Optional, Understand: Explain the concept of structured metadata)
 ## Resources and references
 - [Focus on F/discoverability, based on the “RDA minimal metadata for training resources WG” (it doesn’t address reusability for example)](https://wiki.eoscfuture.eu/display/PUBLIC/RDA+Minimal+Metadata+for+Learning+Resources)
 - [Schema.org](http://schema.org/)
