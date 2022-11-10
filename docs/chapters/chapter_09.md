@@ -25,6 +25,7 @@ This chapter explains how to let learners, other trainers, and anyone interested
 
 You have finished putting together your training materials and are ready to share them with the community. How should you go about this? What channels of communication can you use?
 Public relations (PR) is the practice of managing and disseminating information from an individual or an organization to the public in order to influence their perception. This generally involves putting out the information that your materials are available using different channels. You may want to consider the following platforms to boost discoverability:
+
  1. Registries
  2. Repositories
  3. Social media
@@ -83,7 +84,7 @@ All the channels mentioned so far are digital communication channels. Try not to
 
 ## Resources and References
 
- 1. ELIXIR Training e-Support System (TeSS) Training registry. URL: https://tess.elixir-europe.org/materials
- 2. Global Organization for Bioinformatics Learning, Education and Training (GOBLET)  Training portal. URL: https://www.mygoblet.org/training-materials/
+ 1. ELIXIR Training e-Support System (TeSS) Training registry. URL: [https://tess.elixir-europe.org/materials](https://tess.elixir-europe.org/materials)
+ 2. Global Organization for Bioinformatics Learning, Education and Training (GOBLET) Training portal. URL: [https://www.mygoblet.org/training-materials/](https://www.mygoblet.org/training-materials/)
 
 
