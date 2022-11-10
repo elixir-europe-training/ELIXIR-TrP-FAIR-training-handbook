@@ -59,7 +59,7 @@ For trainers who have received public funding to create training materials, this
 ## How to access 
 
 Ideally, data and training material should be accessible using standard protocols (http, api, etc.), as well as possibly using fully automated protocols (such as scrapers or crawlers).
-Anyone with a computer and an internet connection should be able to obtain a description of the training materials and who to contact, without necessarily having access to the materials themselves. In other words, you should be able to view and (down)load the metadata (see Chapter 4) without specialised tools. Therefore, a unique identifier (see Chapter 5) and the location (see Chapter 9) where the training material is stored, are essential elements.
+Anyone with a computer and an internet connection should be able to obtain a description of the training materials and who to contact, without necessarily having access to the materials themselves. In other words, you should be able to view and (down)load the metadata (see [Chapter 4: Metadata & annotation](chapter_04.md)) without specialised tools. Therefore, a unique identifier (see [Chapter 5: Give it a unique identifier](chapter_05.md)) and the location (see [Chapter 9: Boosting discoverability](chapter_09.md)) where the training material is stored, are essential elements.
 
 That said, access to training materials may be open or limited. Consider the following levels of access: 
 
@@ -67,7 +67,7 @@ That said, access to training materials may be open or limited. Consider the fol
 2. **Registered access**: Anyone can access the materials provided they register beforehand and agree to the terms and conditions. 
 3. **Controlled access**: Only specific persons can access the materials after requesting and being granted access. 
 
-Depending on the repository you choose (see Chapter 3), access to the material will differ. 
+Depending on the repository you choose (see [Chapter 3: Getting ready to create your materials or reuse](chapter_03.md)), access to the material will differ. 
 
 **Table 1 Access x Platforms**
 
@@ -90,7 +90,7 @@ In the context of FAIR, training material does not have to be open exclusively. 
 
 ## Describing the access to your materials
 
-By describing who can access your materials and how in a clear manner, you indicate to anyone wishing to access them how they can do so. You should clearly state the level of access as part of the metadata (see Chapter 4). Obviously, you should also state the accessibility rules in plain English in the same location as your materials so that others know how to get access.
+By describing who can access your materials and how in a clear manner, you indicate to anyone wishing to access them how they can do so. You should clearly state the level of access as part of the metadata (see [Chapter 4: Metadata & annotation](chapter_04.md)). Obviously, you should also state the accessibility rules in plain English in the same location as your materials so that others know how to get access.
 
 !!! note 
     If you are using an authentication system to restrict access or collect usage data, it is important to include data-protection information, either as part of the material documentation or the hosting website disclaimers.
