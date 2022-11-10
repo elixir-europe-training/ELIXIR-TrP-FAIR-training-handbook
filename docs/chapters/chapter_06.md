@@ -35,7 +35,6 @@ This chapter explains how to make your training materials accessible, decide on 
 5. Describe access to your materials using clear language
 6. Explain what is meant by accessibility for inclusiveness
 
-
 ## Accessibility in the context of FAIR
 
 Accessibility refers to the ability to retrieve content. Accessibility defines who, when, where (via a web site, a repository) and how (using a login, programmatically via an API, etc.) to access training materials. In your journey towards making your training materials FAIR [1], you will probably need to consider whether you need to restrict the accessibility to your training materials.
@@ -88,7 +87,7 @@ By describing who can access your materials and how in a clear manner, you indic
 
 !!! note 
    If you are using an authentication system to restrict access or collect usage data, it is important to include data-protection information, either as part of the material documentation or the hosting website disclaimers.
-   
+
 Let’s see how this can be done. Have you ever come across course material in Zenodo tagged as Open access? This clearly indicates that there are no restrictions to access the materials. Or maybe a colleague has talked to you about a course available in coursera? As you will be asked to enrol before accessing the materials, access is restricted and limited to the time that the course is running.
 
 ## Accessibility for inclusiveness
