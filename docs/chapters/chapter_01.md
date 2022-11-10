@@ -15,12 +15,6 @@ tags:
     - FAIR software 
 ---
 
-**Authors:**
-
-- Patricia Palagi [:custom-orcid:](https://orcid.org/0000-0001-9062-6303)
-- Michelle Brazas [:custom-orcid:](https://orcid.org/0000-0001-8150-4531)
-- Monique Zahn
-
 ## Description
 
 This chapter explains what the FAIR principles are, the importance of these principles and their increased adoption over the years, as well as the pros and cons of making training materials FAIR. We will give a brief history of FAIR data, and how these principles were extended and adapted to training materials. 
