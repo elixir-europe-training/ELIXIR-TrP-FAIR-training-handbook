@@ -1,10 +1,6 @@
-Building on the FAIR training handbook as outlined by the ELIXIR FAIR training group.
+Are you a developer of training material? Do you want to get more community involvement with your training material by making it **Findable** **Accessible** **Interoperable** and **Reusable** (**FAIR**)? Look no further, you are at the right (web)address! The ten [chapters](chapters/Preface.md) provide guidance on how you can FAIRify your training material. 
 
-Please see the 10 simple rules for [FAIR training materials publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854). [@Garcia2020]
-
-## Want to work on this site?
-
-Have a look at the `README` of [https://github.com/ELIXIR-FAIR-Training/FAIR-training-handbook/](https://github.com/ELIXIR-FAIR-Training/FAIR-training-handbook/). Have a look at [chapter 10](chapters/chapter_10.md) for an example. 
+This is an initiative of the [ELIXIR FAIR training focus group](https://elixir-europe.org/focus-groups/fair-training), and based on the paper describing the 10 simple rules for [FAIR training materials publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854). [@Garcia2020]
 
 ## Directly to the chapters
 
