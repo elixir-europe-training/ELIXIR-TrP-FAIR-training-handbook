@@ -31,6 +31,16 @@ This chapter explains how to make your training materials accessible, decide on 
     6. Describe access to your materials using clear language
     7. Explain what is meant by accessibility for inclusiveness
 
+## Prerequisites
+
+You have a set of materials that you are considering making accessible and are familiar with the FAIR principles. It´s recommended to read [Chapter 1: Why FAIR training & training materials?](chapter_01.md) before starting on this chapter.
+
+## Related chapters
+
+* [Chapter 5: Give it a unique identifier](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_05/)  
+* [Chapter 7: Make it reusable](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_07/) 
+* [Chapter 9: Boosting discoverability](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_09/)
+
 ## Accessibility in the context of FAIR
 
 Accessibility refers to the ability to retrieve content. Accessibility defines who, when, where (via a web site, a repository) and how (using a login, programmatically via an API, etc.) to access training materials. In your journey towards making your training materials FAIR [1], you will probably need to consider whether you need to restrict the accessibility to your training materials.
