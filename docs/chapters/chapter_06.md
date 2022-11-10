@@ -27,13 +27,13 @@ This chapter explains how to make your training materials accessible, decide on 
 !!! info "Learning outcomes"
     **At the end of this chapter you should be able to:**
 
-1. Define what accessible means in the context of FAIR 
-2. Explain the relevance of accessibility to FAIR Training Materials
-3. Explain the different levels of access
-3. Min, apply: Describe access requirements using clear language
-4. Choose the appropriate level of access for your training materials, including depositing your materials in a FAIR way
-5. Describe access to your materials using clear language
-6. Explain what is meant by accessibility for inclusiveness
+    1. Define what accessible means in the context of FAIR 
+    2. Explain the relevance of accessibility to FAIR Training Materials
+    3. Explain the different levels of access
+    4. Min, apply: Describe access requirements using clear language
+    5. Choose the appropriate level of access for your training materials, including depositing your materials in a FAIR way
+    6. Describe access to your materials using clear language
+    7. Explain what is meant by accessibility for inclusiveness
 
 ## Accessibility in the context of FAIR
 
@@ -86,7 +86,7 @@ In the context of FAIR, training material does not have to be open exclusively. 
 By describing who can access your materials and how in a clear manner, you indicate to anyone wishing to access them how they can do so. You should clearly state the level of access as part of the metadata (see Chapter 4). Obviously, you should also state the accessibility rules in plain English in the same location as your materials so that others know how to get access.
 
 !!! note 
-   If you are using an authentication system to restrict access or collect usage data, it is important to include data-protection information, either as part of the material documentation or the hosting website disclaimers.
+    If you are using an authentication system to restrict access or collect usage data, it is important to include data-protection information, either as part of the material documentation or the hosting website disclaimers.
 
 Let’s see how this can be done. Have you ever come across course material in Zenodo tagged as Open access? This clearly indicates that there are no restrictions to access the materials. Or maybe a colleague has talked to you about a course available in coursera? As you will be asked to enrol before accessing the materials, access is restricted and limited to the time that the course is running.
 
