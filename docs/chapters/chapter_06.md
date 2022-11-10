@@ -1,7 +1,6 @@
 ---
 tags:
   - Accessibility
-  - Accession rules
   - Authentification
   - Authorization
   - Inclusiveness 
@@ -18,7 +17,7 @@ tags:
 
 ## Description
 
-This chapter explains how to make your training materials accessible, decide on the appropriate access rules, implement authentication and authorization to eventually limit the access, as well as the pros and cons of using repositories to share your training materials. We will provide guidelines for choosing a repository and making your materials accessible to as many people as possible (inclusive).
+This chapter explains how to make your training materials accessible, decide on the appropriate level of access, as well as the pros and cons of using repositories to share your training materials. We will provide guidelines for choosing a repository and making your materials accessible to as many people as possible (inclusive).
 
 !!! info "Learning outcomes"
     **At the end of this chapter you should be able to:**
@@ -90,7 +89,7 @@ In the context of FAIR, training material does not have to be open exclusively. 
 
 ## Describing the access to your materials
 
-By describing who can access your materials and how in a clear manner, you indicate to anyone wishing to access them how they can do so. You should clearly state the level of access as part of the metadata (see [Chapter 4: Metadata & annotation](chapter_04.md)). Obviously, you should also state the accessibility rules in plain English in the same location as your materials so that others know how to get access.
+By describing who can access your materials and how in a clear manner, you indicate to anyone wishing to access them how they can do so. You should clearly state the level of access that applies to your training materials as part of the metadata (see [Chapter 4: Metadata & annotation](chapter_04.md)). Obviously, you should also state this in plain English in the same location as your materials so that others know how to get access.
 
 !!! note 
     If you are using an authentication system to restrict access or collect usage data, it is important to include data-protection information, either as part of the material documentation or the hosting website disclaimers.
