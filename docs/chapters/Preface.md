@@ -7,10 +7,11 @@
 
   
   FAIRifying training materials is an individual journey; it’s important to consider your own unique circumstances, settings and context. As you read through the handbook reflect on how FAIR is FAIR enough for you, and from the outset consider:
-* What training materials do you have?
-* Who are you FAIRifying them for?
-* What resourcing, capabilities and capacity do you have? 
-* Are there institutional or regulatory considerations?
+  
+ *  What training materials do you have?
+ *  Who are you FAIRifying them for?
+ *  What resourcing, capabilities and capacity do you have? 
+ *  Are there institutional or regulatory considerations?
 
 No matter what your setting, there is something you can do to make your training materials FAIRer.
 
