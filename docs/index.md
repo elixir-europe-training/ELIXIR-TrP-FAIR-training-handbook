@@ -11,7 +11,7 @@ Have a look at the `README` of [https://github.com/ELIXIR-FAIR-Training/FAIR-tra
 - [1. Why FAIR training & training materials?](chapters/chapter_01.md)
 - [2. Structure materials for FAIRness](chapters/chapter_02.md)
 - [3. Getting ready to(reate your materials or reuse](chapters/chapter_03.md)
-- [4. Metadata  & annotation](chapters/chapter_04.md)
+- [4. Using metadata to describe training materials](chapters/chapter_04.md)
 - [5. Give it a unique identifier](chapters/chapter_05.md)
 - [6. Make it accessible](chapters/chapter_06.md)
 - [7. Make it reusable](chapters/chapter_07.md)
