@@ -7,12 +7,6 @@ tags:
     - Bioschemas
 ---
 
-**Authors:**
-
-- Leyla Jael Castro [:custom-orcid:](https://orcid.org/0000-0003-3986-0510)
-- Celia van Gelder [:custom-orcid:](https://orcid.org/0000-0002-0223-2329)
-- Olivier Sand [:custom-orcid:](https://orcid.org/0000-0003-1465-1640)
-
 ## Description
 Metadata can be defined as data used to describe _other data_. That _other data_ is complete on its own even without the metadata; however, the metadata makes it easier, for instance, to quickly grasp what that _other data_ is about and to establish some common parameters that can be used to find and compare similar data, even if you have no access to that _other data_. This chapter will focus on explaining how to annotate training materials and events with rich metadata to improve their Findability, Interoperability, and Reusability.
 ## Keywords
