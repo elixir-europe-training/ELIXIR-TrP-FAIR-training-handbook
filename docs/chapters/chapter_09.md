@@ -36,7 +36,7 @@ As each approach reaches out to a different public, you may choose to use severa
 
 ## Training registries
 
-A training registry or portal aggregates information, i.e. the metadata (see Chapter 4), about many different training materials. Registries do not contain the training materials, they link to the materials.  As registries centralize the information, they are one of the first go-to places learners or trainers will explore when looking for material. Let’s consider a few well-known training registries:
+A training registry or portal aggregates information, i.e. the metadata (see [Chapter 4: Using metadata to describe training material](chapter_04.md)), about many different training materials. Registries do not contain the training materials, they link to the materials.  As registries centralize the information, they are one of the first go-to places learners or trainers will explore when looking for material. Let’s consider a few well-known training registries:
 
 ### TESS
 
@@ -48,7 +48,7 @@ Consequently, TeSS’ primary mechanism for acquiring training metadata is to ag
 
 ### GOBLET
 
-The Global Organization for Bioinformatics Learning, Education and Training (GOBLET) training portal [2] spans the fields of bioinformatics, biocuration, biocomputing and computational biology. Training materials are available under a CC BY-SA 3.0 license (see Chapter 8) for download and use. 
+The Global Organization for Bioinformatics Learning, Education and Training (GOBLET) training portal [2] spans the fields of bioinformatics, biocuration, biocomputing and computational biology. Training materials are available under a CC BY-SA 3.0 license (see [Chapter 8: Licensing](chapter_08.md)) for download and use. 
 
 You can upload your materials manually provided you are a registered member. If that’s not the case, contact a GOBLET-affiliated trainer who will be able to do this for you.
 
@@ -57,7 +57,7 @@ You can upload your materials manually provided you are a registered member. If 
 
 ## Online repositories
 
-If you are using platforms such as Zenodo, GitHub and GitLab (see Chapter 3) in the development of your training materials, you are already making them accessible to the community. All a trainee or trainer needs to do is search for a topic and, if your materials are properly indexed, they will be able to view them and download them depending on the access right (see Chapter 6)..
+If you are using platforms such as Zenodo, GitHub and GitLab (see [Chapter 3: Getting readty to create your materials or reuse](chapter_03.md))) in the development of your training materials, you are already making them accessible to the community. All a trainee or trainer needs to do is search for a topic and, if your materials are properly indexed, they will be able to view them and download them depending on the access right (see [Chapter 6: Make it accessible](chapter_06.md)).
 
 !!! note
      A training repository (or repo) is a central location in which training materials are stored and managed. Online repositories are thus used to deposit your training materials and share them with the community.
