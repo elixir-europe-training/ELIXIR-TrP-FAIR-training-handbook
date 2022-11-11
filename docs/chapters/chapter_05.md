@@ -123,9 +123,9 @@ Other practices that the trainers in the CLARIN community have adopted are:
 
 ## How to Get a PID for your Training Materials
 
-Before getting a PID for your training materials you need to think how you want to organise and how extensive it is. 
+Before getting a PID for your training materials you need to think how you want to organise and how extensive it is. To help, ask yourself the following: 
 
-<span style="color:white">_</span> | To help, ask yourself the following:
+<span style="color:white">_</span> | <span style="color:white">_</span> 
 -- | --
 OR |Do you want to get one PID for your whole training or course?
 OR | If, for example, you have organised a one-week training or developed a MOOC course containing several topics, do you want to get a separate PID for each topic/module?
