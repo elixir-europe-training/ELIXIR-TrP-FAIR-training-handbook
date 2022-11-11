@@ -72,12 +72,13 @@ ORCID, which stands for Open Researcher and Contributor ID, is a global, non-pro
 
 You can see a bit more about it in the video bellow. 
 
- <iframe src="https://vimeo.com/97150912" width="320" height="240" allow="autoplay"></iframe>
+<iframe src="https://player.vimeo.com/video/97150912?h=de3e7e4505" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/97150912">What is ORCID?</a> from <a href="https://vimeo.com/orcidvideos">ORCID</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 !!! example "Exercise"
     Learning experience: Read the case studies below to see some examples of how PIDs are used for training materials
 
-!!! **info BOX:**
+!!! info
     
     Customised PErsistente IDs, Pros & Cons:
 
@@ -101,7 +102,7 @@ We use two types of PIDs when sharing materials from our events.
 * ORCID - We use trainers’ ORCIDs to ensure that they get credit for the effort and to make it clear who participated in the event
 
 <figure>
-    <img src="https://drive.google.com/file/d/1Xu8-ByTpl4KPXuNw8psFg5qvXTE3PSQU/view"
+    <img src="../../assets/images/zenodo_highlighting_pids.png"
     width="500"/>
 </figure>
 
