@@ -122,12 +122,13 @@ Other practices that the trainers in the CLARIN community have adopted are:
 
 ## How to Get a PID for your Training Materials
 
-Before getting a PID for your training materials you need to think how you want to organise and how extensive it is. To help, ask yourself the following:
+Before getting a PID for your training materials you need to think how you want to organise and how extensive it is. 
 
-     | 1. Do you want to get one PID for your whole training or course?
-
-  OR | 2. If, for example, you have organised a one-week training or developed a MOOC course containing several topics, do you want to get a separate PID for each topic/module?
-  OR | 3. You want to organise by concepts and create a mapped collection in which each concept will have an ID with dataset and metadata grouped
+<span style="color:white">_</span> | To help, ask yourself the following:
+-- | --
+OR |Do you want to get one PID for your whole training or course?
+OR | If, for example, you have organised a one-week training or developed a MOOC course containing several topics, do you want to get a separate PID for each topic/module?
+OR | You want to organise by concepts and create a mapped collection in which each concept will have an ID with dataset and metadata grouped
 
 No answer is wrong, you just need to make sure that when you share the material all related data will be findable, accessible and reusable as much as possible. Keeping that in mind, you might want to find an strategy to help others reusing your training when the material is very extensive. For example, a full day or a full week training are composed not only of a presentation, but a description of sessions of this presentation, activities, videos, etc. So in this case, it could be handy to have a training splited in small sessions with individual IDs, shared later as a colection (see more about it in chapter **?**)
 
