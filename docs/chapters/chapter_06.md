@@ -112,11 +112,6 @@ You should also consider making your training materials accessible for those wit
 \bibliography
 
 
-1. Leyla Garcia, Bérénice Batut, Melissa L. Burke, Mateusz Kuzak, Fotis Psomopoulos, Ricardo Arcila, Teresa K. Attwood, Niall Beard, Denise Carvalho-Silva, Alexandros C. Dimopoulos, Victoria Dominguez Del Angel, Michel Dumontier, Kim T. Gurwitz, Roland Krause, Peter McQuilton, Loredana Le Pera, Sarah L. Morgan, Päivi Rauste, Allegra Via, Pascal Kahlem, Gabriella Rustici, Celia W.G. Van Gelder, and Patricia M. Palagi. Ten simple rules for making training materials FAIR. PLoS Computational Biology, 16(5):1–9, 2020. doi:10.1371/journal.pcbi.1007854. 
-2. Data Carpentry: Building communities teaching universal data literacy. https://datacarpentry.org/
-3. AbilityNet. https://mcmw.abilitynet.org.uk/
-4. Dyslexia friendly style guide. https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide
-
 
 
    
