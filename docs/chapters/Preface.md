@@ -27,7 +27,7 @@ Preparing training materials is time-consuming and challenging for both new and 
 
 The bioinformatics training community set out to address these challenges by adapting the FAIR Data Principles to training materials. The result of this community exercise was 10 Simple Rules for Making Training Materials FAIR (Figure 1) [@Garcia2020]. This handbook expands on these rules by providing extra guidance and advice on the process of making your training materials FAIR.
 
-!!! Checklists "FAIR and Open"
+!!! Note "FAIR and Open"
     Did you know that ‘FAIR’ is not the same as ‘Open’? The FAIR Data motto makes this difference quite clear: “as open as possible, as closed as necessary”. Read more in [Chapter 1](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_01/).
 
 ## Training materials - what’s in scope?
