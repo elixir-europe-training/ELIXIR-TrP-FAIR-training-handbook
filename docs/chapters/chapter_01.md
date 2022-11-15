@@ -17,41 +17,26 @@ tags:
 
 ## Description
 
-This chapter explains what the FAIR principles are, the importance of these principles and their increased adoption over the years, as well as the pros and cons of making training materials FAIR. We will give a brief history of FAIR data, and how these principles were extended and adapted to training materials. 
+In this chapter we explain what the FAIR principles are, the importance of these principles and their increased adoption over the years, as well as the pros and cons of making training materials FAIR. We will give a brief history of FAIR data, and how these principles were extended and adapted to training materials. 
 
 ## Prerequisites
 
-None 
+None, except the interest to continue reading further.  
 
-## Keywords
 
-FAIR, Open, findable, accessible, interoperable, reusable, reproducible, training, training materials, types of training materials, regulations, procedures, FAIR software 
+!!! info "Learning outcomes"
+    **At the end of this chapter you should be able to:**
 
-## Learning Outcomes
+1. Explain what FAIR means
+2. List the main pros and cons of FAIRifying training materials
+3. Determine whether a given type of training material can in principle be FAIRifyed
+4. Describe the difference between FAIR and Open
+5. Explain the difference between FAIRifying training materials vs FAIRifying data / software
 
-By the end of this chapter, learners will be able to:
+## The FAIR Data principles in details 
 
-1. Minimum: Explain what FAIR means
-2. Minimum: List the main pros and cons of FAIRifying training materials
-3. Minimum: Determine whether a given type of training material can in principle be FAIRifyed
-4. Recommended: Describe the difference between FAIR and Open
-5. Recommended: Explain the difference between FAIRifying training materials vs FAIRifying data / software
+A primary task in developing new training sessions is preparing training materials, which is time-consuming and challenging for both new and experienced trainers. Finding and (re)using existing materials is one solution to this problem. However, it requires that these have been shared, properly described, and made available for (re)use by their authors. Finding suitable online materials that aren’t subject to licensing and/or copyright restrictions can be tricky. They are often scattered across different repositories, siloed in their home institutions, or lack the metadata required to enable their (re)use. 
 
-## Learning experiences
+The FAIR data principles were published in 2016 [@PMID:26978244]; FAIR stands for - F for Findable, A for Accessible, I for interoperable, R for Reusable. The FAIR Data Principles make data more valuable as it is easier to find through unique identifiers and easier to combine and integrate thanks to the formal shared knowledge representation. We can do this for training materials too by adapting the FAIR Data Principles to them.
 
-LE (LO1 - Explain what FAIR means): 
-. Lecture: Instructor provides a live lecture explaining the theory on FAIR, History, Open, etc - background. Alternative = video with the recorded lecture
-. Quizz: with some key terms / points to assess if the learners have got them.
-
-LE (LO2 - List main pros and cons of FAIRifying training materials): 
-. Exercise - working in pairs: Ask the learners to provide a list of 3 pros and cons in a shared document.
-. Formative assessment and Q&A: Instructor to discuss the shared document, and comment on the results described by the pairs.
-
-LE (LO3 - Determine whether a given type of training material can in principle be FAIRifyed)
-. Exercise - working in pairs: Each learner reflects on a set of training material they use to teach, and whether it is FAIRifiable given the LO1.
-
-LE (LO4 - Describe the difference between FAIR and Open): 
-. Lecture: Instructor provides a lecture explaining the differences between FAIR and Open (some links or material, provide the answer right away).
-
-LE (LO5 - Explain the difference between FAIRifying training materials vs FAIRifying data / software):
-. Provide the reading materials - papers about FAIRifying data / software, and let the learners bring the differences to the classroom and discuss.
+To be continued...
