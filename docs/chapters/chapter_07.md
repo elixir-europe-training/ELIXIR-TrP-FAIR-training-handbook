@@ -6,48 +6,34 @@ tags:
     - Learning outcomes
 ---
 
-**Authors:**
 
-- Melissa Burke [:custom-orcid:](https://orcid.org/0000-0002-5571-8664)
-- Anna Swann
-- Hélène Chiapello [:custom-orcid:](https://orcid.org/0000-0001-5102-0632)
-- Helen Clare [:custom-orcid:](https://orcid.org/0000-0002-6656-3012)
 
 ## Description
 
 In this chapter, we explore the type of information required for people to decide if and how they can reuse training materials they are otherwise unfamiliar with. This information is an important part of the metadata and should be included alongside the materials. We consider existing metadata recommendations for training materials and different ways of representing this information in a detailed but logical and useful format.
 
-There are other factors that influence the reusability of training materials including the format and design of the training materials, where they are shared, and the licence that is assigned to them. These topics are covered in - [Chapter 2: Structure materials for FAIRness](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/),  [Chapter 3 - Getting ready to create your materials for reuse](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/) and [Chapter 8 - Licensing](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_08/).
-
 In this chapter training materials can be either an individual training material (e.g. a dataset, slides) or a collection of materials associated with a particular training session.
-
-
-## Prerequisites
-
-How you manage the metadata associated with your training materials depends on where and in what format you are sharing your materials. It’s recommended that you read [Chapter 2: Structure materials for FAIRness](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and  [Chapter 3 - getting ready reate your materials for reuse](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/) before starting on this chapter.
-
-## Related chapters:
-
-
-
-* [Chapter 2: Structure materials for FAIRness](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/)  
-* [Chapter 3: Getting ready to create your materials for reuse](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/) 
-* [Chapter 4: Metadata and annotation](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_04/)
-* [Chapter 8 - Licensing](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_08/)
-
-## Keywords
-
-Metadata, contextual information, reusability, learning outcomes
 
 ## Learning Outcomes
 
 By the end of this chapter, learners will be able to:
 
 1. List the information which will allow other trainers to reuse training materials
-2. Identify the most suitable information to allow others to reuse their training materials
-3. Write learning outcomes that clearly articulate training goals
-4. Choose a suitable method for sharing contextual information about their training materials.
-5. Construct a detailed description (run sheet/recipe) which will allow others to reuse their training materials
+2. Write learning outcomes that clearly articulate training goals
+3. Choose a suitable method for sharing contextual information about their training materials.
+4. Construct a detailed description (run sheet/recipe) which will allow others to reuse their training materials
+
+
+## Prerequisites
+
+How you manage the metadata associated with your training materials depends on where and in what format you are sharing your materials. It’s recommended that you read [Chapter 2: Structure materials for FAIRness](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and  [Chapter 3 - getting ready reate your materials for reuse](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/) before starting on this chapter.
+
+
+## Keywords
+
+Metadata, contextual information, reusability, learning outcomes
+
+
 
 
 ## Introduction
@@ -60,7 +46,7 @@ Your friend decides to bake the cake but they can’t eat cherries and don’t h
 
 The same is true for training. The training session can be thought of as the cake, the training materials are the ingredients, and the methods are instructions on how to combine and use the materials to deliver the training. 
 
-Training materials and sessions can be (re)used in whole, in part or simply as inspiration. Regardless, when reusing training materials it is likely that they will need to be adapted to new contexts to account, for example, for different audiences and settings. To enable others to reuse your materials it’s important to provide a detailed recipe.
+Training materials and sessions can be reused in whole, in part or simply as inspiration. Regardless, when reusing training materials it is likely that they will need to be adapted to new contexts to account, for example, for different audiences and settings. To enable others to reuse your materials it’s important to provide a detailed recipe.
 
 
 ## What to include in your recipe
@@ -75,7 +61,7 @@ Training materials and sessions can be (re)used in whole, in part or simply as i
     3. Is the same information provided in all three examples?
     4. Would you need more information to decide whether you could reuse them and how?
 
-Information about training sessions and materials is referred to as [metadata](https://faircookbook.elixir-europe.org/content/recipes/introduction/metadata-fair.html). Metadata makes it easier for you and others to understand how a particular material or set of materials can be (re)used. 
+Information about training sessions and materials is referred to as [metadata](https://faircookbook.elixir-europe.org/content/recipes/introduction/metadata-fair.html). Metadata makes it easier for you and others to understand how a particular material or set of materials can be reused. 
 
 Making training FAIR requires materials and sessions to be described with rich metadata. Ideally, this includes a universally agreed set of information. Many training communities, including [Bioschemas](https://bioschemas.org/profiles/Course/0.9-DRAFT-2020_12_08) and the [Research Data Alliance (RDA)](https://www.google.com/url?q=https://doi.org/10.15497/RDA00073&sa=D&source=docs&ust=1661905403636069&usg=AOvVaw17J5RLnyWOwcoTVR6YbELT) [@hoebelheinrich_nancy_j_2022_6769695], are working towards defining these sets of information but broad agreement on the categories to be included is yet to be reached. In our paper [10 simple rules for making training materials FAIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854) [@Garcia2020] we used the Bioschema and RDA sets to create a list of the information (metadata) that is important for training materials.
 
@@ -89,7 +75,7 @@ Making training FAIR requires materials and sessions to be described with rich m
 
 For some of these categories the information is factual and it is obvious what to include (e.g. contact details, licence, date of last revision) but for other categories (e.g. learning outcomes, additional information) the content is more abstract and requires a little more thought.
 
-For these more abstract categories, the quality, or richness, of the information provided is important for enabling reuse. For example, in our cake analogy, if your recipe only included the title “Best cake ever” and a list of ingredients “flour, eggs and milk” and instructions to “combine and bake” it would be difficult for someone to use the recipe to bake a cake. Indeed they could end up with biscuits instead of a cake! At the same time there is a balance to be struck between providing enough information to be useful and too much overwhelming detail. 
+For these more abstract categories, the quality, or richness, of the information provided is important for enabling reuse. For example, in our cake analogy, if your recipe only included the title “Best cake ever” and a list of ingredients “flour, eggs and milk” and instructions to “combine and bake” it would be difficult for someone to use the recipe to bake the same cake. Indeed they could end up with biscuits instead of a cake! At the same time there is a balance to be struck between providing enough information to be useful and too much overwhelming detail. 
 
 Let’s look at ‘learning outcomes’ and ‘additional information’ in more detail.
 
@@ -133,7 +119,7 @@ For example, were these materials part of a workshop? Was the training delivered
 
 There are several ways to include additional information. For example [Carpentries lessons](https://swcarpentry.github.io/shell-novice/) include ‘Instructor notes’ while [this example from the Swiss Institute of Bioinformatics](https://github.com/sib-swiss/first-steps-with-python-training/) uses a README file in their GitHub repository to collate this information and the [Australian BioCommons](https://zenodo.org/record/6350808#.YqfKV-xBw3Q) provides information in a table of metadata. You might even consider adding an extra slide to your slide deck when you share it.  In fact what you include and how, really depends on the materials and training session in question. To write your own notes, start by thinking of this as a training love letter to yourself. If you were to reuse these materials in 2, 5, 10 years time, what else would you need to know about the session?
 
-It can be tempting to include a lot of detailed information here. Remember that you can also facilitate reuse of your materials by welcoming contributions and inviting people to get in touch if they need more information. &lt;link to chapter on contribution>
+It can be tempting to include a lot of detailed information here. Remember that you can also facilitate reuse of your materials by welcoming contributions and inviting people to get in touch if they need more information.
 
 
 ## How and where to share metadata
