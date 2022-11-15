@@ -1,9 +1,12 @@
 ## Introduction
   The FAIR Training Handbook supports trainers to apply the [10 Simple Rules for Making Training Materials Findable, Accessible, Interoperable and Reusable (FAIR)](https://doi.org/10.1371/journal.pcbi.1007854) (Figure 1) [@Garcia2020]. It will explain why FAIR is important and how you can make it happen. Trainers can use the practical suggestions in the following chapters to create or improve their training resources.
   
-  <10 simple rules image>
+  <figure>
+  <img src="../../assets/images/10SimpleRulesFAIR.png" width="500"/>
   
-  Figure 1: Ten simple rules for making training materials FAIR. Reproduced under CC-BY-SA 4.0 from [@Garcia2020].
+</figure>
+  
+  Figure 1: Ten simple rules for making training materials FAIR. Reproduced under CC-BY-SA 4.0 from Garcia et al[@Garcia2020].
 
   
   FAIRifying training materials is an individual journey; it’s important to consider your own unique circumstances, settings and context. As you read through the handbook reflect on how FAIR is FAIR enough for you, and from the outset consider:
