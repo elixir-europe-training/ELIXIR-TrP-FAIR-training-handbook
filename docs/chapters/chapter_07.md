@@ -68,7 +68,7 @@ Making training FAIR requires materials and sessions to be described with rich m
 **Table 1:** Metadata that is important for training materials and guidance on what to include in each category (reproduced from Garcia _et al_ 2020 [@Garcia2020] under CC BY 4.0)
 
 <figure>
-  <img src="../../assets/images/MetadataTable10SR.png" width="500"/>
+  <img src="../../assets/images/MetadataTable10SR.png" width="500" atl="Table of metadata that is important for training materials"/>
   
 </figure>
 
