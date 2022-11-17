@@ -12,7 +12,6 @@ tags:
     - Types of training materials
     - Regulations
     - Procedures
-    - FAIR software 
 ---
 
 ## Description
@@ -27,11 +26,11 @@ None, except the interest to continue reading further.
 !!! info "Learning outcomes"
     **At the end of this chapter you should be able to:**
 
-1. Explain what FAIR means
-2. List the main pros and cons of FAIRifying training materials
-3. Determine whether a given type of training material can in principle be FAIRifyed
-4. Describe the difference between FAIR and Open
-5. Explain the difference between FAIRifying training materials vs FAIRifying data / software
+    1. Explain what FAIR means
+    2. List the main pros and cons of FAIRifying training materials
+    3. Determine whether a given type of training material can in principle be FAIRifyed
+    4. Describe the difference between FAIR and Open
+    5. Explain the difference between FAIRifying training materials vs FAIRifying data / software
 
 ## The FAIR Data principles in details 
 
