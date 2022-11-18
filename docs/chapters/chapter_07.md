@@ -67,10 +67,21 @@ Making training FAIR requires materials and sessions to be described with rich m
 
 **Table 1:** Metadata that is important for training materials and guidance on what to include in each category (reproduced from Garcia _et al_ 2020 [@Garcia2020] under CC BY 4.0)
 
-<figure>
-  <img src="../../assets/images/MetadataTable10SR.png" width="500" atl="Table of metadata that is important for training materials"/>
-  
-</figure>
+| **Type of metadata**      | **What to include**                                                                                                                                       |
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Title                      | Title of the training material.                                                                                                                            |
+| Contact details            | Author(s) name and contact details.                                                                                                                        |
+| Licensing/(re)use details  | Licence under which the materials are shared, and rules/conditions for (re)use and contribution.                                                           |
+| Preferred citation         | Instructions on how to cite your material.                                                                                                                 |
+| Description                | Overview of the subject matter, aims of the training and the language in which the training is delivered.                                                  |
+| Learning outcomes          | Statements that indicate what trainees should be able to do upon successful completion of the training.                                                    |
+| Target audience            | The intended audience, their prerequisite knowledge/skills, their general background, and how the training material will help them.                        |
+| Required resources         | Technical resources and related materials (software requirements, datasets, infrastructure requirements, etc.).                                            |
+| Keywords                   | Keywords or tags identifying the topic of the materials.                                                                                                   |
+| Structure & duration       | Description of the structure of the materials and setting in which to deliver them, including the time allocated to each part (lectures, exercises, etc.)  |
+| Additional information     | Items that provide additional information about (re)use and delivery of the materials (e.g., general tips/guidance).                                       |
+| Links and references       | Links and references that are relevant to the content, but not required for delivery of the materials.                                                     |
+| Date of last revision      | Date of last update of the materials, and the version.                                                                                                     |
 
 
 For some of these categories the information is factual and it is obvious what to include (e.g. contact details, licence, date of last revision) but for other categories (e.g. learning outcomes, additional information) the content is more abstract and requires a little more thought.
