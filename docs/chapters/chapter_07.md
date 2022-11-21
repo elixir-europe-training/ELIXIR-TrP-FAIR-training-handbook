@@ -14,14 +14,14 @@ In this chapter, we explore the type of information required for people to decid
 
 In this chapter training materials can be either an individual training material (e.g. a dataset, slides) or a collection of materials associated with a particular training session.
 
-## Learning Outcomes
+!!! info "Learning outcomes"
 
-By the end of this chapter, learners will be able to:
+    By the end of this chapter, learners will be able to:
 
-1. List the information which will allow other trainers to reuse training materials
-2. Write learning outcomes that clearly articulate training goals
-3. Choose a suitable method for sharing contextual information about their training materials.
-4. Construct a detailed description (run sheet/recipe) which will allow others to reuse their training materials
+    1. List the information which will allow other trainers to reuse training materials
+    2. Write learning outcomes that clearly articulate training goals
+    3. Choose a suitable method for sharing contextual information about their training materials.
+    4. Construct a detailed description (run sheet/recipe) which will allow others to reuse their training materials
 
 
 ## Prerequisites
@@ -91,7 +91,7 @@ For these more abstract categories, the quality, or richness, of the information
 Let’s look at ‘learning outcomes’ and ‘additional information’ in more detail.
 
 
-!!! Checklists "A word on keywords, ontologies and controlled vocabularies"
+!!! info "A word on keywords, ontologies and controlled vocabularies"
 
     Keywords are important for boosting the findability of training materials. Where possible, keywords should be chosen from an agreed upon list of terms (i.e an ontology or controlled vocabulary) that is relevant to your field. This helps ensure that keywords are used consistently and reduces ambiguity. For biology and bioinformatics [EDAM](https://edamontology.org/page) [@10.1093/bioinformatics/btt113] is an example of an ontology that includes agreed terms for data types, data identifiers, data formats, operations, and topics and you can use services like the [Ontology Lookup Service](https://www.ebi.ac.uk/ols/index) to look up terms and keywords. 
 
@@ -141,7 +141,7 @@ The same is true for training materials. Sharing metadata alongside your trainin
 
 Whichever format you choose, use a consistent method for all of your training materials. This will save you time and make it easier to find, compare and contrast materials.
 
-!!! Checklist "Structuring metadata for machines"
+!!! info "Structuring metadata for machines"
     Metadata can also be structured to help machines search and catalogue this information. For more on this see [Chapter 4](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_04/).
 
 Now it’s your turn to write a training recipe.
