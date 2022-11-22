@@ -85,7 +85,7 @@ Watch the video bellow to learn how to get your own ORCID.
 <p><a href="https://vimeo.com/495762735">A Quick Tour of the ORCID Record</a> from <a href="https://vimeo.com/orcidvideos">ORCID</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 !!! example "Exercise"
-    Learning experience: Read the case studies below to see some examples of how PIDs are used for training materials
+    Learning experience: Read the case studies below to see some examples of how PIDs are used for training materials. After, think critically about your material and which case would fit your need better. You can right down, creat a schema, etc. 
 
 !!! info
     
