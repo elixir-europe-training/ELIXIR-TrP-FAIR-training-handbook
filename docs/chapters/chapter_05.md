@@ -75,11 +75,10 @@ You can see a bit more about it in the video bellow.
 <iframe src="https://player.vimeo.com/video/97150912?h=de3e7e4505" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/97150912">What is ORCID?</a> from <a href="https://vimeo.com/orcidvideos">ORCID</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-#### Get yourself an ORCID  
-
 As you could see, PIDs for authors make it much easier to **FIND** materials written by a particular person, and  also makes it easier to ensure the credits for the right person.  The Open Researcher and Contributor ID (ORCID) is increasingly used by journals and funders to uniquely identify individuals. It is already a requirement at the NIH (National Institutes of Health), CDC (Centers for Disease Control and Prevention), and more the 110 publishers. 
 Therefore, it is a good option for authors of training materials as well.
 
+#### Get yourself an ORCID  
 Watch the video bellow to learn how to get your own ORCID.
 
 <iframe src="https://player.vimeo.com/video/495762735?h=a7bc6b8ce7" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
