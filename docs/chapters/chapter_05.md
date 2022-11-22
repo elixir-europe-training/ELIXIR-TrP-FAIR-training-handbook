@@ -75,6 +75,16 @@ You can see a bit more about it in the video bellow.
 <iframe src="https://player.vimeo.com/video/97150912?h=de3e7e4505" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/97150912">What is ORCID?</a> from <a href="https://vimeo.com/orcidvideos">ORCID</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+#### Get yourself an ORCID  
+
+As you could see, PIDs for authors make it much easier to **FIND** materials written by a particular person, and  also makes it easier to ensure the credits for the right person.  The Open Researcher and Contributor ID (ORCID) is increasingly used by journals and funders to uniquely identify individuals. It is already a requirement at the NIH (National Institutes of Health), CDC (Centers for Disease Control and Prevention), and more the 110 publishers. 
+Therefore, it is a good option for authors of training materials as well.
+
+Watch the video bellow to learn how to get your own ORCID.
+
+<iframe src="https://player.vimeo.com/video/495762735?h=a7bc6b8ce7" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/495762735">A Quick Tour of the ORCID Record</a> from <a href="https://vimeo.com/orcidvideos">ORCID</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 !!! example "Exercise"
     Learning experience: Read the case studies below to see some examples of how PIDs are used for training materials
 
@@ -121,7 +131,7 @@ Other practices that the trainers in the CLARIN community have adopted are:
 * Depositing the training materials together with the datasets in their CLARIN national data repository. See example: http://hdl.handle.net/20.500.11752/OPEN-537. The advantage of using this path is that the authors can add more extensive metadata to describe their materials.
 * Depositing the training materials on Zenodo. See example: https://doi.org/10.5281/zenodo.5506969.  In this case, **related identifiers** have been included that lead to the main platform where the course has been developed and maintained.
 
-## How to Get a PID for your Training Materials
+## How to Get a DOI for your Training Materials
 
 Before getting a PID for your training materials you need to think how you want to organise and how extensive it is. To help, ask yourself the following: 
 
@@ -133,9 +143,9 @@ OR | You want to organise by concepts and create a mapped collection in which ea
 
 No answer is wrong, you just need to make sure that when you share the material all related data will be findable, accessible and reusable as much as possible. Keeping that in mind, you might want to find an strategy to help others reusing your training when the material is very extensive. For example, a full day or a full week training are composed not only of a presentation, but a description of sessions of this presentation, activities, videos, etc. So in this case, it could be handy to have a training splited in small sessions with individual IDs, shared later as a colection (see more about it in chapter **?**)
 
-> Example of a one-week training with one DOI
-  Example of a training with PIDs assigned per module
-  Example of organisation by Concepts, even if a theoretical example (ideal future)
+Example of a one-week training with one DOI: 
+
+Example of a training with DOI assigned per module:
 
 By far the easiest way to get a PID for your training materials is by sharing them in a public repository that assigns a PID on your behalf, see more about that in [RDMkit](https://rdmkit.elixir-europe.org/identifiers.html) and, [chapter 2]https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and [chapter 3](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/).
 
@@ -153,12 +163,6 @@ In other hands, If you are maintaining your own repository of training materials
         a. do they use DOI? 
         b. If not, what kind of identifier do they use? Is it a Persistente identifier?
 
-## Get yourself an ORCID  
-
-PIDs for authors make it much easier to **FIND** materials written by a particular person, and  also makes it easier to ensure the credits for the right person.  
-The Open Researcher and Contributor ID (ORCID) is increasingly used by journals and funders to uniquely identify individuals and is a good option for authors of training materials as well 
-
-Watch [this video]( https://vimeo.com/495762735) to learn how to get your own ORCID.
 
 ## Evaluate yourself
 
