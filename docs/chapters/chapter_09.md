@@ -40,7 +40,7 @@ A training registry or portal aggregates information, i.e. the metadata (see [Ch
 
 ### TESS
 
-The ELIXIR Training e-Support System (TeSS) [1] integrates information about training materials from Europe and beyond since 2015. TeSS offers an easy-to-use interface, including faceted filtering and search features to help users browse and discover training information. 
+The ELIXIR Training e-Support System (TeSS) [@TeSS-materials] integrates information about training materials from Europe and beyond since 2015. TeSS offers an easy-to-use interface, including faceted filtering and search features to help users browse and discover training information. 
 
 You can register your training materials in TeSS manually. This requires a login but involves consistent significant effort to ensure that information is registered in a timely manner and updated regularly.
 
@@ -48,7 +48,7 @@ Consequently, TeSS’ primary mechanism for acquiring training metadata is to ag
 
 ### GOBLET
 
-The Global Organization for Bioinformatics Learning, Education and Training (GOBLET) training portal [2] spans the fields of bioinformatics, biocuration, biocomputing and computational biology. Training materials are available under a CC BY-SA 3.0 license (see [Chapter 8: Licensing](chapter_08.md)) for download and use. 
+The Global Organization for Bioinformatics Learning, Education and Training (GOBLET) training portal [@GOBLET-materials] spans the fields of bioinformatics, biocuration, biocomputing and computational biology. Training materials are available under a CC BY-SA 3.0 license (see [Chapter 8: Licensing](chapter_08.md)) for download and use. 
 
 You can upload your materials manually provided you are a registered member. If that’s not the case, contact a GOBLET-affiliated trainer who will be able to do this for you.
 
@@ -84,7 +84,6 @@ All the channels mentioned so far are digital communication channels. Try not to
 
 ## Resources and References
 
- 1. ELIXIR Training e-Support System (TeSS) Training registry. URL: [https://tess.elixir-europe.org/materials](https://tess.elixir-europe.org/materials)
- 2. Global Organization for Bioinformatics Learning, Education and Training (GOBLET) Training portal. URL: [https://www.mygoblet.org/training-materials/](https://www.mygoblet.org/training-materials/)
+\bibliography
 
 
