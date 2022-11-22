@@ -9,7 +9,7 @@ This is an initiative of the [ELIXIR FAIR training focus group](https://elixir-e
 - [2. Structure materials for FAIRness](chapters/chapter_02.md)
 - [3. Getting ready to(reate your materials or reuse](chapters/chapter_03.md)
 - [4. Using metadata to describe training materials](chapters/chapter_04.md)
-- [5. Give it a unique identifier](chapters/chapter_05.md)
+- [5. Get a persistent identifier for your training training material](chapters/chapter_05.md)
 - [6. Make it accessible](chapters/chapter_06.md)
 - [7. Make it reusable](chapters/chapter_07.md)
 - [8. Licensing](chapters/chapter_08.md)
