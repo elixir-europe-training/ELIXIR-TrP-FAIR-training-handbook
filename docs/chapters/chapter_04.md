@@ -9,12 +9,9 @@ tags:
 
 ## Description
 Metadata can be defined as data used to describe _other data_. That _other data_ is complete on its own even without the metadata; however, the metadata makes it easier, for instance, to quickly grasp what that _other data_ is about and to establish some common parameters that can be used to find and compare similar data, even if you have no access to that _other data_. This chapter will focus on explaining how to annotate training materials and events with rich metadata to improve their Findability, Interoperability, and Reusability.
-## Prerequisites
-* Understand what is FAIR and why to use it as explained in [Chapter 1: Why FAIR training & training materials?](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_01/)
-## Related chapters
-* [Chapter 7: Make it reusable](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_07/)
-## Learning Outcomes
-By the end of this Chapter, learners will be able to:
+
+!!! info "Learning outcomes"
+    **At the end of this chapter you should be able to:**
 
 1. Minimum, Understand - Explain the concept of metadata 
 
@@ -25,6 +22,10 @@ By the end of this Chapter, learners will be able to:
 4. Recommended, Apply - Describe their training materials with a metadata standard suitable for their domain/discipline (note: from the point of view of content, this could be a LE. bring your TrM, and structure/insert/compile the metadata)
 
 5. Optional, Understand - Explain the concept of structured metadata
+
+## Prerequisites
+* Understand what is FAIR and why to use it as explained in [Chapter 1: Why FAIR training & training materials?](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_01/)
+
 ## Introduction to metadata
 (Minimum, Understand: Explain the concept of metadata )
 Metadata can be defined as data used to describe *other data*. That *other data* is complete on its own even without the metadata; however, the metadata makes it easier, for instance, to quickly grasp what that *other data* is about and to establish some common parameters that can be used to find and compare similar data, even if you have no access to that *other data*. As examples might be easier to grasp than definitions, let’s have a look at a couple of metadata examples:
