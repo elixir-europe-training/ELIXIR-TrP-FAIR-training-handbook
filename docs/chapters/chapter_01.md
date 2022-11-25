@@ -17,10 +17,6 @@ tags:
 
 In this chapter we explain what the FAIR principles are, the importance of these principles and their increased adoption over the years, as well as the pros and cons of making training materials FAIR. We will give a brief history of FAIR data, and how these principles were extended and adapted to training materials. 
 
-## Prerequisites
-
-None, except the interest to continue reading further.  
-
 
 !!! info "Learning outcomes"
     **At the end of this chapter you should be able to:**
@@ -29,13 +25,19 @@ None, except the interest to continue reading further.
     2. Describe the difference between FAIR and Open 
     3. Determine whether a given type of training material can in principle be FAIRifyed
     4. List the main pros and cons of FAIRifying training materials
-    
+
+
+## Prerequisites
+
+None, except the interest to continue reading further.  
+
 
 ## The FAIR Data principles in details 
 
 Preparing training materials is a fundamental step in developing new training sessions, which is time-consuming and demanding for both new and experienced trainers. One approach to solving this issue is by finding and (re)using already existent materials. However, it requires that the authors of these have shared, properly described, and made these available for (re)use. It can be difficult to locate online resources that are appropriate for your teaching goals and that don't have licence or copyright constraints. They frequently lack the necessary metadata to permit their (re)use, are dispersed across numerous repositories, or are compartmentalised within their original institutions.
 
 The FAIR data principles, which stand for findable, accessible, interoperable, and reusable, were released in 2016 [@PMID:26978244]. The purpose of the FAIR Data Principles is to increase the value of data by making it simpler to find through the use of unique identifiers and simpler to combine and integrate through the use of formal shared knowledge representation. They were created to be understood/applied not only by humans but also by machines, in an automated way. Training materials are data as well, and as for any digital object, by applying and adopting the FAIR principles, we are adding value to them. 
+
 
 ## Initial considerations for applying FAIR principles to training materials
 
@@ -69,13 +71,14 @@ Reflect on the FAIR principles and with your own words and examples, explain wha
 
 Reflect on your training materials or those that you have used at school as a child. List 2-3 examples of materials that cannot be FAIRified. (alone, 5 mins, 5 min wrap-up)
 
+
 ## FAIR vs OPEN 
 
 Even though the expressions FAIR and Open are very frequently used as synonymous by many, we will see that they are not. Open Science started as a movement aiming to make scientific research – in the broadest sense, i.e. including publications, data, software, and educational resources – openly accessible to the public. Other related terms are Open Access and Open Data. Open Access is the term that relates to publications. It aims to give researchers, students, and the interested public free and immediate access to scholarly publications. 
 
-Open Data aims to encourage sharing data and code on repositories to make research results transparent and reproducible. However, paraphrasing the [GO-FAIR consortium]([https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/](https://www.go-fair.org/resources/faq/ask-question-difference-fair-data-open-data/): FAIR does not necessarily mean OPEN. The FAIR principles enable something to be as open as possible and as closed as necessary. The level of openness defined in a data access licence affects the accessibility (A) of the data but not F, I, or R. 
+Open Data aims to encourage sharing data and code on repositories to make research results transparent and reproducible. However, paraphrasing the [GO-FAIR consortium](https://www.go-fair.org/resources/faq/ask-question-difference-fair-data-open-data/): FAIR does not necessarily mean OPEN. The FAIR principles enable something to be as open as possible and as closed as necessary. The level of openness defined in a data access licence affects the accessibility (A) of the data but not F, I, or R. 
 
-The following is an interesting explanation from the [GO-FAIR consortium]([https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/](https://www.go-fair.org/resources/faq/ask-question-difference-fair-data-open-data/) that will help you understand why FAIR is not equal to Open:
+The following is an interesting explanation from the [GO-FAIR consortium](https://www.go-fair.org/resources/faq/ask-question-difference-fair-data-open-data/) that will help you understand why FAIR is not equal to Open:
 
 > The ‘A’ in FAIR stands for ‘Accessible under well defined conditions’. There may be legitimate reasons to shield data and services generated with public funding from public access. These include personal privacy, national security, and competitiveness. The FAIR principles, although inspired by Open Science, explicitly and deliberately do not address moral and ethical issues pertaining to the openness of data. In the envisioned Internet of FAIR Data and Services, the degree to which any piece of data is available, or even advertised as being available (via its metadata) is entirely at the discretion of the data owner. FAIR only speaks to the need to describe a process – mechanised or manual – for accessing discovered data; a requirement to openly and richly describe the context within which those data were generated, to enable evaluation of its utility; to explicitly define the conditions under which they may be reused; and to provide clear instructions on how they should be cited when reused [11]. None of these principles necessitate data being “open” or “free”. They do, however, require clarity and transparency around the conditions governing access and reuse. As such, while FAIR data does not need to be open, in order to comply with the condition of reusability, FAIR data are required to have a clear, preferably machine readable, license. The transparent but controlled accessibility of data and services, as opposed to the ambiguous blanket-concept of “open”, allows the participation of a broad range of sectors – public and private – as well as genuine equal partnership with stakeholders in all societies around the world.
 
