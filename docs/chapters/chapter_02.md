@@ -6,18 +6,14 @@ tags:
      - Master Doc
      - Reusability 
 ---
+<!-- Chapter Types of training materials and their features related to the FAIR training -->
 
-**Authors:**
+## Description
 
-- Roland Krause
-- Allegra Via
+Decision on the training materials types and their educated use can make major contributions to deliver FAIR training materials. 
+Examples are good training support that help contributors to edit, technical guides.
 
-## Short description
-
-Decision on the technical implementation of training materials and their educated use can make major contributions to deliver FAIR training materials. 
-Examples are good structures that help contributors to edit, technical guides.
-
-## 2.1 Long description
+## What you will find here one day
  * What are interoperable formats?
 
      * Examples of different file formats and what makes them interoperable
@@ -48,20 +44,16 @@ You can use the Notes panel in Powerpoint that essentially can take the complete
      * How can others contribute - provide examples.
 
 
-## 2.2 Prerequisites
-[Chapters 1](chapter_01.md) and 2
-
-## 2.3 Keywords
-Interoperable, file format, README file, Master Doc, reusability 
-
-## 2.4 Learning Outcomes
+!!! info "Learning outcomes"
+    **At the end of this chapter you should be able to:**
+    
  1. Min, understand - Describe what interoperable formats are
  2. Min, apply - Identify suitable document and folder structure 
  3. Min, apply - Annotate training material with minimal necessary information for re-usability
 
+## Prerequisites
+[Chapters 1](chapter_01.md) 
 
 
-## 2.5 Resources
 
- * How to use Git
- * How to work with others in Git
+
