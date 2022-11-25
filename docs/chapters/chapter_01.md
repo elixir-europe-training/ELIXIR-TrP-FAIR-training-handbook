@@ -89,4 +89,9 @@ To contextualise the GO-FAIR consortium paragraph above, you can imagine that se
 
 Write down the main difference  between Open and FAIR. (alone, 3 mins, 5 min wrap-up)
 
+## Evaluate yourself
+
+Now that you have completed the chapter, you should have reached the learning outcomes. Scroll up, and see whether you managed.
+
+
 \bibliography
