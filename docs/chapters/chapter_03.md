@@ -23,24 +23,22 @@ tags:
 Here, we will describe a few platforms that can be used to host and share your materials in all four phases of their life cycle (development, delivery, sharing, and archiving), thus ensuring a higher degree of FAIRness. The platforms we will discuss are: Google Suite, GitHub and GitLab, Zenodo, Learning Management systems. We chose them as they are free, they include different features, and they are very commonly used in training. We will see which platforms are better to use in each phase of materials life cycle and why and what are the pros and cons of each platform according to FAIR principles.
 
 
+
+!!! info "Learning outcomes"
+    **At the end of this chapter you should be able to:**
+    
+1. Describe the four phases of training materials life cycle (development, running course, sharing, archiving) 
+2. Describe how to use the Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS) 
+3. List the (long-term) implications in terms of FAIR of choosing technologies such as Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS)
+4. Compare the advantages and disadvantages of the platforms in each of the four phases
+5. For each phase, explain how to interpret FAIR principles
+6. For each phase, identify platforms that best comply with the FAIR principles according to user’s needs and priorities
+7. Document/justify their choices for a given learning platform
+
 ## Prerequisites
 Learners are expected to have done Chapter 1 & 2 and understand the need for FAIRifying their training materials and/or building their training materials FAIR from the beginning
 From Chapter 2, be aware of what types of material they have or will have (lectures, exercises, video, datasets etc.). 
 
-## Related chapters:
-Chapter 1 & Chapter 2
-
-## Keywords
-
-## Learning Outcomes
-By the end of this chapter you will be able to:
-- Describe the four phases of training materials life cycle (development, running course, sharing, archiving) 
-- Describe how to use the Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS) 
-- List the (long-term) implications in terms of FAIR of choosing technologies such as Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS)
-- Compare the advantages and disadvantages of the platforms in each of the four phases
-- For each phase, explain how to interpret FAIR principles
-- For each phase, identify platforms that best comply with the FAIR principles according to user’s needs and priorities
-- Document/justify their choices for a given learning platform
 
 ## Learning Experiences
 #### LO: Describe the four phases of training materials life cycle (development, running course, sharing, archiving) 
@@ -101,9 +99,7 @@ Supporting materials:
 Supporting materials:
 ```
 
-## Content
-
-### Introduction
+## Introduction
 
 Once you have identified what learning experiences (lecture, hands on, exercises, work in groups, etc.), are needed to achieve the learning outcomes of your lesson / course and chosen the most appropriate and FAIR support(s) for the delivery of each of them (e.g. slide deck and/or video for the lecture, pdf for the hands on, shared notes for the work in groups, etc.), you should start considering where you will develop your materials (locally on your computer? or will you rather use a web platform/repository?), from where you will deliver them, how to share them with learners and how you will archive them for recognition and reuse by other instructors.
 
