@@ -5,7 +5,7 @@ tags:
     - Reusability
     - Learning outcomes
 ---
-
+<!-- Chapter title: Make it reusable --> 
 
 
 ## Description
@@ -27,13 +27,6 @@ In this chapter training materials can be either an individual training material
 ## Prerequisites
 
 How you manage the metadata associated with your training materials depends on where and in what format you are sharing your materials. It’s recommended that you read [Chapter 2: Structure materials for FAIRness](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and  [Chapter 3 - getting ready reate your materials for reuse](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/) before starting on this chapter.
-
-
-## Keywords
-
-Metadata, contextual information, reusability, learning outcomes
-
-
 
 
 ## Introduction
