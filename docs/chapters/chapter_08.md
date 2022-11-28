@@ -12,7 +12,7 @@ tags:
 
 ## Description
 
-This chapter will explain how you can encourage use and re-use of materials through choosing appropriate licences. It will cover the different licence options available to date and consider the implications for users. It will also explain the practicalities of implementing your chosen licences and give an awareness of common issues to consider. 
+This chapter will explain how you can encourage use and reuse of training materials through choosing appropriate licences. It will cover the different licence options available to date and consider the implications for users. It will also explain the practicalities of implementing your chosen licences and give an awareness of common issues to consider. 
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ Learners should have material that they would like to share and consider attachi
 
 Licences are a standardised way of giving others specific permissions to use work you created. They allow you to put your work out publicly, while providing guidance to users about how they can use your materials and whether there are any restrictions. 
 
-By making your training materials public, others can benefit from your work and experience. It also benefits you as it increases the possibility of your materials being used in the way you would like and in a way that provides you with credit for your work. By attaching a licence to your materials, you get to keep some control over how they can be used. For example, you may be happy for anyone to use your materials, provided you are credited, or perhaps you would like to allow anyone to use the materials, but only if they make no changes to them. Selecting the right licence allows you to make these choices and communicate them to your users.
+As discussed a few times now in previous chapters, making your training materials public, others can benefit from your work and experience. It also benefits you as it increases the possibility of your materials being used in the way you would like and in a way that provides you with credit for your work. By attaching a licence to your materials, you get to keep some control over how they can be used. For example, you may be happy for anyone to use your materials, provided you are credited, or perhaps you would like to allow anyone to use the materials, but only if they make no changes to them. Selecting the right licence allows you to make these choices and communicate them to your users.
 
 It’s important to remember that not having a licence assigned does not mean that anyone is allowed to do anything with the material, but instead creates confusion around what is allowed.
 
