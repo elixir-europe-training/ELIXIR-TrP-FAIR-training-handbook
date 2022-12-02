@@ -52,9 +52,12 @@ Metadata will help us describe our training materials, but what metadata should 
 
 If you are here, you want to know a bit more on how machines communicate with each other. As we said before, while free text is enough for humans, more structured data (and metadata) works better with machines. Data can be structured in many ways (most of them also outside the scope of this book). We will focus on the sort of metadata using sentences to describe things in a light way, i.e., metadata schemas. There is still much more around this topic including semantics, controlled vocabularies, terminologies and ontologies, all of that outside the scope of this book.
 ## Resources and references
-- [Focus on F/discoverability, based on the “RDA minimal metadata for training resources WG” (it doesn’t address reusability for example)](https://wiki.eoscfuture.eu/display/PUBLIC/RDA+Minimal+Metadata+for+Learning+Resources)
- - [Harmonizing metadata for exchange of FAIR training materials](https://zenodo.org/record/4434615#.YWmA2RpBz-j)
-- [A longer spreadsheet with minimum and extended metadata fields from the RDA Education and Research on the handling of research data Interest Group (ETHRD-IG)](https://docs.google.com/spreadsheets/d/1YMWCwKDm-VF1jo5s3lEpW-mlY9hvmw9IJdUYN6KdDi4/edit#gid=854564199)
-- [FAIRsFAIR checklist  for depositing training materials into Zenodo](https://doi.org/10.5281/zenodo.5494525)
+[@Schema.org]
+[@Bioschemas]
+[@RDA-training]
+[@RDA-training-pdf]
+[@Barker_Phil_2020_4434615]
+[@Cepinskas_Linas_2021_5494526]
+[@Minimal_metadata]
 
 \bibliography
