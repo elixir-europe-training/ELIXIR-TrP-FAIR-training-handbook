@@ -15,14 +15,9 @@ As a consequence of getting one PID visibility of your work can be enhanced, and
 !!! info "Learning outcomes"
     **At the end of this chapter you should be able to:**
    
-    Minimum
-
     1. Explain what a PID is and its importance for enabling and sharing training resources in the context of FAIR and open education and training.
     2. List and differentiate the types of PIDs that are relevant for publishing and sharing training materials.
     3. Assign an appropriate PID to your training materials .
-
-    Recommended
-
     4. Get an author ID ORCID
 
 ## Prerequisites
