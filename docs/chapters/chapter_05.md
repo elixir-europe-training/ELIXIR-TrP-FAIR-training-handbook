@@ -34,7 +34,7 @@ As with the example about the coat, having a persistent identifier for training 
 
 **The PIDs must comply with a few rules:**
 
-* **Globally Unique:**
+* **Globally unique:**
 
     To enable global uniqueness, a PID should comply with a **controlled syntax** to avoid clashes, for instance, by having **namespaces** that are **governed** by clearly defined **authorities**. (_the number of your ticket is unique, so you are sure you will get your coat back and not someone else’s_)
 
@@ -46,15 +46,15 @@ As with the example about the coat, having a persistent identifier for training 
 
     The identifier allows both **human** and **machine** users to **access the resource** (_the ticket tells you where to get your coat back_). 
 
-By now you must be asking: in the context of training when should I worry about the PIDs? Let me help you with that! For training materials, PIDs can be assigned to:
+By now you must be asking: in the context of training, when should I worry about the PIDs? Let me help you with that! For training materials, PIDs can be assigned to:
 
 * Individual training materials (e.g., a set of slides, a training dataset)
-* A collection of materials associated with a training event
+* A collection of materials associated with a training event or topic
 * Authors of the materials
 
 In the following paragraphs we discuss how to get these PIDs for your training materials. Some real-word case studies provide a few examples of approaches to giving PIDs to your  training materials.
 
-## Types of PIDs Relevant for Training Materials
+## Types of PIDs relevant for training materials
 
 Although there are a number of different PID types that can be applied to objects and authors, the two which are most used for training materials are discussed here. These are DOIs and ORCID.
 
@@ -112,7 +112,7 @@ Two types of PIDs are used when sharing materials from our events.
     width="500" alt="Screenshot of an Australian BioCommons training record in Zenodo highlighting the use of ORCIDs and DOI"/>
 </figure>
 
-**Figure 1:** The Australian BioCommons collates materials from their events and shares them via Zenodo where they are assigned a DOI and authors are identified via their ORCIDs.[View this record on Zenodo.](https://zenodo.org/record/6350808#.YkPhE25Bw3Q)
+**Figure 1:** The Australian BioCommons collates materials from their events and shares them via Zenodo where they are assigned a DOI and authors are identified via their ORCIDs. [View this record on Zenodo.](https://zenodo.org/record/6350808#.YkPhE25Bw3Q)
 
 ### 2. CLARIN
 [CLARIN](https://www.clarin.eu/) is a digital research infrastructure offering data, tools and services to support research based on language resources. Currently, the infrastructure does not have a centralised repository to store all the training and learning materials produced during the training events and workshops. 
@@ -129,7 +129,7 @@ Other practices that the trainers in the CLARIN community have adopted are:
 * Depositing the training materials together with the datasets in their CLARIN national data repository. See example: http://hdl.handle.net/20.500.11752/OPEN-537. The advantage of using this path is that the authors can add more extensive metadata to describe their materials.
 * Depositing the training materials on Zenodo. See example: https://doi.org/10.5281/zenodo.5506969.  In this case, **related identifiers** have been included that lead to the main platform where the course has been developed and maintained.
 
-## How to Get a DOI for your Training Materials
+## How to get a DOI for your training materials
 
 Before getting a PID for your training materials you need to think how you want to organise your materials and how extensive your collection is. To help, ask yourself the following: 
 
