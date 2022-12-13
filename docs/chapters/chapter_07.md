@@ -165,15 +165,15 @@ Here are some recommendations to help get you started:
 
 !!! Checklist
 
-    * Required: Collate metadata
+    * Collate metadata
 
-    * Required: Share metadata alongside the materials
+    * Share metadata alongside the materials
 
-    * Recommended: Write learning outcomes in a SMART format
+    * Write learning outcomes in a SMART format
 
-    * Recommended: Include detailed but brief information in the metadata to allow others to understand the context in which the training materials were originally used.
+    * Include detailed but brief information in the metadata to allow others to understand the context in which the training materials were originally used.
 
-    * Optional: Choose keywords from an ontology or controlled vocabulary that is relevant to your field
+    * Choose keywords from an ontology or controlled vocabulary that is relevant to your field
 
 ## Resources and references
 \bibliography
