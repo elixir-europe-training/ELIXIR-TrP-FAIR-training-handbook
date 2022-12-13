@@ -53,7 +53,7 @@ Metadata will help us describe our training materials, but what metadata should 
 If you are here, you want to know a bit more on how machines communicate with each other. As we said before, while free text is enough for humans, more structured data (and metadata) works better with machines. Data can be structured in many ways (most of them also outside the scope of this book). We will focus on the sort of metadata using sentences to describe things in a light way, i.e., metadata schemas. There is still much more around this topic including semantics, controlled vocabularies, terminologies and ontologies, all of that outside the scope of this book.
 ## Resources and references
 
-List[@Schema.org]
+[@Schema]
 [@Bioschemas]
 [@RDA-training]
 [@RDA-training-pdf]
