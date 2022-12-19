@@ -129,6 +129,22 @@ Other practices that the trainers in the CLARIN community have adopted are:
 * Depositing the training materials together with the datasets in their CLARIN national data repository. See example: http://hdl.handle.net/20.500.11752/OPEN-537. The advantage of using this path is that the authors can add more extensive metadata to describe their materials.
 * Depositing the training materials on Zenodo. See example: https://doi.org/10.5281/zenodo.5506969.  In this case, **related identifiers** have been included that lead to the main platform where the course has been developed and maintained.
 
+### Dutch Techcentre for Life Sciences 
+
+The [Dutch Techcentre for Life Sciences](https://www.dtls.nl/) (DTL) - which also hosts ELIXIR-Netherlands - forms, together with its partners, a multidisciplinary platform for data-intensive research, with a focus on biological and molecular data handling: data generation, data stewardship, data infrastructure and data analysis. 
+
+DTL has a [Zenodo community](https://zenodo.org/communities/dtl/?page=1&size=20) to upload presentations and course materials. We strongly believe in sharing our training materials and making them findable for re-use. We have chosen to give separate DOIs for individual, often topical, elements of a course. An example is our [Helis Academy FAIR Datastewardship Course](https://www.aanmelder.nl/fair-data-stewardship-2021), a course of 6 half days. 
+
+Providing a separate DOI has the following advantages:
+It is easier to mix and match different modules as part of a learning path, i.e. for the various target audiences a different combination of our training modules can be made, tailored for that specific purpose.
+When updating or revising a single module it is more convenient to have that module as a separate entity with its own DOI, to easily keep track  of the versions of different modules.
+
+At the level of the full course we have chosen to use ELIXIR TeSS as the registry and links to our training event details and training materials can be found in [this link](https://tess.elixir-europe.org/events/helis-course-fair-data-stewardship).
+
+> IMAGE
+
+> IMAGE
+
 ## How to get a DOI for your training materials
 
 Before getting a PID for your training materials you need to think how you want to organise your materials and how extensive your collection is. To help, ask yourself the following: 
