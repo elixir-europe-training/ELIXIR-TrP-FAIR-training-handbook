@@ -157,10 +157,6 @@ OR | You want to organise by concepts and create a mapped collection in which ea
 
 No answer is wrong, you just need to make sure that when you share the material all related data will be findable, accessible and reusable as much as possible. Keeping that in mind, you might want to find an strategy to help others reuse your training when the material is very extensive. For example, a full day or a full week training are composed not only of a presentation, but a description of sessions of this presentation, activities, videos, etc. So in this case, it could be handy to split the training into small sessions with individual PIDs, that can be packaged into a collection (see more about it in chapter **?**).
 
-Example of a one-week training with one DOI: 
-
-Example of a training with DOI assigned per module:
-
 By far the easiest way to get a PID for your training materials is by sharing them in a public repository that assigns a PID on your behalf, see more about that in [RDMkit](https://rdmkit.elixir-europe.org/identifiers.html) and [Chapter 2](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and [Chapter 3](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/).
 
 For example, in the case studies you read earlier, the Australian BioCommons shares materials via Zenodo which automatically assigns a DOI to the materials. Similarly, the CLARIN Virtual Collection Registry assigns a PID (either Handle or DOI) to materials added to a virtual collection. If you are sharing your materials via GitHub you also have the option to use Zenodo to archive your [repository on GitHub](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content) and issue a DOI for the archive. 
