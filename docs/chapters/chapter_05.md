@@ -121,9 +121,17 @@ A training event usually contains the following information: slides, handouts, v
 
 One possible solution to have a PID assigned to all the materials used during one training event is to create a virtual collection in the CLARIN [Virtual Collection Registry](https://collections.clarin.eu/public?7). A virtual collection is a coherent set of links of digital objects that can be easily created, accessed and cited with the help of **DOIs**. The links can originate from different archives. Here is an example of a virtual collection created for a hands-on tutorial on transcribing interview data: http://hdl.handle.net/11372/VC-1033.
 
-> IMAGE
+<figure>
+    <img src="../../assets/images/fig2-chap5.jpg"
+    width="500" alt="Screenshot of CLARIN metadata from workshop tutorial SSHOC"/>
+</figure>
+**Figure 2:** The CLARIN ...
 
-> IMAGE
+<figure>
+    <img src="../../assets/images/fig3-chap5.jpg"
+    width="500" alt="Screenshot 'zoom'  of CLARIN metadata from workshop tutorial SSHOC, and citation"/>
+</figure>
+**Figure 3:** The CLARIN ...
 
 Other practices that the trainers in the CLARIN community have adopted are:
 * Depositing the training materials together with the datasets in their CLARIN national data repository. See example: http://hdl.handle.net/20.500.11752/OPEN-537. The advantage of using this path is that the authors can add more extensive metadata to describe their materials.
@@ -141,9 +149,18 @@ When updating or revising a single module it is more convenient to have that mod
 
 At the level of the full course we have chosen to use ELIXIR TeSS as the registry and links to our training event details and training materials can be found in [this link](https://tess.elixir-europe.org/events/helis-course-fair-data-stewardship).
 
-> IMAGE
+<figure>
+    <img src="../../assets/images/fig4-chap5.png"
+    width="500" alt="Screenshot DTL data stewardship course DOIs view"/>
+</figure>
+**Figure 4:** Example from the DTL Helis FAIR Data Stewardship Course with separate DOIs per topic. View [this page](https://www.aanmelder.nl/fair-data-stewardship-2021).
 
-> IMAGE
+
+<figure>
+    <img src="../../assets/images/fig5-chap5.png"
+    width="500" alt="Screenshot Zenodo page for day 1 course from DTL"/>
+</figure>
+**Figure 5:** Zenodo record for the Introductory Module of the DTL FAIR Data Stewardship Course. View [this record](https://doi.org/10.5281/zenodo.4629718) on Zenodo.
 
 ## How to get a DOI for your training materials
 
