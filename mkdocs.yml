@@ -14,6 +14,7 @@ nav:
       - "9. Boosting discoverability": chapters/chapter_09.md
       - "10. Recognition, acknowledgment, authorship": chapters/chapter_10.md
     - Keywords list: keywords.md
+    - Contributors: contributor_list.md
 
 theme:
   name: material

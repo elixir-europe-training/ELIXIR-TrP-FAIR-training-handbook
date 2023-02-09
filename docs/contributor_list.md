@@ -1,0 +1,49 @@
+- Alexandra Holinski  
+- Alexia Cardona [:custom-orcid:](https://orcid.org/0000-0002-7877-5565/) [:simple-github:](https://github.com/ac812/)
+- Alice Matimba  
+- Allegra Via  [:simple-github:](https://github.com/allegravia/)
+- Anastasios Anastasios Papaioannou [:custom-orcid:](https://orcid.org/0000-0002-8959-4559/) 
+- Anna Swan  
+- Bruna Piereck [:custom-orcid:](https://orcid.org/0000-0001-5958-0669/) [:simple-github:](https://github.com/bpiereck/)
+- Celia van Gelder [:custom-orcid:](https://orcid.org/0000-0002-0223-2329/) [:simple-github:](https://github.com/celiavg/)
+- Daniel Thomas Lopez  
+- Daniel Wibberg [:custom-orcid:](https://orcid.org/0000-0002-1331-4311/) [:simple-github:](https://github.com/dwibberg/)
+- Fred de Lamotte [:custom-orcid:](https://orcid.org/0000-0003-4234-1172/) [:simple-github:](https://github.com/FraggyFred/)
+- Geert van Geest [:custom-orcid:](https://orcid.org/0000-0002-1561-078X/) [:simple-github:](https://github.com/geertvangeest/)
+- Helen Clare [:custom-orcid:](https://orcid.org/0000-0002-6656-3012/) 
+- Helena Schnitzer [:custom-orcid:](https://orcid.org/0000-0002-6382-9452/) [:simple-github:](https://github.com/HelenaSchnitzer/)
+- Hélène  Chiapello [:custom-orcid:](https://orcid.org/0000-0001-5102-0632/) [:simple-github:](https://github.com/hchiapello/)
+- Iryna Kuchma [:custom-orcid:](https://orcid.org/0000-0002-2064-3439/) [:simple-github:](https://github.com/irynakuchma/)
+- Iulianna van der Lek  
+- Kathryn Unsworth [:custom-orcid:](https://orcid.org/0000-0002-5407-9987/) 
+- Krzys Poterlowicz [:custom-orcid:](https://orcid.org/0000-0001-6173-5674/) 
+- Leyla Jael Castro [:custom-orcid:](https://orcid.org/0000-0003-3986-0510/) [:simple-github:](https://github.com/ljgarcia/)
+- Lisanna Paladin [:custom-orcid:](https://orcid.org/0000-0003-0011-9397/) [:simple-github:](https://github.com/lisanna/)
+- Loredana Le Pera [:custom-orcid:](https://orcid.org/0000-0002-0076-9878/) 
+- Lucie Khamvongsa-Charbonnier [:custom-orcid:](https://orcid.org/0000-0002-1194-0546/) [:simple-github:](https://github.com/lkhamvongsa/)
+- Maja Rey  
+- Marcela Davila  
+- Maria Doyle  
+- Marta Lloret  
+- Melissa Burke [:custom-orcid:](https://orcid.org/0000-0002-5571-8664/) [:simple-github:](https://github.com/burkemlou/)
+- Michelle D Brazas [:custom-orcid:](https://orcid.org/0000-0001-8150-4531/) 
+- Monique Zahn [:custom-orcid:](https://orcid.org/0000-0001-7961-6091/) [:simple-github:](https://github.com/m-zahn/)
+- Nazeefa Fatima [:custom-orcid:](https://orcid.org/0000-0001-7791-4984/) [:simple-github:](https://github.com/Nazeeefa/)
+- Nicola Mulder [:custom-orcid:](https://orcid.org/0000-0003-4905-0941/) 
+- Olivier Sand [:custom-orcid:](https://orcid.org/0000-0003-1465-1640/) [:simple-github:](https://github.com/olisand/)
+- Patricia Carvajal Lopez  
+- Patricia Palagi  [:simple-github:](https://github.com/ppalagi/)
+- Rachel Berkson  
+- Renato Alves  
+- Roland KRAUSE  
+- Russell Schwartz  
+- Sara El-Gebali [:custom-orcid:](https://orcid.org/https://orcid.org/0000-0003-1378-5495/) [:simple-github:](https://github.com/selgebali/)
+- Sarah Morgan  
+- Saskia Hiltemann  
+- Shaun Aron  
+- Steven Morgan [:custom-orcid:](https://orcid.org/0000-0001-6038-6126/) [:simple-github:](https://github.com/stevenjm11/)
+- Suzanne Duce  
+- Tarcisio Mendes de Farias [:custom-orcid:](https://orcid.org/0000-0002-3175-5372/) [:simple-github:](https://github.com/tarcisiotmf/)
+- Vera Matser  
+- Verena Ras [:custom-orcid:](https://orcid.org/0000-0003-3938-7241/) [:simple-github:](https://github.com/Verena90/)
+- Wai Keat Yam [:custom-orcid:](https://orcid.org/0000-0003-4595-2796/) 
