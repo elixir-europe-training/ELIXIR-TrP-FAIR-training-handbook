@@ -104,7 +104,9 @@ Before diving into how to assign PIDs to the training materials, we would like t
 For each event, a Zenodo record is created that includes detailed metadata, new training materials and links to previous materials that were reused as part of the training (Figure 1).
 
 Two types of PIDs are used when sharing materials from our events.
+
 * DOIs - Zenodo automatically assigns a DOI to the record for the event. DOIs are also used when linking to related materials to ensure that there is no ambiguity about which materials were used.
+
 * ORCID - Trainers’ ORCIDs are used to ensure that they get credit for their efforts and to make it clear who participated in the event.
 
 <figure>
