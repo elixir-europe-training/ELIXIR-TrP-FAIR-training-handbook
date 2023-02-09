@@ -50,14 +50,14 @@ Your choice of scheme and licence will depend on a number of factors, such as th
 There are four conditions which can be applied to your materials by Creative Commons licences [@creative_commons_2022]:
 
 <figure>
-  <img src="../../assets/images/FourLicenceConditions.png" width="500"/>
+  <img src="../../assets/images/FourLicenceConditions2.png" width="500"/>
     <figcaption>Image taken from https://wiki.creativecommons.org/images/6/6d/6licenses-flat.pdf. The image is in the public domain, <a href="https://creativecommons.org/share-your-work/public-domain/cc0">CC0</a>. </figcaption>
 </figure>
 
 These four conditions can be combined to make up six different types of Creative Commons licences for you to choose for your materials:
 
 <figure>
-  <img src="../../assets/images/LicenceCombinations.png" width="500"/>
+  <img src="../../assets/images/LicenceCombinations2.png" width="500"/>
   <figcaption>Image taken from https://wiki.creativecommons.org/images/6/6d/6licenses-flat.pdf. The image is in the public domain, <a href="https://creativecommons.org/share-your-work/public-domain/cc0">CC0</a>. </figcaption>
 </figure>
 
