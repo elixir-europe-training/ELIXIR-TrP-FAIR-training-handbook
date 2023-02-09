@@ -5,11 +5,6 @@ tags:
   - Accessibility
 ---
 
-**Authors:**
-
-- Anna Swan [:custom-orchid:](https://orcid.org/0000-0003-1810-3756)
-- Alexandra Holinski [:custom-orcid:](https://orcid.org/0000-0003-2321-5568)
-
 ## Description
 
 This chapter will explain how you can encourage use and reuse of training materials through choosing appropriate licences. It will cover the different licence options available to date and consider the implications for users. It will also explain the practicalities of implementing your chosen licences and give an awareness of common issues to consider. 
