@@ -98,7 +98,7 @@ Watch the video below to learn how to get your own ORCID.
 
 Before diving into how to assign PIDs to the training materials, we would like to show you two examples of how organisations are approaching this in practice. 
 
-### 1. Australian BioCommons
+### 1. Unique DOI combined with ORCID for each event in a community
 [Australian BioCommons](https://www.biocommons.org.au/) supports Australian life science communities by providing bioinformatics and bioscience data infrastructures, services and training. At Australian Biocommons training materials from webinars and workshops are shared via a dedicated [Zenodo community](https://zenodo.org/communities/australianbiocommons-training/). The BioCommons chose to use Zenodo to share training materials because they don’t have a repository of our own and Zenodo has established ways of managing metadata, DOIs and versioning. It is also widely used in the scientific community.
 
 For each event, a Zenodo record is created that includes detailed metadata, new training materials and links to previous materials that were reused as part of the training (Figure 1).
@@ -116,7 +116,7 @@ Two types of PIDs are used when sharing materials from our events.
 
 **Figure 1:** The Australian BioCommons collates materials from their events and shares them via Zenodo where they are assigned a DOI and authors are identified via their ORCIDs. [View this record on Zenodo.](https://zenodo.org/record/6350808#.YkPhE25Bw3Q)
 
-### 2. CLARIN
+### 2. Assing own persistent identifier for events combined with DOI for material
 [CLARIN](https://www.clarin.eu/) is a digital research infrastructure offering data, tools and services to support research based on language resources. Currently, the infrastructure does not have a centralised repository to store all the training and learning materials produced during the training events and workshops. 
 
 A training event usually contains the following information: slides, handouts, video tutorials, language resources datasets and/or tools. The slides and handouts are frequently published on the event web page, while the recordings of the presentations are published on the CLARIN YouTube channel. On the other hand, the language resources and tools used during the training are stored in the CLARIN national repositories with a **unique** identifier, and can be cited.
@@ -133,13 +133,17 @@ One possible solution to have a PID assigned to all the materials used during on
     <img src="../../assets/images/fig3-chap5.jpg"
     width="500" alt="Screenshot 'zoom'  of CLARIN metadata from workshop tutorial SSHOC, and citation"/>
 </figure>
+
+
 **Figure 3:** The CLARIN ...
 
 Other practices that the trainers in the CLARIN community have adopted are:
 * Depositing the training materials together with the datasets in their CLARIN national data repository. See example: http://hdl.handle.net/20.500.11752/OPEN-537. The advantage of using this path is that the authors can add more extensive metadata to describe their materials.
 * Depositing the training materials on Zenodo. See example: https://doi.org/10.5281/zenodo.5506969.  In this case, **related identifiers** have been included that lead to the main platform where the course has been developed and maintained.
 
-### 3. Dutch Techcentre for Life Sciences 
+**You can do the same by using Zenodo, for example, by publishing every material with asigned DOI and then grouping it in a colection/community wich will have its own DOI, as inspired by the next example.**
+
+### 3. Separate DOIs for mix and matching in a community 
 
 The [Dutch Techcentre for Life Sciences](https://www.dtls.nl/) (DTL) - which also hosts ELIXIR-Netherlands - forms, together with its partners, a multidisciplinary platform for data-intensive research, with a focus on biological and molecular data handling: data generation, data stewardship, data infrastructure and data analysis. 
 
