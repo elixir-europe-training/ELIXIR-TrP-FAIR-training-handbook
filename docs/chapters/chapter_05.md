@@ -124,7 +124,7 @@ A training event usually contains the following information: slides, handouts, v
 One possible solution to have a PID assigned to all the materials used during one training event is to create a virtual collection in the CLARIN [Virtual Collection Registry](https://collections.clarin.eu/public?7). A virtual collection is a coherent set of links of digital objects that can be easily created, accessed and cited with the help of **DOIs**. The links can originate from different archives. Here is an example of a virtual collection created for a hands-on tutorial on transcribing interview data: http://hdl.handle.net/11372/VC-1033.
 
 <figure>
-    <img src="../../assets/images/fig2-chap5.jpg"
+    <img src="../../assets/images/clarin_image1.png"
     width="500" alt="Screenshot of CLARIN metadata from workshop tutorial SSHOC"/>
 </figure>
 **Figure 2:** The CLARIN ...
