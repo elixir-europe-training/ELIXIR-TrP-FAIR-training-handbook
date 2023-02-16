@@ -3,7 +3,7 @@
 - Alice Matimba  
 - Allegra Via  [:simple-github:](https://github.com/allegravia/)
 - Anastasios Anastasios Papaioannou [:custom-orcid:](https://orcid.org/0000-0002-8959-4559/) 
-- Anna Swan  
+- Anna Swan [:custom-orcid:](https://orcid.org/0000-0003-1810-3756/) [:simple-github:](https://github.com/annaswan1/)
 - Bruna Piereck [:custom-orcid:](https://orcid.org/0000-0001-5958-0669/) [:simple-github:](https://github.com/bpiereck/)
 - Celia van Gelder [:custom-orcid:](https://orcid.org/0000-0002-0223-2329/) [:simple-github:](https://github.com/celiavg/)
 - Daniel Thomas Lopez  
@@ -19,7 +19,7 @@
 - Krzys Poterlowicz [:custom-orcid:](https://orcid.org/0000-0001-6173-5674/) 
 - Leyla Jael Castro [:custom-orcid:](https://orcid.org/0000-0003-3986-0510/) [:simple-github:](https://github.com/ljgarcia/)
 - Lisanna Paladin [:custom-orcid:](https://orcid.org/0000-0003-0011-9397/) [:simple-github:](https://github.com/lisanna/)
-- Loredana Le Pera [:custom-orcid:](https://orcid.org/0000-0002-0076-9878/) 
+- Loredana Le Pera [:custom-orcid:](https://orcid.org/0000-0002-0076-9878/) [:simple-github:](https://github.com/loredanalepera/)
 - Lucie Khamvongsa-Charbonnier [:custom-orcid:](https://orcid.org/0000-0002-1194-0546/) [:simple-github:](https://github.com/lkhamvongsa/)
 - Maja Rey  
 - Marcela Davila  
@@ -32,12 +32,12 @@
 - Nicola Mulder [:custom-orcid:](https://orcid.org/0000-0003-4905-0941/) 
 - Olivier Sand [:custom-orcid:](https://orcid.org/0000-0003-1465-1640/) [:simple-github:](https://github.com/olisand/)
 - Patricia Carvajal Lopez  
-- Patricia Palagi  [:simple-github:](https://github.com/ppalagi/)
+- Patricia M. Palagi [:custom-orcid:](https://orcid.org/0000-0001-9062-6303/) [:simple-github:](https://github.com/ppalagi/)
 - Rachel Berkson  
 - Renato Alves  
 - Roland KRAUSE  
 - Russell Schwartz  
-- Sara El-Gebali [:custom-orcid:](https://orcid.org/https://orcid.org/0000-0003-1378-5495/) [:simple-github:](https://github.com/selgebali/)
+- Sara El-Gebali [:custom-orcid:](https://orcid.org/0000-0003-1378-5495/) [:simple-github:](https://github.com/selgebali/)
 - Sarah Morgan  
 - Saskia Hiltemann  
 - Shaun Aron  
