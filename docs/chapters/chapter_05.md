@@ -116,32 +116,33 @@ Two types of PIDs are used when sharing materials from our events.
 
 **Figure 1:** The Australian BioCommons collates materials from their events and shares them via Zenodo where they are assigned a DOI and authors are identified via their ORCIDs. [View this record on Zenodo.](https://zenodo.org/record/6350808#.YkPhE25Bw3Q)
 
-### 2. Assing own persistent identifier for events combined with DOI for material
+### 2. Assign own persistent identifier for events combined with DOI for material
 [CLARIN](https://www.clarin.eu/) is a digital research infrastructure offering data, tools and services to support research based on language resources. Currently, the infrastructure does not have a centralised repository to store all the training and learning materials produced during the training events and workshops. 
 
-A training event usually contains the following information: slides, handouts, video tutorials, language resources datasets and/or tools. The slides and handouts are frequently published on the event web page, while the recordings of the presentations are published on the CLARIN YouTube channel. On the other hand, the language resources and tools used during the training are stored in the CLARIN national repositories with a **unique** identifier, and can be cited.
+A training event usually consists of: slides, handouts, GitHub page, video tutorials, language resources, datasets and/or tools. The slides and handouts are published on the event web page, while the video recordings of the presentations are published on the CLARIN YouTube channel. On the other hand, the language resources and tools used during the training are stored in the CLARIN national repositories with a **unique** identifier assigned by the institution, and can be cited.
 
-One possible solution to have a PID assigned to all the materials used during one training event is to create a virtual collection in the CLARIN [Virtual Collection Registry](https://collections.clarin.eu/public?7). A virtual collection is a coherent set of links of digital objects that can be easily created, accessed and cited with the help of **DOIs**. The links can originate from different archives. Here is an example of a virtual collection created for a hands-on tutorial on transcribing interview data: http://hdl.handle.net/11372/VC-1033.
+One solution to have a PID assigned to all the materials used during one training event is to create a virtual collection in the CLARIN [Virtual Collection Registry](https://collections.clarin.eu/public?7). A virtual collection is a coherent set of links of digital objects that can be easily created, accessed and cited with the help of **unique identifiers**, for example the DOI. The links can originate from different archives. Here is an example of a virtual collection created for a hands-on tutorial on transcribing interview data: http://hdl.handle.net/11372/VC-1033.
 
 <figure>
     <img src="../../assets/images/clarin_image1.png"
     width="500" alt="Screenshot of CLARIN metadata from workshop tutorial SSHOC"/>
 </figure>
-**Figure 2:** The CLARIN ...
+**Figure 2:** Example of a training collection in CLARIN Virtual Collection Registry that has been assigned a persistent identifier.
 
 <figure>
     <img src="../../assets/images/fig3-chap5.jpg"
     width="500" alt="Screenshot 'zoom'  of CLARIN metadata from workshop tutorial SSHOC, and citation"/>
 </figure>
 
+**Figure 3:** Example of a BibTeX citation in the CLARIN Virtual Collection Registry.
 
-**Figure 3:** The CLARIN ...
 
 Other practices that the trainers in the CLARIN community have adopted are:
-* Depositing the training materials together with the datasets in their CLARIN national data repository. See example: http://hdl.handle.net/20.500.11752/OPEN-537. The advantage of using this path is that the authors can add more extensive metadata to describe their materials.
-* Depositing the training materials on Zenodo. See example: https://doi.org/10.5281/zenodo.5506969.  In this case, **related identifiers** have been included that lead to the main platform where the course has been developed and maintained.
+- Depositing the training materials together with the datasets in their CLARIN national data repository. See example: [Archilochus of Paros: Elegiac Fragments - XML Archive](http://hdl.handle.net/20.500.11752/OPEN-537). The advantage of using this path is that the authors can add more extensive metadata to describe their materials.
+- Depositing the training materials on Zenodo. See example: [Introduction to Speech Analysis](https://doi.org/10.5281/zenodo.5506969).  In this case, **related identifiers** have been included that lead to the main platform where the course has been developed and maintained.
+- Adding the metadata of the training materials in the SSHOC Open Marketplace, see example: [Jupyter notebooks for Europeana newspaper text resource processing with CLARIN NLP tools](https://marketplace.sshopencloud.eu/training-material/duVII1). In this case, the authors can identify themselves with their ORCID and the collection can be cited. However, their is no unique identifier added to the collection itself or the items in the collection.
 
-**You can do the same by using Zenodo, for example, by publishing every material with asigned DOI and then grouping it in a colection/community wich will have its own DOI, as inspired by the next example.**
+> **You can do the same by using Zenodo, for example, by publishing every material with asigned DOI and then grouping it in a colection/community wich will have its own DOI, as inspired by the next example.**
 
 ### 3. Separate DOIs for mix and matching in a community 
 
