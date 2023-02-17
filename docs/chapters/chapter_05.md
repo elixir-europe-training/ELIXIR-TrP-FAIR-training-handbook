@@ -94,7 +94,7 @@ Watch the video below to learn how to get your own ORCID.
     - Pros & Cons
 
 
-## How does it work in the real word: Case Studies of Using PIDs in Training
+## How does it work in the real world: Case Studies of Using PIDs in Training
 
 Before diving into how to assign PIDs to the training materials, we would like to show you two examples of how organisations are approaching this in practice. 
 
@@ -116,7 +116,7 @@ Two types of PIDs are used when sharing materials from our events.
 
 **Figure 1:** The Australian BioCommons collates materials from their events and shares them via Zenodo where they are assigned a DOI and authors are identified via their ORCIDs. [View this record on Zenodo.](https://zenodo.org/record/6350808#.YkPhE25Bw3Q)
 
-### 2. Assign own persistent identifier for events combined with DOI for material
+### 2. Creating virtual collections of training materials and assigning own PIDs
 [CLARIN](https://www.clarin.eu/) is a digital research infrastructure offering data, tools and services to support research based on language resources. Currently, the infrastructure does not have a centralised repository to store all the training and learning materials produced during the training events and workshops. 
 
 A training event usually consists of: slides, handouts, GitHub page, video tutorials, language resources, datasets and/or tools. The slides and handouts are published on the event web page, while the video recordings of the presentations are published on the CLARIN YouTube channel. On the other hand, the language resources and tools used during the training are stored in the CLARIN national repositories with a **unique** identifier assigned by the institution, and can be cited.
