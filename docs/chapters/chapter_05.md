@@ -23,7 +23,8 @@ As a consequence of getting a PID, visibility of your work can be enhanced, and 
 ## Prerequisites
 Before you start with this chapter, we recommend that you first read:
 * [Chapter 2- Structure materials for FAIRness](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and 
-* [Chapter 3- Getting ready to create your materials](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/)
+* [Chapter 3- Getting ready to create your materials](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/).
+
 These chapters will help you structure your training materials, find a suitable storage location, and think about collaborators and potential readers. This knowledge will then help you decide whether you need to assign each material its own identifier or organise the entire collection under one identifier.
 
 ## What is a Persistent Identifier (PID) and why should I use it for training materials?
