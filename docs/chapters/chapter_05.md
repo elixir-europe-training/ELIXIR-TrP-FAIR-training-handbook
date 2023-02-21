@@ -144,7 +144,7 @@ One solution to have a PID assigned to all the materials used during one trainin
 Other practices that the trainers in the CLARIN community have adopted are:
 - Depositing the training materials together with the datasets in their CLARIN national data repository. See example: [Archilochus of Paros: Elegiac Fragments - XML Archive](http://hdl.handle.net/20.500.11752/OPEN-537). The advantage of using this path is that the authors can add more extensive metadata to describe their materials.
 - Depositing the training materials on Zenodo. See example: [Introduction to Speech Analysis](https://doi.org/10.5281/zenodo.5506969).  In this case, **related identifiers** have been included that lead to the main platform where the course has been developed and maintained.
-- Adding the metadata of the training materials in the SSHOC Open Marketplace, see example: [Jupyter notebooks for Europeana newspaper text resource processing with CLARIN NLP tools](https://marketplace.sshopencloud.eu/training-material/duVII1). In this case, the authors can identify themselves with their ORCID and the collection can be cited. However, their is no unique identifier added to the collection itself or the items in the collection.
+- Adding the metadata of the training materials in the SSHOC Open Marketplace, see example: [Jupyter notebooks for Europeana newspaper text resource processing with CLARIN NLP tools](https://marketplace.sshopencloud.eu/training-material/duVII1). In this case, the authors can identify themselves with their ORCID and the collection can be cited. However, there is no unique identifier added to the collection itself or the items in the collection.
 
 > **You can do the same by using Zenodo, for example, by publishing every material with asigned DOI and then grouping it in a colection/community wich will have its own DOI, as inspired by the next example.**
 
@@ -156,7 +156,7 @@ DTL has a [Zenodo community](https://zenodo.org/communities/dtl/?page=1&size=20)
 
 Providing a separate DOI has the following advantages:
 It is easier to mix and match different modules as part of a learning path, i.e. for the various target audiences a different combination of our training modules can be made, tailored for that specific purpose.
-When updating or revising a single module it is more convenient to have that module as a separate entity with its own DOI, to easily keep track  of the versions of different modules.
+When updating or revising a single module, it is more convenient to have that module as a separate entity with its own DOI in order to be able to easily keep track  of the versions of different modules.
 
 At the level of the full course we have chosen to use ELIXIR TeSS as the registry and links to our training event details and training materials can be found in [this link](https://tess.elixir-europe.org/events/helis-course-fair-data-stewardship).
 
@@ -175,21 +175,21 @@ At the level of the full course we have chosen to use ELIXIR TeSS as the registr
 
 ## How to get a DOI for your training materials
 
-Before getting a PID for your training materials you need to think how you want to organise your materials and how extensive your collection is. To help, ask yourself the following: 
+Before getting a PID for your training materials, you need to think how you want to organise your materials and how extensive your collection is. To help, ask yourself the following: 
 
 <span style="color:white">_</span> | <span style="color:white">_</span> 
 -- | --
 OR |Do you want to get a PID for each training material?
 OR |Do you want to get one PID for your whole training or course?
-OR |Do you want to get a separate PID for each topic/module? For example, for a course containing several topics
-OR |Do you want to create a collection of of topics with a PID where each concept will also have a PID and associated metadata?
+OR |Do you want to get a separate PID for each topic/module? For example, for a course containing several topics.
+OR |Do you want to create a collection of topics with a PID where each concept will also have a PID and associated metadata?
 OR |Do you want to get one PID for your whole training or course?
 
-No answer is wrong, you just need to make sure that when you share the material all related data will be findable, accessible and reusable as much as possible. Keeping that in mind, you might want to find an strategy to help others reuse your training when the material is very extensive. For example, a full day or a full week training are composed not only of a presentation, but a description of sessions of this presentation, activities, videos, etc. So in this case, it could be handy to split the training into small sessions with individual PIDs, that can be packaged into a collection.
+No answer is wrong, you just need to make sure that when you share the material, all related data will be findable, accessible and reusable as much as possible. Keeping that in mind, you might want to find a strategy to help others reuse your training when the material is very extensive. For example, a full day or a full week trainingmay consist not only of a presentation, but also a description of each session, activities, videos, etc. So in this case, it could be handy to split the training into small sessions with individual PIDs, which can than be packaged into a collection.
 
-By far the easiest way to get a PID for your training materials is by sharing them in a public repository that assigns a PID on your behalf, see more about that in [RDMkit](https://rdmkit.elixir-europe.org/identifiers.html) and [Chapter 2](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and [Chapter 3](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/).
+By far, the easiest way to get a PID for your training materials is by sharing them in a public repository that assigns a PID on your behalf. You can learn more about this topic in [RDMkit](https://rdmkit.elixir-europe.org/identifiers.html) and [Chapter 2](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and [Chapter 3](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/).
 
-For example, in the case studies you read earlier, the Australian BioCommons shares materials via Zenodo which automatically assigns a DOI to the materials. Similarly, the CLARIN Virtual Collection Registry assigns a PID (either Handle or DOI) to materials added to a virtual collection. If you are sharing your materials via GitHub you also have the option to use Zenodo to archive your [repository on GitHub](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content) and issue a DOI for the archive. 
+For example, in the case studies you read earlier, the Australian BioCommons shares materials via Zenodo which automatically assigns a DOI to the materials. Similarly, the CLARIN Virtual Collection Registry assigns a PID (either Handle or DOI) to materials added to a virtual collection. If you are sharing your materials via GitHub, you also have the option to use Zenodo to archive your [repository on GitHub](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content) and issue a DOI for the archive. 
 
 On the other hand, if you are maintaining your own repository of training materials, you will need to have a system in place for assigning and maintaining persistent identifiers. RDMkit provides guidance on the things you will need to consider when doing this.
 
