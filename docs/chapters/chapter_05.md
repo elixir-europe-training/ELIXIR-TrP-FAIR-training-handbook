@@ -102,7 +102,7 @@ Watch the video below to learn how to get your own ORCID.
 
 Before diving into how to assign PIDs to the training materials, we would like to show you two examples of how organisations are approaching this in practice. 
 
-### 1. Unique DOI combined with ORCID for each event in a community
+### 1. Assigning a unique DOI combined with ORCID for each event in a community
 [Australian BioCommons](https://www.biocommons.org.au/) supports Australian life science communities by providing bioinformatics and bioscience data infrastructures, services and training. At Australian Biocommons training materials from webinars and workshops are shared via a dedicated [Zenodo community](https://zenodo.org/communities/australianbiocommons-training/). The BioCommons chose to use Zenodo to share training materials because they don’t have a repository of our own and Zenodo has established ways of managing metadata, DOIs and versioning. It is also widely used in the scientific community.
 
 For each event, a Zenodo record is created that includes detailed metadata, new training materials and links to previous materials that were reused as part of the training (Figure 1).
