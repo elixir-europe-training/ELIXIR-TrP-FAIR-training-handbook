@@ -44,7 +44,7 @@ As with the coat example, having a persistent identifier for training materials 
 
 * **Persistent:** 
 
-    The identifier, and the object to which it points, should be **maintained** for a **long period of time**. The syntax used for the identifier should be also persistent (don’t change the way you label your tickets; don’t dispose of the coat during the opera).
+    The identifier, and the object to which it points, should be **maintained** for a **long period of time**. The syntax used for the identifier should be also persistent (_don’t change the way you label your tickets; don’t dispose of the coat during the opera_).
 
 * **Resolvable**: 
 
