@@ -10,18 +10,21 @@ tags:
 
 ## Description
 In this chapter, we present what is a persistent identifier (PID), and how to get one for your training materials. This step is essential to achieve FAIR training materials, being directly linked with Findability and Reuse. 
-As a consequence of getting a PID, visibility of your work can be enhanced, and the associated deposit works as a backup of your work by handing over the maintenance to the nominated repository.
+As a consequence of getting a PID, visibility of your work can be enhanced, and the associated deposit works as a backup of your work by handing over the maintenance to the designated repository.
 
 !!! info "Learning outcomes"
     **At the end of this chapter you should be able to:**
    
     1. Explain what a PID is and its importance for enabling and sharing training resources in the context of FAIR and open education and training.
     2. List and differentiate the types of PIDs that are relevant for publishing and sharing training materials.
-    3. Assign an appropriate PID to your training materials .
-    4. Get an author ID ORCID
+    3. Assign an appropriate PID to your training materials. 
+    4. Get an author ID ORCID.
 
 ## Prerequisites
-In order to decide whether the best choice for you is assigning each material its own identifier or organising a collection under one identifier you need to know the structure of your material, where it is best stored, as well as thinking about collaborators and potential readers. Therefore it can be useful to read the [Chapter 2- Structure materials for FAIRness](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and [Chapter 3- Getting ready to create your materials](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/).
+Before you start with this chapter, we recommend that you first read:
+* [Chapter 2- Structure materials for FAIRness](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and 
+* [Chapter 3- Getting ready to create your materials](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/)
+These chapters will help you structure your training materials, find a suitable storage location, and think about collaborators and potential readers. This knowledge will then help you decide whether you need to assign each material its own identifier or organise the entire collection under one identifier.
 
 ## What is a Persistent Identifier (PID) and why should I use it for training materials?
 
@@ -30,7 +33,7 @@ To facilitate this, it is necessary that each element that will be shared can be
 
 _Imagine the following scenario_: if you go to the opera, you leave your coat in the cloakroom in exchange for a ticket. From that moment on, you don't have to worry about where your coat is stored. You enjoy the performance, knowing that your ticket allows you to get your coat back. This ticket carries a unique identifier (a number on the ticket) issued by a trusted third party (the wardrobe attendant) who makes sure that this number is unique and remains assigned to your coat.
 
-As with the example about the coat, having a persistent identifier for training materials makes them easier to **find** amongst all the other materials in the same repository (i.e., the cloakroom). Furthermore, this facilitates a long-lasting material accessibility by working as backup. Additionally, using PIDs for the authors makes it easier to identify and acknowledge the contribution of individuals to developing and maintaining the materials. This also makes the materials easier to cite when it comes to **reusing** them.
+As with the coat example, having a persistent identifier for training materials makes them easier to **find** amongst all the other materials in the same repository (i.e., the cloakroom). Furthermore, this facilitates long-lasting material accessibility as backup. Additionally, using PIDs for the authors makes it easier to identify and acknowledge the contribution of individuals to developing and maintaining the materials. This also makes the materials easier to cite when it comes to **reusing** them.
 
 **The PIDs must comply with a few rules:**
 
@@ -52,7 +55,7 @@ By now you must be asking: in the context of training, when should I worry about
 * A collection of materials associated with a training event or topic
 * Authors of the materials
 
-In the following paragraphs we discuss how to get these PIDs for your training materials. Some real-word case studies provide a few examples of approaches to giving PIDs to your  training materials.
+In the following paragraphs, we discuss how to get these PIDs for your training materials. Some real-word case studies provide a few examples of approaches to giving PIDs to your  training materials.
 
 ## Types of PIDs relevant for training materials
 
