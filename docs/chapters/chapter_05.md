@@ -10,7 +10,7 @@ tags:
 
 ## Description
 In this chapter, we present what is a persistent identifier (PID), and how to get one for your training materials. This step is essential to achieve FAIR training materials, being directly linked with Findability and Reuse. 
-As a consequence of getting a PID, visibility of your work can be enhanced, and the associated deposit works as a backup of your work by handing over the maintenance to the designated repository.
+As a consequence of getting a PID, the visibility of your work can be enhanced, and the associated deposit works as a backup of your work by handing over the maintenance to the designated repository.
 
 !!! info "Learning outcomes"
     **At the end of this chapter you should be able to:**
@@ -56,11 +56,11 @@ By now you must be asking: in the context of training, when should I worry about
 * A collection of materials associated with a training event or topic
 * Authors of the materials
 
-In the following paragraphs, we discuss how to get these PIDs for your training materials. Some real-word case studies provide a few examples of approaches to giving PIDs to your  training materials.
+In the following paragraphs, we discuss how to get these PIDs for your training materials. Some real-world case studies provide a few examples of approaches to giving PIDs to your  training materials.
 
 ## Types of PIDs relevant for training materials
 
-Although there are a number of different PID types that can be applied to objects and authors, the two which are most used for training materials are discussed here. These are DOIs and ORCID.
+Although many different PID types can be applied to objects and authors, we will discuss here only the ones that are most often assigned to training materials, namely the DOIs and ORCID.
 
 ### What is a DOI? 
 
@@ -69,7 +69,7 @@ DOI stands for Digital Object Identifier, and it is a **unique** and **persisten
    
 ### What is an ORCID?
 
-ORCID, which stands for Open Researcher and Contributor ID, is a global, non-profit organisation which provides a **unique**, **persistent** identifier free of charge to researchers. You might be a lucky one that never had to worry about having a common name, but if you are not, you know how important it is to distinguish homonyms!  It is extremely useful to ensure that you are correctly identified, worldwide. ORCID is a perfect solution to take homonymy into account, what's more, the system allows you to add aliases on your profile to take care of any changes to your name making sure that it will be tracked back to you. Another good consequence, is that as your name and affilitations change your ORCID will stay the same, not just assuring that you get the credit you deserve, but also keeping track of your work.
+ORCID, which stands for Open Researcher and Contributor ID, is a global, non-profit organisation which provides a **unique**, **persistent** identifier free of charge to researchers. You might be a lucky one that never had to worry about having a common name, but if you are not, you know how important it is to distinguish homonyms!  It is extremely useful to ensure that you are correctly identified, worldwide. ORCID is a perfect solution to take homonymy into account, what's more, the system allows you to add aliases to your profile to take care of any changes to your name making sure that it will be tracked back to you. Another benefit is that your ORCID will stay the same, even when your affiliation changes, ensuring that you get the credit you deserve and helping you keep track of your work.
 
 You can see a bit more about it in the video below. 
 
@@ -123,9 +123,9 @@ Two types of PIDs are used when sharing materials from our events.
 ### 2. Creating virtual collections of training materials and assigning own PIDs
 [CLARIN](https://www.clarin.eu/) is a digital research infrastructure offering data, tools and services to support research based on language resources. Currently, the infrastructure does not have a centralised repository to store all the training and learning materials produced during the training events and workshops. 
 
-A training event usually consists of: slides, handouts, GitHub page, video tutorials, language resources, datasets and/or tools. The slides and handouts are published on the event web page, while the video recordings of the presentations are published on the CLARIN YouTube channel. On the other hand, the language resources and tools used during the training are stored in the CLARIN national repositories with a **unique** identifier assigned by the institution, and can be cited.
+A training event usually consists of slides, handouts, a GitHub page, video tutorials, language resources, datasets and/or tools. The slides and handouts are published on the event web page, while the video recordings of the presentations are published on the CLARIN YouTube channel. On the other hand, the language resources and tools used during the training are stored in the CLARIN national repositories with a **unique** identifier assigned by the institution and they can be cited.
 
-One solution to have a PID assigned to all the materials used during one training event is to create a virtual collection in the CLARIN [Virtual Collection Registry](https://collections.clarin.eu/public?7). A virtual collection is a coherent set of links of digital objects that can be easily created, accessed and cited with the help of **unique identifiers**, for example the DOI. The links can originate from different archives. Here is an example of a virtual collection created for a hands-on tutorial on transcribing interview data: http://hdl.handle.net/11372/VC-1033.
+One solution to have a PID assigned to all the materials used during one training event is to create a virtual collection in the CLARIN [Virtual Collection Registry](https://collections.clarin.eu/public?7). A virtual collection is a coherent set of links of digital objects that can be easily created, accessed and cited with the help of **unique identifiers**, for example, the DOI. The links can originate from different archives. Here is an example of a virtual collection created for a hands-on tutorial on transcribing interview data: http://hdl.handle.net/11372/VC-1033.
 
 <figure>
     <img src="../../assets/images/clarin_image1.png"
@@ -143,12 +143,12 @@ One solution to have a PID assigned to all the materials used during one trainin
 
 Other practices that the trainers in the CLARIN community have adopted are:
 - Depositing the training materials together with the datasets in their CLARIN national data repository. See example: [Archilochus of Paros: Elegiac Fragments - XML Archive](http://hdl.handle.net/20.500.11752/OPEN-537). The advantage of using this path is that the authors can add more extensive metadata to describe their materials.
-- Depositing the training materials on Zenodo. See example: [Introduction to Speech Analysis](https://doi.org/10.5281/zenodo.5506969).  In this case, **related identifiers** have been included that lead to the main platform where the course has been developed and maintained.
-- Adding the metadata of the training materials in the SSHOC Open Marketplace, see example: [Jupyter notebooks for Europeana newspaper text resource processing with CLARIN NLP tools](https://marketplace.sshopencloud.eu/training-material/duVII1). In this case, the authors can identify themselves with their ORCID and the collection can be cited. However, there is no unique identifier added to the collection itself or the items in the collection.
+- Depositing the training materials on Zenodo. See example: [Introduction to Speech Analysis](https://doi.org/10.5281/zenodo.5506969).  In this case, **related identifiers** are included that lead users to the main platform where the course is stored and maintained.
+- Adding the metadata of the training materials in the SSHOC Open Marketplace, see example: [Jupyter notebooks for Europeana newspaper text resource processing with CLARIN NLP tools](https://marketplace.sshopencloud.eu/training-material/duVII1). In this case, the Marketplace does not assign any unique identifiers, but the authors can identify themselves with their ORCID and can suggest a citation format for their collection.
 
-> **You can do the same by using Zenodo, for example, by publishing every material with asigned DOI and then grouping it in a colection/community wich will have its own DOI, as inspired by the next example.**
+> **You can do the same by using Zenodo, for example, by publishing and assigning a DOI not only to the entire training collection but also to each item in the collection, as inspired by the next example.**
 
-### 3. Separate DOIs for mix and matching in a community 
+### 3. Getting separate DOIs for mix and matching in a community 
 
 The [Dutch Techcentre for Life Sciences](https://www.dtls.nl/) (DTL) - which also hosts ELIXIR-Netherlands - forms, together with its partners, a multidisciplinary platform for data-intensive research, with a focus on biological and molecular data handling: data generation, data stewardship, data infrastructure and data analysis. 
 
@@ -156,9 +156,9 @@ DTL has a [Zenodo community](https://zenodo.org/communities/dtl/?page=1&size=20)
 
 Providing a separate DOI has the following advantages:
 It is easier to mix and match different modules as part of a learning path, i.e. for the various target audiences a different combination of our training modules can be made, tailored for that specific purpose.
-When updating or revising a single module, it is more convenient to have that module as a separate entity with its own DOI in order to be able to easily keep track  of the versions of different modules.
+When updating or revising a single module, it is more convenient to have that module as a separate entity with its own DOI in order to easily keep track  of the versions of different modules.
 
-At the level of the full course we have chosen to use ELIXIR TeSS as the registry and links to our training event details and training materials can be found in [this link](https://tess.elixir-europe.org/events/helis-course-fair-data-stewardship).
+At the level of the full course, we have chosen to use ELIXIR TeSS as the registry and links to our training event details and training materials can be found in [this link](https://tess.elixir-europe.org/events/helis-course-fair-data-stewardship).
 
 <figure>
     <img src="../../assets/images/fig4-chap5.png"
@@ -175,7 +175,7 @@ At the level of the full course we have chosen to use ELIXIR TeSS as the registr
 
 ## How to get a DOI for your training materials
 
-Before getting a PID for your training materials, you need to think how you want to organise your materials and how extensive your collection is. To help, ask yourself the following: 
+Before getting a PID for your training materials, you need to think about how you want to organise your materials and how extensive your collection is. To help, ask yourself the following: 
 
 <span style="color:white">_</span> | <span style="color:white">_</span> 
 -- | --
@@ -185,21 +185,21 @@ OR |Do you want to get a separate PID for each topic/module? For example, for a 
 OR |Do you want to create a collection of topics with a PID where each concept will also have a PID and associated metadata?
 OR |Do you want to get one PID for your whole training or course?
 
-No answer is wrong, you just need to make sure that when you share the material, all related data will be findable, accessible and reusable as much as possible. Keeping that in mind, you might want to find a strategy to help others reuse your training when the material is very extensive. For example, a full day or a full week trainingmay consist not only of a presentation, but also a description of each session, activities, videos, etc. So in this case, it could be handy to split the training into small sessions with individual PIDs, which can than be packaged into a collection.
+No answer is wrong, you just need to make sure that when you share the material, all related data will be findable, accessible and reusable as much as possible. Keeping that in mind, you might want to find a strategy to help others reuse your training when the material is very extensive. For example, a full day or a full week training event may consist not only of presentations, but also a description of each session, activities, videos, etc. So in this case, it could be handy to split the training into small sessions with individual PIDs, which can then be packaged into a collection.
 
 By far, the easiest way to get a PID for your training materials is by sharing them in a public repository that assigns a PID on your behalf. You can learn more about this topic in [RDMkit](https://rdmkit.elixir-europe.org/identifiers.html) and [Chapter 2](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and [Chapter 3](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/).
 
 For example, in the case studies you read earlier, the Australian BioCommons shares materials via Zenodo which automatically assigns a DOI to the materials. Similarly, the CLARIN Virtual Collection Registry assigns a PID (either Handle or DOI) to materials added to a virtual collection. If you are sharing your materials via GitHub, you also have the option to use Zenodo to archive your [repository on GitHub](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content) and issue a DOI for the archive. 
 
-On the other hand, if you are maintaining your own repository of training materials, you will need to have a system in place for assigning and maintaining persistent identifiers. RDMkit provides guidance on the things you will need to consider when doing this.
+On the other hand, if you are maintaining your own repository of training materials, you will need to have a system in place for assigning and maintaining persistent identifiers. The RDMkit provides guidance on the things you will need to consider when doing this.
 
 !!! info "How to choose a repository"
     
-     Need help choosing a repository for your materials? Have a look at this advice in Chapter X ?
+     Do you need help in choosing a repository for your materials? Take a look at this advice in Chapter X ?
 
 !!! example "Exercise"
 
-    Activity: Go to your favorite repository and check:
+    Activity: Go to your favourite repository and check:
         a. Do they use DOI? 
         b. If not, what kind of identifier do they use? Is it a Persistent identifier?
 
