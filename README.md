@@ -24,7 +24,7 @@ If you have finished, you can directly commit to main. In order to do that, writ
   <img src="docs/assets/images/commit.png" width="400"/>
 </figure>
 
-After commiting it will take ~30-60 seconds before the website is updated with your changes. The website is hosted at [https://elixir-fair-training.github.io/FAIR-training-handbook/](https://elixir-fair-training.github.io/FAIR-training-handbook/).
+After commiting it will take ~30-60 seconds before the website is updated with your changes. The website is hosted at [https://elixir-europe-training.github.io/FAIR-training-handbook/](https://elixir-europe-training.github.io/FAIR-training-handbook/).
 
 ### Adding tables 
 
@@ -70,4 +70,4 @@ If you commit to the branch `main` (the default branch), the website will be aut
 
 This will generate a webpage at:
 
-https://ELIXIR-FAIR-Training.github.io/FAIR-training-handbook
+[https://elixir-europe-training.github.io/FAIR-training-handbook/](https://elixir-europe-training.github.io/FAIR-training-handbook/)
