@@ -37,7 +37,7 @@ Metadata can be defined as data used to describe *other data*. That *other data*
 
 Most likely, you have already used metadata without even noticing it!
 
-While the first example involved only people, the other three involved people and machines. When we want to communicate with other people, we use words, either orally or written and thanks to the common knowledge of the used language, e.g., English, we can understand each other. A sentence like ‘the title of this chapter is “Using metadata to describe training materials” ‘ is clear for us, but while free text is enough for humans, machines need more structured data (and metadata) to communicate with each other. The sort of structured metadata we use to describe training materials looks like a sentence with a subject, a predicate, and an object, with the main subject being our training material. The sentence above would for example look like: thisChapter (subject) - hasTitle (predicate) - “Using metadata to describe training materials”. Further information about how we communicate with machines and how machines communicate with each other is an exciting subject, but it is outside the scope of this book. If you are interested, we offer some additional information in Section 4.5 Further Reading.
+While the first example involved only people, the other three involved people and machines. When we want to communicate with other people, we use words, either orally or written and thanks to the common knowledge of the used language, e.g., English, we can understand each other. A sentence like ‘the title of this chapter is “Using metadata to describe training materials” ‘ is clear for us, but while free text is enough for humans, machines need more structured data (and metadata) to communicate with each other. The sort of structured metadata we use to describe training materials looks like a sentence with a subject, a predicate, and an object, with the main subject being our training material. The sentence above would for example look like: thisChapter (subject) - hasTitle (predicate) - “Using metadata to describe training materials”. Further information about how we communicate with machines and how machines communicate with each other is an exciting subject, but it is outside the scope of this book. If you are interested, we offer some additional information in Section [Further reading about structured metadata](#FR).
 
 ## Why do we need to describe training materials with metadata?
 (Minimum, Understand Explain the relevance of metadata to FAIR Training Materials)
@@ -55,7 +55,7 @@ A first proposal for recommended metadata for training materials was published i
 ## Metadata in action - case studies
 ## Metadata in action - hands-on
 
-## Further reading about structured metadata
+## <a id="FR"></a> Further reading about structured metadata
 (Optional, Understand: Explain the concept of structured metadata)
 
 If you are here, you want to know a bit more on how machines communicate with each other. As we said before, while free text is enough for humans, more structured data (and metadata) works better with machines. Data can be structured in many ways (most of them also outside the scope of this book). We will focus on the sort of metadata using sentences to describe things in a light way, i.e., metadata schemas. There is still much more around this topic including semantics, controlled vocabularies, terminologies and ontologies, all of that outside the scope of this book.
