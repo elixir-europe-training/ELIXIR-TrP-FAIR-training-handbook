@@ -29,6 +29,7 @@ Metadata can be defined as data used to describe _other data_. That _other data_
 ## Introduction to metadata
 (Minimum, Understand: Explain the concept of metadata )
 Metadata can be defined as data used to describe *other data*. That *other data* is complete on its own even without the metadata; however, the metadata makes it easier, for instance, to quickly grasp what that *other data* is about and to establish some common parameters that can be used to find and compare similar data, even if you have no access to that *other data*. As examples might be easier to grasp than definitions, let’s have a look at a couple of metadata examples:
+
 * You look at a can (data) of a new beverage and later comment this with a friend who wants to know more. You do not remember the name (metadata) of the beverage, but you tell your friend about the height and colours of the can (metadata). Your friend quickly realises what that new beverage is as she has already tried it out.
 * You can read, enjoy and learn from a book (data) even if you do not know the title, the author, or the date it was printed (metadata). However, if you really like that book and know the name of the author, you can also find other books by the same author.
 * You look for a film (data) in your preferred browser. As you know the title (metadata) you can easily find not only the film (access is restricted to those renting the film) but information about the director and the actors, and even a summary of the plot (more metadata).
