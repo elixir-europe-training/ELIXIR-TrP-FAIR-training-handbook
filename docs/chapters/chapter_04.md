@@ -52,8 +52,26 @@ Metadata will help us describe our training materials, but what metadata should 
 
 A first proposal for recommended metadata for training materials was published in the [10SR paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854#sec003) in [table 2](https://doi.org/10.1371/journal.pcbi.1007854.t002).
 
+### Bioschemas
+
+GOBLET and ELIXIR have worked together on the subject of metadata for training materials under a community-based project umbrella, namely Bioschemas. Bioschemas [@Bioschemas] is a collaborative effort supporting metadata schemas to describe types relevant in the Life Sciences domain (e.g., Gene and Protein) and providing guidelines (known as profiles) on how to use general-purpose types offered by Schema.org (e.g., Dataset or Learning Resource). Schema.org [@Schema] is also a collaborative effort providing cross-domain types with the purpose of adding structured markup to web pages so web search engines understand better what they are about.
+
+There are three Bioschemas profiles related to training: [Course](https://bioschemas.org/profiles/Course/1.0-RELEASE), [CourseInstance](https://bioschemas.org/profiles/CourseInstance/1.0-RELEASE) and [TrainingMaterial](https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE). Each profile contains sets of properties that are either Minimum (mandatory), Recommended or Optional. TrainingMaterial properties cover attributes like name, description, and language of the material, time required to work through it, contributors, version, etc.
+
 ## Metadata in action - case studies
+
+Metadata in GitHub pages: [How Bioschemas uses the training profiles with GitHub pages and Jekyll](https://bioschemas.org/tutorials/community/training)
+Metadata in html pages: metadata will usually be in the <head> part between <script> tags of type "application/ld+json"
+Example: [Basic proteomics course instance](https://training.vib.be/all-trainings/basic-proteomics-0) - Right-click => Inspect to see the html code
+
+There are validators and viewers of metadata available:
+
+* [Schema validator](https://validator.schema.org)
+* [JSON-LD viewer](http://jsonviewer.stack.hu)
+* [JSON-LD playground](https://json-ld.org/playground/)
+
 ## Metadata in action - hands-on
+Describe one of your training materials with a metadata standard suitable for your domain/discipline
 
 ## <a id="FR"></a> Further reading about structured metadata
 (Optional, Understand: Explain the concept of structured metadata)
