@@ -61,7 +61,9 @@ There are three Bioschemas profiles related to training: [Course](https://biosch
 ## Metadata in action - case studies
 
 Metadata in GitHub pages: [How Bioschemas uses the training profiles with GitHub pages and Jekyll](https://bioschemas.org/tutorials/community/training)
-Metadata in html pages: metadata will usually be in the <head> part between <script> tags of type "application/ld+json"
+
+Metadata in html pages: metadata will usually be in the \<head\> part between \<script\> tags of type "application/ld+json"
+
 Example: [Basic proteomics course instance](https://training.vib.be/all-trainings/basic-proteomics-0) - Right-click => Inspect to see the html code
 
 There are validators and viewers of metadata available:
