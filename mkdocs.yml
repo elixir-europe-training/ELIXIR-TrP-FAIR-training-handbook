@@ -27,8 +27,8 @@ theme:
     text: Lato
 
 # Repository
-repo_name: ELIXIR-FAIR-Training/FAIR-training-handbook
-repo_url: https://github.com/ELIXIR-FAIR-Training/FAIR-training-handbook
+repo_name: elixir-europe-training/FAIR-training-handbook
+repo_url: https://github.com/elixir-europe-training/FAIR-training-handbook
 edit_uri: edit/main/docs/
 
 plugins:
