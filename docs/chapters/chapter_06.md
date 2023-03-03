@@ -7,14 +7,6 @@ tags:
   - Inclusiveness 
 ---
 
-**Contact person:**
-
-- Helena Schnitzer [:custom-orcid:](https://orcid.org/0000-0002-6382-9452)
-- Monique Zahn [:custom-orcid:](https://orcid.org/0000-0001-7961-6091)
-- Hélène Chiapello [:custom-orcid:](https://orcid.org/0000-0001-5102-0632)
-- Daniel Wibberg 
-- Fred de Lamotte [:custom-orcid:](https://orcid.org/0000-0003-4234-1172)
-- Helen Clare [:custom-orcid:](https://orcid.org/0000-0002-6656-3012)
 
 ## Description
 
@@ -106,6 +98,10 @@ Let’s see how this can be done. Have you ever come across course material in Z
 
 Have you ever considered that your training material may not be understood by your trainees? Language may constitute a barrier to accessing learning material. This can be addressed by providing training materials in different languages, including metadata, in the same way that Wikipedia offers articles on the same topic in numerous languages” or the Carpentries [@data-carpentry] that so far provide lessons in different languages. 
 You should also consider making your training materials accessible for those with specific needs [@ability-net]. For instance, someone with poor eyesight might appreciate the possibility of making text larger, whereas someone who is colour-blind might not interpret images the same way as someone who is not. You should consider consulting resources which provide colour-blind slide models or fonts suitable for people with dyslexia which improve reading comprehension and reading speed by making characters more distinct [@dyslexia-guide].
+
+## Evaluate yourself
+
+Now that you have completed the chapter, you should have reached the learning outcomes. Scroll up, and see whether you managed.
 
 ## Resources and References
 
