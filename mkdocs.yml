@@ -23,6 +23,8 @@ theme:
   custom_dir: overrides
   features:
     - navigation.tabs
+  font: 
+    text: Lato
 
 # Repository
 repo_name: ELIXIR-FAIR-Training/FAIR-training-handbook
