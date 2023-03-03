@@ -66,11 +66,11 @@ Findable, Accessible, and Reusable are three principles that one can intuitively
 
 !!! example "Exercise"
 
-Reflect on the FAIR principles and with your own words and examples, explain what are the FAIR principles and how they can be applied to your training materials. (in groups, 10 mins, 5 min search, 5 min wrap-up)
+    Reflect on the FAIR principles and with your own words and examples, explain what are the FAIR principles and how they can be applied to your training materials. 
 
 !!! example "Exercise"
 
-Reflect on your training materials or those that you have used at school as a child. List 2-3 examples of materials that cannot be FAIRified. (alone, 5 mins, 5 min wrap-up)
+    Reflect on your training materials or those that you have used at school as a child. List 2-3 examples of materials that cannot be FAIRified. 
 
 
 ## FAIR vs OPEN 
@@ -87,7 +87,7 @@ To contextualise the GO-FAIR consortium paragraph above, you can imagine that se
 
 !!! example "Exercise"
 
-Write down the main difference  between Open and FAIR. (alone, 3 mins, 5 min wrap-up)
+    Write down the main difference between Open and FAIR. 
 
 ## Evaluate yourself
 
