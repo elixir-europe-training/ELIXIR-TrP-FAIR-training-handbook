@@ -9,11 +9,6 @@ tags:
     - Technological platform
 ---
 
-**Authors:**
-
-- Allegra Via
-- Lisanna Paladin [:custom-orcid:](https://orcid.org/0000-0003-0011-9397)
-- Hélène Chiapelo 
 
 ## Description
 Here, we will describe a few platforms that can be used to host and share your materials in all four phases of their life cycle (development, delivery, sharing, and archiving), thus ensuring a higher degree of FAIRness. The platforms we will discuss are: Google Suite, GitHub and GitLab, Zenodo, Learning Management systems. We chose them as they are free, they include different features, and they are very commonly used in training. We will see which platforms are better to use in each phase of materials life cycle and why and what are the pros and cons of each platform according to FAIR principles.
@@ -23,18 +18,18 @@ Here, we will describe a few platforms that can be used to host and share your m
 !!! info "Learning outcomes"
     **At the end of this chapter you should be able to:**
     
-1. Describe the four phases of training materials life cycle (development, running course, sharing, archiving) 
-2. Describe how to use the Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS) 
-3. List the (long-term) implications in terms of FAIR of choosing technologies such as Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS)
-4. Compare the advantages and disadvantages of the platforms in each of the four phases
-5. For each phase, explain how to interpret FAIR principles
-6. For each phase, identify platforms that best comply with the FAIR principles according to user’s needs and priorities
-7. Document/justify their choices for a given learning platform
+    1. Describe the four phases of training materials life cycle (development, running course, sharing, archiving) 
+    2. Describe how to use the Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS) 
+    3. List the (long-term) implications in terms of FAIR of choosing technologies such as Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS)
+    4. Compare the advantages and disadvantages of the platforms in each of the four phases
+    5. For each phase, explain how to interpret FAIR principles
+    6. For each phase, identify platforms that best comply with the FAIR principles according to user’s needs and priorities
+    7. Document/justify their choices for a given learning platform
 
-Optional Training objectives:
+    Optional Training objectives:
 
-1. Optional: Set up their training environment according to these guidelines
-1. Optional, Evaluate: Set up markdown driven training environments with continuous integration
+    1. Optional: Set up your training environment according to these guidelines
+    1. Optional, Evaluate: Set up markdown driven training environments with continuous integration
 
 ## Prerequisites
 
@@ -46,6 +41,7 @@ Learners may benefit from:
 - being familiar with course design principles  / Nicholls cycle (tbc),
 - having their lesson plan in place.
 
+<!---
 ## Learning Experiences
 #### LO: Describe the four phases of training materials life cycle (development, running course, sharing, archiving) 
 1. Lecture describing the four phases of training materials life cycle. 
@@ -72,6 +68,8 @@ Learners may benefit from:
 
 #### LO: Documenting/justifying their choices for a given learning platform
 1. Exercise: justify the choice of one or multiple platforms.
+
+--->
 
 ## Introduction
 
@@ -219,3 +217,8 @@ Exercise: Highlight the columns in tables 1.2 “Phases x Platforms” and 1.3 �
 _Learning experience: Justify your choices._
 
 Exercise: By looking at the tables you filled in the previous learning activity, choose one platform (or more, for different phases). Justify your choice by comparing the advantages and disadvantages of that platform with the others.
+
+## Evaluate yourself
+
+Now that you have completed the chapter, you should have reached the learning outcomes. Scroll up, and see whether you managed.
+
