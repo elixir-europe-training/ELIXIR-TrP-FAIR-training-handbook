@@ -6,7 +6,7 @@ This is an initiative of the [ELIXIR FAIR training focus group](https://elixir-e
 
 - [Preface](chapters/Preface.md)
 - [1. Why FAIR training & training materials?](chapters/chapter_01.md)
-- [2. Structure materials for FAIRness](chapters/chapter_02.md)
+- [2. How to structure your materials in order to facilitate FAIRness](chapters/chapter_02.md)
 - [3. Getting ready to(reate your materials or reuse](chapters/chapter_03.md)
 - [4. Using metadata to describe training materials](chapters/chapter_04.md)
 - [5. Get a persistent identifier for your training training material](chapters/chapter_05.md)
