@@ -13,21 +13,19 @@ Metadata can be defined as data used to describe _other data_. That _other data_
 !!! info "Learning outcomes"
     **At the end of this chapter you should be able to:**
 
-1. Minimum, Understand - Explain the concept of metadata 
-
-2. Minimum, Understand - Explain the relevance of metadata to FAIR Training Materials
-
-3. Minimum, Remember - Identify metadata standards used in your communities/institutions to annotate training materials
-
-4. Recommended, Apply - Describe their training materials with a metadata standard suitable for their domain/discipline (note: from the point of view of content, this could be a LE. bring your TrM, and structure/insert/compile the metadata)
-
-5. Optional, Understand - Explain the concept of structured metadata
+    1. Explain the concept of metadata 
+    2. Explain the relevance of metadata to FAIR Training Materials
+    3. Identify metadata standards used in your communities/institutions to annotate training materials
+    4. Explain the concept of structured metadata (optional)
+<!---
+Recommended, Apply - Describe their training materials with a metadata standard suitable for their domain/discipline (note: from the point of view of content, this could be a LE. bring your TrM, and structure/insert/compile the metadata)
+--->
 
 ## Prerequisites
 * Understand what is FAIR and why to use it as explained in [Chapter 1: Why FAIR training & training materials?](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_01/)
 
 ## Introduction to metadata
-(Minimum, Understand: Explain the concept of metadata )
+
 Metadata can be defined as data used to describe *other data*. That *other data* is complete on its own even without the metadata; however, the metadata makes it easier, for instance, to quickly grasp what that *other data* is about and to establish some common parameters that can be used to find and compare similar data, even if you have no access to that *other data*. As examples might be easier to grasp than definitions, let’s have a look at a couple of metadata examples:
 
 * You look at a can (data) of a new beverage and later comment this with a friend who wants to know more. You do not remember the name (metadata) of the beverage, but you tell your friend about the height and colours of the can (metadata). Your friend quickly realises what that new beverage is as she has already tried it out.
@@ -40,11 +38,10 @@ Most likely, you have already used metadata without even noticing it!
 While the first example involved only people, the other three involved people and machines. When we want to communicate with other people, we use words, either orally or written and thanks to the common knowledge of the used language, e.g., English, we can understand each other. A sentence like ‘the title of this chapter is “Using metadata to describe training materials” ‘ is clear for us, but while free text is enough for humans, machines need more structured data (and metadata) to communicate with each other. The sort of structured metadata we use to describe training materials looks like a sentence with a subject, a predicate, and an object, with the main subject being our training material. The sentence above would for example look like: thisChapter (subject) - hasTitle (predicate) - “Using metadata to describe training materials”. Further information about how we communicate with machines and how machines communicate with each other is an exciting subject, but it is outside the scope of this book. If you are interested, we offer some additional information in Section [Further reading about structured metadata](#FR).
 
 ## Why do we need to describe training materials with metadata?
-(Minimum, Understand Explain the relevance of metadata to FAIR Training Materials)
 
 Metadata will improve F, I, R
+
 ## Metadata for training materials
-(Minimum, Remember: Identify metadata standards used in your communities/institutions to annotate training materials)
 
 Metadata will help us describe our training materials, but what metadata should we use? If we all decide on our own what metadata we want to use and how it will look in its machine-readable version (i.e., structured metadata via schemas), we will end up with so many ways to refer to what should be common ground (so we understand better each other, humans and machines). Rather than going on your own, we recommend you find and follow a metadata standard used by your community (e.g., trainers in general or trainers in your field and/or in your institute). We are aware of a couple of communities working on training materials and supporting metadata for them; they are [GOBLET](https://www.mygoblet.org/), [ELIXIR](https://elixir-europe.org) Training Platform (particularly the FAIR Training Focus Group) and the Research Data Alliance via its [Education and Training on Handling of Research Data Interest Group](https://www.rd-alliance.org/groups/education-and-training-handling-research-data.html) (RDA-ETHRD-IG).
 
@@ -73,21 +70,15 @@ There are validators and viewers of metadata available:
 * [JSON-LD viewer](http://jsonviewer.stack.hu)
 * [JSON-LD playground](https://json-ld.org/playground/)
 
-## Metadata in action - hands-on
-Describe one of your training materials with a metadata standard suitable for your domain/discipline
+!!! example Metadata in action - hands-on
+    Describe one of your training materials with a metadata standard suitable for your domain/discipline
 
 ## <a id="FR"></a> Further reading about structured metadata
-(Optional, Understand: Explain the concept of structured metadata)
 
-If you are here, you want to know a bit more on how machines communicate with each other. As we said before, while free text is enough for humans, more structured data (and metadata) works better with machines. Data can be structured in many ways (most of them also outside the scope of this book). We will focus on the sort of metadata using sentences to describe things in a light way, i.e., metadata schemas. There is still much more around this topic including semantics, controlled vocabularies, terminologies and ontologies, all of that outside the scope of this book.
+If you are here, you want to know a bit more on how machines communicate with each other. As we said before, while free text is enough for humans, more structured data (and metadata) works better with machines. Data can be structured in many ways (most of them also outside the scope of this book). We will focus on the sort of metadata using sentences to describe things in a light way, i.e., metadata 
+
+s. There is still much more around this topic including semantics, controlled vocabularies, terminologies and ontologies, all of that outside the scope of this book.
+
 ## Resources and references
-
-[@Schema]
-[@Bioschemas]
-[@RDA-training]
-[@RDA-training-pdf]
-[@Barker_Phil_2020_4434615]
-[@Cepinskas_Linas_2021_5494526]
-[@Minimal_metadata]
 
 \bibliography
