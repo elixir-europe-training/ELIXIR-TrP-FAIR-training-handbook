@@ -22,16 +22,15 @@ In this chapter, we discuss about different types of training material formats a
      4. Explain the relevance of documenting training material for reusability
 
 ## Prerequisites
-[Chapters 1](chapter_01.md) 
+[Chapter 1](chapter_01.md) 
 
 ## What you will find here one day
 * What are interoperable formats?
 * Examples of different file formats and what makes them interoperable
-* How will you ensure reproducibility / reusability of your materials by yourself and others?
-* Give a clear structure of your repository with folders and subfolders with a sounding (for you and others) 
-         * Naming files, name conventions
-* README file (GitHub) / Master Doc (GDrive): a document describing and linking all different small pieces of materials in a certain order
-Guidelines 
+* How will you ensure reproducibility / reusability of your materials by yourself and others
+* Some best practices such as:
+     * Giving a clear structure of your repository with folders and subfolders with a sounding (for you and others) name (naming files), using name conventions
+     * Creating README file (GitHub) / Master Doc (GDrive): a document describing and linking all different small pieces of materials in a certain order Guidelines 
 
 
 
