@@ -33,7 +33,7 @@ Here, we will describe a few platforms that can be used to host and share your m
 
 ## Prerequisites
 
-- Learners are expected to have done [Chapter 1](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_01/) and [Chapter 2](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/)and understand the need for FAIRifying their training materials and/or building their training materials FAIR from the beginning. 
+- Learners are expected to have done [Chapter 1](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_01/) and [Chapter 2](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and understand the need for FAIRifying their training materials and/or building their training materials FAIR from the beginning. 
 - From [Chapter 2](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/), they are aware of what types of material they have or will have (lectures, exercises, video, datasets etc.). 
 
 Learners may benefit from:
@@ -195,17 +195,13 @@ Potentially, one could compile a three dimensional table to discuss this topic, 
 
     Fill (alone or in groups) table 1.3, “Phases x FAIR”. 
 
-### LO: For each phase, identify platforms that best comply with the FAIR principles according to user’s needs and priorities 
-
-In the discussion above, you might be more interested in considering a specific phase (because, for example, that’s the phase where your course is in) or a specific letter of FAIR (because, for example, you have been asked by your institution to improve that aspect of your training materials). Your aim is to understand which platforms would better comply with either one or the other, so basically to focus on specific row(s) of the other two tables. There is not one solution that works for all cases, and FAIRification is a process that starts from your priorities and implies the adoption of increasingly better practices to achieve them, and enhance the quality of your training materials. 
+In the discussion above, you might be more interested in considering a specific phase (because, for example, that’s the phase where your course is in) or a particular letter of FAIR (because, for example, you have been asked by your institution to improve that aspect of your training materials). You aim to understand which platforms would better comply with either one or the other, so focus on specific row(s) of the other two tables. There is not one solution that works for all cases. FAIRification is a process that starts from your priorities and implies adopting increasingly better practices to achieve them and enhance the quality of your training materials. 
 
 !!! example "Exercise"
 
     Highlight the columns in tables 1.2 “Phases x Platforms” and 1.3 “FAIR x Platforms” that you consider more relevant for your specific case. Fill each column consulting all the platforms, especially those that you never used. 
 
-### LO: Documenting/justifying their choices for a given learning platform
-
-!!! example "Exercise" Documenting/justifying their choices for a given learning platform
+!!! example "Exercise" 
 
     By looking at the tables you filled in the previous learning activity, choose one platform (or more, for different phases). Justify your choice by comparing the advantages and disadvantages of that platform with the others.
 
