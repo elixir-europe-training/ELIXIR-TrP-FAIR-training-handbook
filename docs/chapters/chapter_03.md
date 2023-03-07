@@ -14,7 +14,6 @@ tags:
 Here, we will describe a few platforms that can be used to host and share your materials in all four phases of their life cycle (development, delivery, sharing, and archiving), thus ensuring a higher degree of FAIRness. The platforms we will discuss are: Google Suite, GitHub and GitLab, Zenodo, Learning Management systems. We chose them as they are free, they include different features, and they are very commonly used in training. We will see which platforms are better to use in each phase of materials life cycle and why and what are the pros and cons of each platform according to FAIR principles.
 
 
-
 !!! info "Learning outcomes"
     **At the end of this chapter you should be able to:**
     
@@ -26,15 +25,16 @@ Here, we will describe a few platforms that can be used to host and share your m
     6. For each phase, identify platforms that best comply with the FAIR principles according to user’s needs and priorities
     7. Document/justify their choices for a given learning platform
 
-    Optional Training objectives:
+<!---    Optional Training objectives:
 
     1. Optional: Set up your training environment according to these guidelines
     1. Optional, Evaluate: Set up markdown driven training environments with continuous integration
+--->
 
 ## Prerequisites
 
-- Learners are expected to have done Chapter 1 & 2 and understand the need for FAIRifying their training materials and/or building their training materials FAIR from the beginning. 
-- From Chapter 2, they are aware of what types of material they have or will have (lectures, exercises, video, datasets etc.). 
+- Learners are expected to have done [Chapter 1](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_01/) and [Chapter 2](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/)and understand the need for FAIRifying their training materials and/or building their training materials FAIR from the beginning. 
+- From [Chapter 2](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/), they are aware of what types of material they have or will have (lectures, exercises, video, datasets etc.). 
 
 Learners may benefit from:
 
@@ -75,15 +75,11 @@ Learners may benefit from:
 
 Once you have identified what learning experiences (lecture, hands on, exercises, work in groups, etc.), are needed to achieve the learning outcomes of your lesson / course and chosen the most appropriate and FAIR support(s) for the delivery of each of them (e.g. slide deck and/or video for the lecture, pdf for the hands on, shared notes for the work in groups, etc.), you should start considering where you will develop your materials (locally on your computer? or will you rather use a web platform/repository?), from where you will deliver them, how to share them with learners and how you will archive them for recognition and reuse by other instructors.
 
-You might decide to develop your materials locally, on your computer, deliver them from your computer (e.g. projecting your local powerpoint), share them by email with learners and archive them on your hard disk and send them to other instructors by email upon request. Despite you might feel comfortable with this “old fashion” approach, you must be aware it is the least FAIR possible. FAIR principles will have a different degree of importance in each of the four phases of the material life cycle (development, delivery, sharing, and archiving. 
-For example, 
+You might decide to develop your materials locally, on your computer, deliver them from your computer (e.g. projecting your local powerpoint), share them by email with learners and archive them on your hard disk and send them to other instructors by email upon request. Despite you might feel comfortable with this “old fashion” approach, you must be aware it is the least FAIR possible. FAIR principles will have a different degree of importance in each of the four phases of the material life cycle: development, delivery, sharing, and archiving. 
 
-Here, we will describe a few platforms that can be used to host and share your materials in all four phases of their life cycle (development, delivery, sharing, and archiving),  thus ensuring a higher degree of FAIRness. 
-The platforms we will discuss are: Google Suite, GitHub and GitLab, Zenodo, Learning Management systems. We chose them as they are free, they include different features, and they are very commonly used in training. We will see which platforms are better to use in each phase of materials life cycle and why and what are the pros and cons of each platform according to FAIR principles.
+Here, we will describe a few platforms - Google Suite, GitHub and GitLab, Zenodo, Learning Management systems - that can be used to host and share your materials in all four phases of their life cycle,  thus ensuring a higher degree of FAIRness. We chose them because they are free, include different features, and are very commonly used in training. We will see which of those platforms is better to use in each phase of the materials life cycle and why and what are the pros and cons of each platform according to FAIR principles.
 
-### LO: Describe the four phases of training materials life cycle (development, running course, sharing, archiving)
-
-Minimum content to achieve the LO: The training materials life cycle is made up of four phases: development, delivery, sharing, and archiving. 
+## The four phases of training materials life cycle
 
 **Phase 1 - Development**
 
@@ -105,10 +101,7 @@ As phase 3, archiving might not always happen. This is the case when you are not
 
 **Figure 3.1 A schematic representation of the training materials life cycle.** Dashed arrows mean that the following phase may or may not happen. Each phase cell also includes circles, indicating whose needs should the platform of choice mostly take into account (trainers or learners).
 
-### LO: Describe how to use the Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS) 
-
-Minimum content to achieve the LO: 
-Present (as example) Google Suite, GitHub and Gitlab, Zenodo, Learning Management Systems.
+## Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS) 
 
 There are several platforms and systems out there, and we don’t have the intention to give an extensive and exhausting list of tools. We have chosen to focus on the following four systems because they are free, they are quite simple to use and are very commonly used in training, and also because they include different features that facilitate the FAIRness of materials:
 
@@ -117,17 +110,15 @@ There are several platforms and systems out there, and we don’t have the inten
 - Zenodo is a platform to upload materials of different formats and annotate them with metadata. Each upload corresponds to one version which once uploaded cannot be edited. Uploading to Zenodo allows the assignment of a DOI. 
 - Learning management systems are applications to support the learning, sometimes including assessment and other personalised features. “Moodles” (e.g. Coursera) are LMSs. Usually they have standardised metadata and self-learning features. The materials are not always downloadable.
 
-_Learning experience:_
+!!! example "Exercise"
 
-Exercise: think about / share in groups which ones you used in the past and test quickly those you never used to answer the following questions:
-- Do you need an account to access the platforms? Does your account need permissions to view someone else’s project?
-- How do you search for someone else’s project on the platform? Does the search include parameters, e.g. date of creation? 
-- How would you add a new project? Is there an option to make it private or accessible only to selected users?
-- In which of the four phases (development, delivery, sharing, archiving) will the platform “accept” your project? Multiple answers are possible.
+    Think about / share in groups which ones you used in the past and test quickly those you never used to answer the following questions:
+        - Do you need an account to access the platforms? Does your account need permissions to view someone else’s project?
+        - How do you search for someone else’s project on the platform? Does the search include parameters, e.g. date of creation? 
+        - How would you add a new project? Is there an option to make it private or accessible only to selected users?
+        - In which of the four phases (development, delivery, sharing, archiving) will the platform “accept” your project? Multiple answers are possible.
 
-### LO: List the long-term implications of choosing technologies such as Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS) 
-
-( Google Suite, GitHub and GitLab, Zenodo, Learning Management) 
+## Long-term implications of choosing one of the platforms 
 
 Depending on the phases of the training materials life-cycle, long term may mean different things. First ones are very short and mid-term bound (you have a course for a deadline). Archiving is long term.
 
@@ -135,7 +126,7 @@ By being free, we can’t ensure that these platforms will leave forever, but we
 
 When we think about long-term implications, the time frame can vary from some months to some years (2, 5, 10 years from now, or forever for the posterity). Some topics may live well for a long time. For instance, a course on UNIX will live well for many months and years, because the “language” does not vary frequently over time, and 10 years can still be a reasonable long-term goal. 
 
-### LO: Compare the advantages and disadvantages of the platforms in each of the four phases
+## Advantages and disadvantages of the platforms in each of the four phases
 
 As anticipated in Figure 3.1, in different phases you might need to prioritise the needs of different types of audiences, and choose your platform accordingly. This should really be a case-by-case analysis and we don’t aim at covering all the possible needs in this analysis, but we will summarise in the following paragraph the most common features to take into account in choosing a platform for each of the different phases. We will treat each phase separately, but we acknowledge that you might want to prioritise some more than others to minimise the number of platforms used in the entire process. 
 
@@ -157,7 +148,7 @@ As anticipated in Figure 3.1, in different phases you might need to prioritise t
 
 - xxx
 
-### LO: For each phase, explain how to interpret FAIR principles 
+## The life-cycle of training materials and the FAIR principles 
 
 Recap of the four phases:
 - Materials development (collaborative or not),
@@ -200,23 +191,23 @@ Potentially, one could compile a three dimensional table to discuss this topic, 
 | Interoperable | | | | |
 | Reusable | | | | |
 
-_Learning experience:_
+!!! example "Exercise"
 
-Exercise: Fill (alone or in groups) table 1.3, “Phases x FAIR”. 
+    Fill (alone or in groups) table 1.3, “Phases x FAIR”. 
 
 ### LO: For each phase, identify platforms that best comply with the FAIR principles according to user’s needs and priorities 
 
 In the discussion above, you might be more interested in considering a specific phase (because, for example, that’s the phase where your course is in) or a specific letter of FAIR (because, for example, you have been asked by your institution to improve that aspect of your training materials). Your aim is to understand which platforms would better comply with either one or the other, so basically to focus on specific row(s) of the other two tables. There is not one solution that works for all cases, and FAIRification is a process that starts from your priorities and implies the adoption of increasingly better practices to achieve them, and enhance the quality of your training materials. 
 
-_Learning experience: Take the time to consider your needs._
+!!! example "Exercise"
 
-Exercise: Highlight the columns in tables 1.2 “Phases x Platforms” and 1.3 “FAIR x Platforms” that you consider more relevant for your specific case. Fill each column consulting all the platforms, especially those that you never used. 
+    Highlight the columns in tables 1.2 “Phases x Platforms” and 1.3 “FAIR x Platforms” that you consider more relevant for your specific case. Fill each column consulting all the platforms, especially those that you never used. 
 
 ### LO: Documenting/justifying their choices for a given learning platform
 
-_Learning experience: Justify your choices._
+!!! example "Exercise" Documenting/justifying their choices for a given learning platform
 
-Exercise: By looking at the tables you filled in the previous learning activity, choose one platform (or more, for different phases). Justify your choice by comparing the advantages and disadvantages of that platform with the others.
+    By looking at the tables you filled in the previous learning activity, choose one platform (or more, for different phases). Justify your choice by comparing the advantages and disadvantages of that platform with the others.
 
 ## Evaluate yourself
 
