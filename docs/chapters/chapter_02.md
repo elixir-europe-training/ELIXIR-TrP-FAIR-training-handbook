@@ -40,8 +40,27 @@ Table !!!! Add here !!!
 
      Make a list of the most popular formats (according to your experience) and write, for each of them, main advantages and disadvantages in terms of FAIRness.
 
+Table !!!! Add here !!!
+
+!!! example "Exercise"
+
+     Compare the list to Table 1 from the [10 simple rules paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854#sec007)
 
 
+## Formats that facilitate interoperability and reusability 
 
+The term interoperability in training materials can be relatively obscure. Still, in this section, we will provide a definition of interoperability for training materials, and we will explain how this concept is related to the idea of reusability. Regarding reusability, it is essential to make a distinction between:
+1. Reusing parts of material by repurposing it for a new context or integrating it into another set of materials
+2. Reusing the material exactly as it is
 
+File formats will have different implications in the context of FAIRness depending on the two types of material reuse. Some formats facilitate FAIRness while others don’t. To understand which formats facilitate interoperability and reusability, we must first understand these two concepts in the context of training and training materials. 
 
+!!! example "Exercise"
+
+     Read Rule 6 from the 10 simple rules paper, which is mainly about interoperability [10 simple rules paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854#sec007)
+
+The key point of Rule 6 is: “Training materials need to be captured in interoperable formats, so that they can be used in different contexts (e.g., operating systems and software) and built upon later. For materials like slides, it is important that other trainers are able to (re)use, fine-tune or even extend them. This means that you should choose a format that supports editing and extension. 
+
+Put in simple terms, training material is interoperable when we are able to take parts of it, like slides, exercises, images, etc., and incorporate them in other course material or export it in a different context, as well as fix errors or extend it. This is doable to different extent depending on the material format. Taking parts of a video or modifying a pdf is not impossible, but often requires a licence for the appropriate software or skills not easy to own. Using, e.g., text or markdown files will facilitate the updates of materials or their integration into a new context or a different set of materials. 
+Interoperable formats, according to this definition, facilitate the reuse of materials as described in point 1 above. 
+Does interoperability always implies reusability? Does a format that supports material editing and extension guarantee that the material can be easily reused? In principle yes, but it is not always the case. 
