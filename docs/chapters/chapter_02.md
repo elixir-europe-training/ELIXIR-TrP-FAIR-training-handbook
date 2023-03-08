@@ -38,10 +38,9 @@ Each type of material can be captured in a variety of formats. Each format has a
 | --- | --- | --- |
 | pdf | partially | yes | 
 | | *A pdf can be read in any OS, but to modify it you need to pay a licence* | *Only as is* | 
-| | *Explanation | Explanation* | 
+| | *Explanation* | *Explanation* | 
 | | yes/no/partially | yes/no/partially | 
-| | *Explanation | Explanation* | 
-
+| | *Explanation* | *Explanation* | 
 
 
 !!! example "Exercise"
