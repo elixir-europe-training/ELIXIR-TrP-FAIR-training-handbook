@@ -113,12 +113,14 @@ There are several platforms and systems out there, and we don’t have the inten
 !!! example "Exercise"
 
     Think about / share in groups which ones you used in the past and test quickly those you never used to answer the following questions:
-        - Do you need an account to access the platforms? Does your account need permissions to view someone else’s project?
-        - How do you search for someone else’s project on the platform? Does the search include parameters, e.g. date of creation? 
-        - How would you add a new project? Is there an option to make it private or accessible only to selected users?
-        - In which of the four phases (development, delivery, sharing, archiving) will the platform “accept” your project? Multiple answers are possible.
+    - Do you need an account to access the platforms? Does your account need permissions to view someone else’s project?
+    - How do you search for someone else’s project on the platform? Does the search include parameters, e.g. date of creation? 
+    - How would you add a new project? Is there an option to make it private or accessible only to selected users?
+    - In which of the four phases (development, delivery, sharing, archiving) will the platform “accept” your project? Multiple answers are possible.
 
 ## Long-term implications of choosing one of the platforms 
+
+**section incomplete**
 
 Depending on the phases of the training materials life-cycle, long term may mean different things. First ones are very short and mid-term bound (you have a course for a deadline). Archiving is long term.
 
@@ -138,9 +140,12 @@ As anticipated in Figure 3.1, in different phases you might need to prioritise t
 
 **In Phase 2, Delivery:**
 
-- This phase is about the needs of learners.
+- We would argue that during the course delivery you, together with all the trainers, are the main user of the training materials. When considering the platform to use during the delivery, prioritise the format and tools that simplify and support better the trainers. This will in turn ensure the best possible delivery quality. 
+- Examples of questions to be asked in this regard are: are the trainees viewing the same information than the trainer does? E.g. do trainers need to visualise notes on the side? If so, how will the platform allow that? You probably want to minimise the channels splitting the attention of both the trainees and the trainers, providing them all the necessary information but not more. 
+- Another set of questions can be: how easy should it be for trainers and trainees to live edit training materials during the course? Where and how will they follow practical activities? Do they need collaborative documents for that? And how and how long will they need to access the documents then?
+- In this phase, keep accessibility and inclusivity in mind: e.g. will any of your learners be facilitated if you provide trascripts during an online lesson? 
 
-**In Phase 3, Sharing: **
+**In Phase 3, Sharing:**
 
 - xxx
 
