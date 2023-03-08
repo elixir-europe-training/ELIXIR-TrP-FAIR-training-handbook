@@ -34,7 +34,15 @@ Each type of material can be captured in a variety of formats. Each format has a
 
      Identify possible formats for each type of material. Which format(s) do you mostly adopt? Why?
 
-Table !!!! Add here !!!
+| Formats | Interoperability | Reusability |
+| --- | --- | --- |
+| pdf | partially | yes | 
+| | *A pdf can be read in any OS, but to modify it you need to pay a licence* | *Only as is* | 
+| | *Explanation | Explanation* | 
+| | yes/no/partially | yes/no/partially | 
+| | *Explanation | Explanation* | 
+
+
 
 !!! example "Exercise"
 
@@ -111,7 +119,7 @@ There are a few effective ways to do this:
 
 !!! example "Exercise"
 
-Reflect on the following:
+     Reflect on the following:
      - How do you document your training material?
      - What other option do you know?
      
