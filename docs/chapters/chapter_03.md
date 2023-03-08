@@ -147,11 +147,16 @@ As anticipated in Figure 3.1, in different phases you might need to prioritise t
 
 **In Phase 3, Sharing:**
 
-- xxx
+- Sharing will allow you to strengthen your training community, both in terms of increasing the number of trainers, facilitate their collaboration and reaching more trainees. In this phase, findability is to be prioritised, to ensure to be visible to a diversity of stakeholders. 
+- Examples of questions to be asked in this context are: what is the platform to which your stakeholder audiences already have access, or the skills to navigate and search in it? Does the platform allow searching in the first place?
+- Or additionally, will you allow download of the training materials and will learners be able to share them with peers independently? Would you allow that, or would you prefer all trainees to access them through the same platform, also for usage mapping?
+- Finally, is there any additional information that learners need to access together with the materials? How will the platform you use support the link between multiple types of information sources, if that's the case (e.g. videos of your lessons and slides)? 
+- A similar question for other potential trainers: do they need to access a trainers guide? How will you ensure that they are provided it, and if you plan to provide two different "trainers" and "learners" guides, how do you plan to guide them to the right document?
 
 **In Phase 4, Archiving:**
 
-- xxx
+- In this phase (if it happens), what you probably want is to secure an history of your training materials in a safe place, from where eventually others can access them. You are not aiming at enlarging the community of people that access them at this point, but consider that ensuring access from different institutitutions, for example, can become useful for you if you change your job position. Once again, everything you do to allow access to others can be useful to you in the future.
+- Finally, consider that ensuring an archive of all your training materials creates demonstrators for your career development and your job applications, and your role as expert trainer in all other professional contexts. 
 
 ## The life-cycle of training materials and the FAIR principles 
 
