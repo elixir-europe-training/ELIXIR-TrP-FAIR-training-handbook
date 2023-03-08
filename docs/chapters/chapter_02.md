@@ -87,7 +87,13 @@ However, what if the presentation was in pdf? Unless you had a licence allowing 
 
      Consider the list in table 2. For each format, specify whether it is interoperable, reusable or both and explain the reason for your opinion. 
      
- Table !!!! Add here !!!
+     | Formats | Interoperability | Reusability |
+     | --- | --- | --- |
+     | pdf | partially | yes | 
+     | | *A pdf can be read in any OS, but to modify it you need to pay a licence* | *Only as is* | 
+     | | *Explanation* | *Explanation* | 
+     | | yes/no/partially | yes/no/partially | 
+     | | *Explanation* | *Explanation* | 
 
 ## Documenting training materials for stand-alone re-usability
 
