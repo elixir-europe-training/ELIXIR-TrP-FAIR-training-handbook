@@ -18,16 +18,15 @@ Here, we will describe a few platforms that can be used to host and share your m
     **At the end of this chapter you should be able to:**
     
     1. Describe the four phases of training materials life cycle (development, running course, sharing, archiving) 
-    2. Describe how to use the Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS) 
+    2. Describe why to use the Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS) 
     3. List the (long-term) implications in terms of FAIR of choosing technologies such as Google Suite, GitHub/GitLab, Zenodo, a web portal and a Learning Management System (LMS)
     4. Compare the advantages and disadvantages of the platforms in each of the four phases
     5. For each phase, explain how to interpret FAIR principles
     6. For each phase, identify platforms that best comply with the FAIR principles according to user’s needs and priorities
-    7. Document/justify their choices for a given learning platform
+    7. Document/justify your choices for a given learning platform
+    8. Set up your training environment according to these guidelines
 
 <!---    Optional Training objectives:
-
-    1. Optional: Set up your training environment according to these guidelines
     1. Optional, Evaluate: Set up markdown driven training environments with continuous integration
 --->
 
