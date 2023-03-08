@@ -107,11 +107,11 @@ There are a few effective ways to do this:
 
  Documenting training materials makes training materials easily reusable not only by other trainers but also by yourself in the future. It is an excellent practice for any material, especially when it is not self-explanatory like the slides described above ([String Database (by Lars Juhl Jensen)](https://www.slideshare.net/larsjuhljensen/the-string-database)).
  
- > "The secret to good documentation is to write it while you're writing the code. You are your first audience. Explain what you're doing to yourself. Future you will thank you!" —- Victoria Drake November 24, 2020 –
+ > "The secret to good documentation is to write it while you're writing the code. You are your first audience. Explain what you're doing to yourself. Future you will thank you!" — *Victoria Drake November 24, 2020* –
 
 !!! example "Exercise"
 
-     Reflect on the following:
+Reflect on the following:
      - How do you document your training material?
      - What other option do you know?
      
