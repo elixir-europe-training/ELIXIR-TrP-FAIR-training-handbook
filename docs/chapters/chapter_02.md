@@ -70,6 +70,7 @@ Each type of material can be captured in a variety of formats. Each format has a
 ## Formats that facilitate interoperability and reusability 
 
 The term interoperability in training materials can be relatively obscure. Still, in this section, we will provide a definition of interoperability for training materials, and we will explain how this concept is related to the idea of reusability. Regarding reusability, it is essential to make a distinction between:
+
      1. Reusing parts of material by repurposing it for a new context or integrating it into another set of materials
      2. Reusing the material exactly as it is
 
