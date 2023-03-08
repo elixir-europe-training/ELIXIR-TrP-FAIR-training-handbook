@@ -54,7 +54,13 @@ Each type of material can be captured in a variety of formats. Each format has a
 
      Make a list of the most popular formats (according to your experience) and write, for each of them, main advantages and disadvantages in terms of FAIRness.
 
-Table !!!! Add here !!!
+     | Format | Advantages | Disadvantages |
+     | --- | --- | --- |
+     | | | |
+     | | | |
+     | | | |
+     | | | |
+     | | | |
 
 !!! example "Exercise"
 
