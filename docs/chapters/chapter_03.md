@@ -119,13 +119,11 @@ There are several platforms and systems out there, and we don’t have the inten
 
 ## Long-term implications of choosing one of the platforms 
 
-**section incomplete**
+In this section, we would like to highlight an aspect of choosing training platforms that is often not prioritised in the urge of the preparation to training: the long-term implications. Will your platform support access to / usage of the training materials in the long run? Depending on the phases of the training materials life-cycle, long term may mean different things. The first two phases are short and mid-term bound (you have a deadline for a course, and you need to design and deliver it according to the deadlines). Sharing and archiving instead is a long term strategy.
 
-Depending on the phases of the training materials life-cycle, long term may mean different things. First ones are very short and mid-term bound (you have a course for a deadline). Archiving is long term.
+When thinking about the long-term implications, in particular for the phases of development, delivery and sharing, consider the lifetime of the trainign content. The time frame can vary from some months to some years (2, 5, 10 years from now, or forever for the posterity). Some topics may live well for a long time. For instance, a course on UNIX will live well for many months and years, because the “language” does not vary frequently over time, and 10 years can still be a reasonable long-term goal. Besides when archiving, you probably will not be particularly interested in enhancing FAIRness of outdated materials.
 
-By being free, we can’t ensure that these platforms will leave forever, but we may be confident that some will leave a …. Zenodo long term commitment from funders
-
-When we think about long-term implications, the time frame can vary from some months to some years (2, 5, 10 years from now, or forever for the posterity). Some topics may live well for a long time. For instance, a course on UNIX will live well for many months and years, because the “language” does not vary frequently over time, and 10 years can still be a reasonable long-term goal. 
+When you sign a contract or pay for the usage of a platform, the validity and duration of the service is usually explicited in the contract itself, so you will be able to evaluate if that fits your aims. If instead you choose a free platform, you will need to dig more for this type of information. Zenodo, for example, has a long term commitment towards funders, so the platform commits to a specific time range. Other tools don't provide the same type of commitment, and tools that have a free version but also a business behind might have some features only available under payment (in some cases, only after some time). Open source and free platforms are those that are more likely to ensure a stricht commitments, but we suggest you consider that when a large community of users is behind those tools, the community ensure its continuity. In addition, you will probably have people to contact for guidance in using the platform and request features to. 
 
 ## Advantages and disadvantages of the platforms in each of the four phases
 
