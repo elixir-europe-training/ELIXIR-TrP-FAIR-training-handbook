@@ -136,10 +136,10 @@ There are a few effective ways to do this:
 
 | Teaching Objective | Learning Outcome | Learning Experience | Training material | Time of delivery | 
 | --- | --- | --- | --- | --- |
-|Introduce Network Biology. Why networks?| Explain the importance of networks in biology | Watch a video | Video "Biological networks" ([link]) |20 mins |
-|Explain key points of graph theory| List the key points of graph theory | Lecture + group discussion and concept map | Google slides "Introduction to Graph Theory" ([link])
-|Quickly describe Cytoscape| Describe the main features of Cytoscape | Virtual tour of Cytoscape | Introduction to Cytoscape (Cytoscape tutorial) ([link])
-|Introduce network analysis with Cytoscape | Combine expression and network data using Cytoscape | Tutorial | Basic Data Visualization (Cytoscape tutorial)([link])|
+|Introduce Network Biology. Why networks?| Explain the importance of networks in biology | Watch a video | Video "Biological networks" ([link]()) |20 mins |
+|Explain key points of graph theory| List the key points of graph theory | Lecture + group discussion and concept map | Google slides "Introduction to Graph Theory" ([link]())| 45 min |
+|Quickly describe Cytoscape| Describe the main features of Cytoscape | Virtual tour of Cytoscape | Introduction to Cytoscape (Cytoscape tutorial) ([link]())| 15 mins |
+|Introduce network analysis with Cytoscape | Combine expression and network data using Cytoscape | Tutorial | Basic Data Visualization (Cytoscape tutorial)([link]())| 130 mins |
 
  Documenting training materials makes training materials easily reusable not only by other trainers but also by yourself in the future. It is an excellent practice for any material, especially when it is not self-explanatory like the slides described above ([String Database (by Lars Juhl Jensen)](https://www.slideshare.net/larsjuhljensen/the-string-database)).
  
