@@ -90,9 +90,9 @@ Does interoperability always implies reusability? Does a format that supports ma
 
      Have a look at the slides on the [String Database (by Lars Juhl Jensen)](https://www.slideshare.net/larsjuhljensen/the-string-database) on Slideshare. Imagine the slides were downloadable in pptx format. 
 
-1. Could the presentation be extended?
-2. Could you choose a few slides and incorporate them in your presentation?
-3. Could you easily fix a typo?
+     1. Could the presentation be extended?
+     2. Could you choose a few slides and incorporate them in your presentation?
+     3. Could you easily fix a typo?
      
 If you answered yes to the three questions above, it is likely that the String Database materials are interoperable, but not necessarily easy to reuse (see the next session). 
 
