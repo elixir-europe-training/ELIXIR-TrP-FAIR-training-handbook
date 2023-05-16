@@ -9,7 +9,11 @@ tags:
     - Social media
 
 ---
- 
+!!! Checklist  
+
+    9.1 Add or link your materials in training registries (eg TeSS), collections of materials (Glittr, GOBLET), etc.
+    9.2 Communicate and share this information with the world through: social media, mailing lists, blogs, conferences, your own channels, etc.
+
 ## Description
 
 This chapter explains how to let learners, other trainers, and anyone interested in the topic of your training materials discover them, i.e., public relations. We will provide examples of platforms you can use to communicate and let the world know about your materials.
