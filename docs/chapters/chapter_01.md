@@ -14,7 +14,7 @@ tags:
 ---
 <!-- Chapter: Why FAIR training & training materils -->
 
-!!! Checklist
+!!! Checklist  
 
     - Congrats, by reading so far, you are already making the first steps to make your training materials FAIR. Just keep reading the rest of the handbook.
 
