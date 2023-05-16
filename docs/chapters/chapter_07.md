@@ -7,7 +7,12 @@ tags:
 ---
 <!-- Chapter title: Make it reusable --> 
 
+!!! Checklist
+    - Choose the metadata (data about the data) descriptors that you will use to describe your materials, and that is the most commonly used by your community
+    - Provide as many metadata as possible that best describe your materials
+    - Insert the metadata in a Readme file, in your slides, anywhere that it is easy by humans and machines to find/read them
 
+    
 ## Description
 
 In this chapter, we explore the type of information required for people to decide if and how they can reuse training materials they are otherwise unfamiliar with. This information is an important part of the metadata and should be included alongside the materials. We consider existing metadata recommendations for training materials and different ways of representing this information in a detailed but logical and useful format.
@@ -163,17 +168,6 @@ Here are some recommendations to help get you started:
 * [SIB First steps with Python in Life Sciences](https://github.com/sib-swiss/first-steps-with-python-training/) (README file)
 * A training dataset/Slide deck
 
-!!! Checklist
-
-    * Collate metadata
-
-    * Share metadata alongside the materials
-
-    * Write learning outcomes in a SMART format
-
-    * Include detailed but brief information in the metadata to allow others to understand the context in which the training materials were originally used.
-
-    * Choose keywords from an ontology or controlled vocabulary that is relevant to your field
 
 ## Resources and references
 \bibliography
