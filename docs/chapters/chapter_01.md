@@ -14,6 +14,11 @@ tags:
 ---
 <!-- Chapter: Why FAIR training & training materils -->
 
+!!! Checklist
+
+    - Congrats, by reading so far, you are already making the first steps to make your training materials FAIR. Just keep reading the rest of the handbook.
+
+
 ## Description
 
 In this chapter we explain what the FAIR principles are, the importance of these principles and their increased adoption over the years, as well as the pros and cons of making training materials FAIR. We will give a brief history of FAIR data, and how these principles were extended and adapted to training materials. 
