@@ -7,10 +7,10 @@ tags:
 
 !!! Checklist  
 
-    - Clearly label your materials with the chosen licence
-    - Include your contact information in case anyone needs to ask you any questions about your materials or their use 
-    - Cite any other creators’ materials that you include in yours - do not reuse others’ works if you are not sure about their permissions 
-    - Check with your institute/company if there are any specific licence rules or guidance 
+    8.1 Clearly label your materials with the chosen licence
+    8.2 Include your contact information in case anyone needs to ask you any questions about your materials or their use 
+    8.3 Cite any other creators’ materials that you include in yours - do not reuse others’ works if you are not sure about their permissions 
+    8.4 Check with your institute/company if there are any specific licence rules or guidance 
 
 ## Description
 
