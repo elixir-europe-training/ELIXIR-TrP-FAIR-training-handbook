@@ -11,8 +11,8 @@ tags:
 
 !!! Checklist  
 
-    - Choose a format (Google slides, Google Docs, text files, including .md files, data files, image formats) for your  training material that will facilitate FAIRness, i.e. others (and you) can edit, extend, modify without the need of proprietary tools.
-    - Provide information with the material that explains its purpose, how the material should be used (for self-learning, in classroom teaching) and delivered (mode of delivery), add a lesson plan - any information that will help other trainers to reuse it.
+    2.1 Choose a format (Google slides, Google Docs, text files, including .md files, data files, image formats) for your  training material that will facilitate FAIRness, i.e. others (and you) can edit, extend, modify without the need of proprietary tools.
+    2.2 Provide information with the material that explains its purpose, how the material should be used (for self-learning, in classroom teaching) and delivered (mode of delivery), add a lesson plan - any information that will help other trainers to reuse it.
 
 
 ## Description
