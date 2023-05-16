@@ -5,6 +5,13 @@ tags:
   - Accessibility
 ---
 
+!!! Checklist  
+
+    - Clearly label your materials with the chosen licence
+    - Include your contact information in case anyone needs to ask you any questions about your materials or their use 
+    - Cite any other creators’ materials that you include in yours - do not reuse others’ works if you are not sure about their permissions 
+    - Check with your institute/company if there are any specific licence rules or guidance 
+
 ## Description
 
 This chapter will explain how you can encourage use and reuse of training materials through choosing appropriate licences. It will cover the different licence options available to date and consider the implications for users. It will also explain the practicalities of implementing your chosen licences and give an awareness of common issues to consider. 
@@ -97,13 +104,6 @@ Logos and images that illustrate the chosen licence can be a great way of adding
 If you wish to reuse someone else’s materials you must first check that the licence they have applied to them allows it. You will also need to ensure that you recognise and cite their work appropriately (<a href="https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_10/">see Chapter 10</a>).
 
 The licence that you can apply to the new version of the materials depends on the original licence and how you have changed, adapted or remixed the materials. Creative Commons provides a <a href="https://certificates.creativecommons.org/cccertedu/chapter/4-4-remixing-cc-licensed-work/">guide on how to do this in different situations</a>.
-
-!!! Checklist 
-
-    - Clearly label your materials with the chosen licence
-    - Include your contact information in case anyone needs to ask you any questions about your materials or their use 
-    - Cite any other creators’ materials that you include in yours - do not reuse others’ works if you are not sure about their permissions 
-    - Check with your institute/company if there are any specific licence rules or guidance 
 
 ## Next steps
 
