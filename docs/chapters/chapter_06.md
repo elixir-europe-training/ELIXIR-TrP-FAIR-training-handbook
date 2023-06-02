@@ -10,10 +10,15 @@ tags:
 !!! Checklist  
 
     6.1 Unless it is constrained by your choice on chapter 3.1, choose a standard protocol (http, ftp, api, etc) to make your materials accessible.
+    
     6.2 Decide the type of access to your materials: open, registered, controlled and included in the training metadata as in item 4.3.
+    
     6.3 Make accessible, at minimum, the metadata, URL and unique identifier of your materials.
+    
     6.4 Display the type of access (open, registered, controlled) together with the training metadata as in item 4.3, and in a language in accordance with the community you want to share your material with (e.g. English for a broader outreach, or Italian if your community is mainly Italian native speakers).
+    
     6.5 Ensure you consider the accessibility of your learners e.g. those with visual or other accessibility requirements.
+
 
 ## Description
 
