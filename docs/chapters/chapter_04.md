@@ -10,9 +10,13 @@ tags:
 !!! Checklist  
 
     4.1 Choose a metadata standard used by your community - Bioschemas or RDA.
+    
     4.2 Describe your training material using the properties of that metadata standard.
+    
     4.3 Add the metadata into a README file, with the materials, or in the HTML/GitHub page where your training materials can be found, or within the training material itself (a ppt or pdf for instance).
+    
     4.4 Use a validator to check the metadata you added.
+    
 
 ## Description
 Metadata can be defined as data used to describe _other data_. That _other data_ is complete on its own even without the metadata; however, the metadata makes it easier, for instance, to quickly grasp what that _other data_ is about and to establish some common parameters that can be used to find and compare similar data, even if you have no access to that _other data_. This chapter will focus on explaining how to annotate training materials and events with rich metadata to improve their Findability, Interoperability, and Reusability.
