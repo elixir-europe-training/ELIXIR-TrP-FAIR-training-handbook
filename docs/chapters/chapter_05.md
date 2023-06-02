@@ -11,8 +11,11 @@ tags:
 !!! Checklist  
 
     5.1 Give your training material a PID, e.g. a DOI.
+    
     5.2 Give yourself a PID, e.g. an ORCID.
+    
     5.3 Add these unique identifiers to the training materials metadata.
+
 
 ## Description
 In this chapter, we present what a persistent identifier (PID) is, and how to get one for your training materials. This step is essential to achieving FAIR training materials, as it is  directly linked to Findability and Reuse. By getting a PID, the visibility of your work is enhanced, and the associated deposit works as a backup of your work by handing over the maintenance to the designated repository.
