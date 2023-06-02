@@ -10,7 +10,9 @@ tags:
 !!! Checklist
 
     7.1 Choose the metadata (data about the data) descriptors that you will use to describe your materials, and that is the most commonly used by your community
+    
     7.2 Provide as many metadata as possible that best describe your materials
+    
     7.3 Insert the metadata in a Readme file, in your slides, anywhere that it is easy by humans and machines to find/read them
 
     
