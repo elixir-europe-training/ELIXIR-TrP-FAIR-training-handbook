@@ -12,7 +12,9 @@ tags:
 !!! Checklist  
 
     9.1 Add or link your materials in training registries (eg TeSS), collections of materials (Glittr, GOBLET), etc.
+    
     9.2 Communicate and share this information with the world through: social media, mailing lists, blogs, conferences, your own channels, etc.
+
 
 ## Description
 
