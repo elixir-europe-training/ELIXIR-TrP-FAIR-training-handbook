@@ -1,0 +1,243 @@
+{
+  "upload_type": ["lesson"],
+  "title": ["ELIXIR fair training handbook"],
+  "license": ["cc-by-sa-4.0"],
+  "creators": [
+    {
+      "name": "Alexandra Holinski"
+    },
+    {
+      "name": "Alexia Cardona",
+      "affiliation": "ELIXIR-UK",
+      "orcid": "0000-0002-7877-5565",
+      "github": "ac812"
+    },
+    {
+      "name": "Alice Matimba"
+    },
+    {
+      "name": "Allegra Via",
+      "affiliation": "ELIXIR-IT, Sapienza University of Rome",
+      "github": "allegravia"
+    },
+    {
+      "name": "Anastasios Anastasios Papaioannou",
+      "affiliation": "Intersect Australia",
+      "orcid": "0000-0002-8959-4559"
+    },
+    {
+      "name": "Anna Swan",
+      "affiliation": "EMBL-EBI",
+      "orcid": "0000-0003-1810-3756",
+      "github": "annaswan1"
+    },
+    {
+      "name": "Bruna Piereck",
+      "affiliation": "Elixir-Belgium / VIB",
+      "orcid": "0000-0001-5958-0669",
+      "github": "bpiereck"
+    },
+    {
+      "name": "Celia van Gelder",
+      "affiliation": "DTL, ELIXIR-NL, Health-RI",
+      "orcid": "0000-0002-0223-2329",
+      "github": "celiavg"
+    },
+    {
+      "name": "Daniel Thomas Lopez"
+    },
+    {
+      "name": "Daniel Wibberg",
+      "affiliation": "ELIXIR-DE, FZ Jülich",
+      "orcid": "0000-0002-1331-4311",
+      "github": "dwibberg"
+    },
+    {
+      "name": "Fred de Lamotte",
+      "affiliation": "ELIXIR-FR",
+      "orcid": "0000-0003-4234-1172",
+      "github": "FraggyFred"
+    },
+    {
+      "name": "Geert van Geest",
+      "affiliation": "ELIXIR-CH, SIB Swiss Institute of Bioinformatics",
+      "orcid": "0000-0002-1561-078X",
+      "github": "geertvangeest"
+    },
+    {
+      "name": "Helen Clare",
+      "affiliation": "Jisc, EOSC Synergy, EOSC Future",
+      "orcid": "0000-0002-6656-3012"
+    },
+    {
+      "name": "Helena Schnitzer",
+      "affiliation": "ELIXIR-DE, FZ Jülich",
+      "orcid": "0000-0002-6382-9452",
+      "github": "HelenaSchnitzer"
+    },
+    {
+      "name": "Hélène  Chiapello",
+      "affiliation": "ELIXIR-FR, IFB",
+      "orcid": "0000-0001-5102-0632",
+      "github": "hchiapello"
+    },
+    {
+      "name": "Iryna Kuchma",
+      "affiliation": "EIFL, OpenAIRE",
+      "orcid": "0000-0002-2064-3439",
+      "github": "irynakuchma"
+    },
+    {
+      "name": "Iulianna van der Lek",
+      "affiliation": "CLARIN ERIC",
+      "orcid": "0000-0002-0736-0311",
+      "github": "IvdL22"
+    },
+    {
+      "name": "Kathryn Unsworth",
+      "affiliation": "ARDC",
+      "orcid": "0000-0002-5407-9987"
+    },
+    {
+      "name": "Krzys Poterlowicz",
+      "affiliation": "ELIXIR-UK",
+      "orcid": "0000-0001-6173-5674"
+    },
+    {
+      "name": "Leyla Jael Castro",
+      "affiliation": "ZB MED Information Centre for Life Sciences",
+      "orcid": "0000-0003-3986-0510",
+      "github": "ljgarcia"
+    },
+    {
+      "name": "Lisanna Paladin",
+      "affiliation": "EMBL Heidelberg",
+      "orcid": "0000-0003-0011-9397",
+      "github": "lisanna"
+    },
+    {
+      "name": "Loredana Le Pera",
+      "affiliation": "ELIXIR-IT",
+      "orcid": "0000-0002-0076-9878",
+      "github": "loredanalepera"
+    },
+    {
+      "name": "Lucie Khamvongsa-Charbonnier",
+      "affiliation": "ELIXIR-FR",
+      "orcid": "0000-0002-1194-0546",
+      "github": "lkhamvongsa"
+    },
+    {
+      "name": "Maja Rey",
+      "affiliation": "ELIXIR-DE"
+    },
+    {
+      "name": "Marcela Davila"
+    },
+    {
+      "name": "Maria Doyle"
+    },
+    {
+      "name": "Marta Lloret"
+    },
+    {
+      "name": "Melissa Burke",
+      "affiliation": "Australian BioCommons",
+      "orcid": "0000-0002-5571-8664",
+      "github": "burkemlou"
+    },
+    {
+      "name": "Michelle D Brazas",
+      "affiliation": "OICR",
+      "orcid": "0000-0001-8150-4531"
+    },
+    {
+      "name": "Monique Zahn",
+      "affiliation": "ELIXIR-CH, SIB Swiss Institute of Bioinformatics",
+      "orcid": "0000-0001-7961-6091",
+      "github": "m-zahn"
+    },
+    {
+      "name": "Nazeefa Fatima",
+      "affiliation": "ELIXIR Norway",
+      "orcid": "0000-0001-7791-4984",
+      "github": "Nazeeefa"
+    },
+    {
+      "name": "Nicola Mulder",
+      "affiliation": "H3ABioNet",
+      "orcid": "0000-0003-4905-0941"
+    },
+    {
+      "name": "Olivier Sand",
+      "affiliation": "ELIXIR-FR",
+      "orcid": "0000-0003-1465-1640",
+      "github": "olisand"
+    },
+    {
+      "name": "Patricia Carvajal Lopez"
+    },
+    {
+      "name": "Patricia M. Palagi",
+      "affiliation": "ELIXIR-CH, SIB Swiss Institute of Bioinformatics",
+      "orcid": "0000-0001-9062-6303",
+      "github": "ppalagi"
+    },
+    {
+      "name": "Rachel Berkson"
+    },
+    {
+      "name": "Renato Alves"
+    },
+    {
+      "name": "Roland KRAUSE"
+    },
+    {
+      "name": "Russell Schwartz"
+    },
+    {
+      "name": "Sara El-Gebali",
+      "affiliation": "SciLifeLab-Data Centre + FAIRPoints",
+      "orcid": "0000-0003-1378-5495",
+      "github": "selgebali"
+    },
+    {
+      "name": "Sarah Morgan"
+    },
+    {
+      "name": "Saskia Hiltemann"
+    },
+    {
+      "name": "Shaun Aron"
+    },
+    {
+      "name": "Steven Morgan",
+      "affiliation": "Melbourne Bioinformatics",
+      "orcid": "0000-0001-6038-6126",
+      "github": "stevenjm11"
+    },
+    {
+      "name": "Suzanne Duce"
+    },
+    {
+      "name": "Tarcisio Mendes de Farias",
+      "affiliation": "ELIXIR-CH, SIB Swiss Institute of Bioinformatics",
+      "orcid": "0000-0002-3175-5372",
+      "github": "tarcisiotmf"
+    },
+    {
+      "name": "Vera Matser"
+    },
+    {
+      "name": "Verena Ras",
+      "affiliation": "H3ABioNet, Unviersity of Cape Town",
+      "orcid": "0000-0003-3938-7241",
+      "github": "Verena90"
+    },
+    {
+      "name": "Wai Keat Yam",
+      "affiliation": "APBioNET",
+      "orcid": "0000-0003-4595-2796"
+    }
+  ]
+}
