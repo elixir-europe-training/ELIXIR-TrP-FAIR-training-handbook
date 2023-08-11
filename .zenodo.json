@@ -1,7 +1,7 @@
 {
-  "upload_type": ["lesson"],
-  "title": ["ELIXIR fair training handbook"],
-  "license": ["cc-by-sa-4.0"],
+  "upload_type": "lesson",
+  "title": "ELIXIR fair training handbook",
+  "license": "cc-by-sa-4.0",
   "creators": [
     {
       "name": "Alexandra Holinski"

@@ -26,7 +26,8 @@ zenodo_json <- toJSON(
             "orcid"
         )]
     ),
-    pretty = TRUE
+    pretty = TRUE,
+    auto_unbox = TRUE
 )
 
 write(zenodo_json, ".zenodo.json")
