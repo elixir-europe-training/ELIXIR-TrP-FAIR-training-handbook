@@ -23,8 +23,7 @@ zenodo_json <- toJSON(
         creators = contr_list[, c(
             "name",
             "affiliation",
-            "orcid",
-            "github"
+            "orcid"
         )]
     ),
     pretty = TRUE
