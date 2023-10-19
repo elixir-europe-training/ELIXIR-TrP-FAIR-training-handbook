@@ -1,10 +1,10 @@
-Are you a developer of training material? Do you want to get more community involvement with your training material by making it **Findable** **Accessible** **Interoperable** and **Reusable** (**FAIR**)? Look no further, you are at the right (web)address! The ten [chapters](chapters/Preface.md) provide guidance on how you can FAIRify your training material. 
+Are you a developer of training material? Do you want to get more community involvement with your training material by making it **Findable** **Accessible** **Interoperable** and **Reusable** (**FAIR**)? Look no further, you are at the right (web)address! The ten [chapters](chapters/00_preface.md) provide guidance on how you can FAIRify your training material. 
 
 This is an initiative of the [ELIXIR FAIR training focus group](https://elixir-europe.org/focus-groups/fair-training), and based on the paper describing the 10 simple rules for [FAIR training materials publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854). [@Garcia2020]
 
 ## Directly to the chapters
 
-- [Preface](chapters/Preface.md)
+- [Preface](chapters/00_preface.md)
 - [1. Why FAIR training & training materials?](chapters/chapter_01.md)
 - [2. Choose material types and formats that facilitate FAIRness](chapters/chapter_02.md)
 - [3. Get ready to create your materials or reuse](chapters/chapter_03.md)

@@ -2,7 +2,7 @@ site_name: FAIR training handbook
 nav:
     - Home: index.md
     - Chapters:
-      - "Preface": chapters/Preface.md
+      - "Preface": chapters/00_preface.md
       - "1. Why FAIR training & training materials?": chapters/chapter_01.md
       - "2. Choose material types and formats that facilitate FAIRness": chapters/chapter_02.md
       - "3. Get ready to create your materials or reuse": chapters/chapter_03.md
@@ -13,6 +13,7 @@ nav:
       - "8. Provide a license": chapters/chapter_08.md
       - "9. Boost discoverability": chapters/chapter_09.md
       - "10. Recognition, acknowledgment, authorship": chapters/chapter_10.md
+      - Literature: chapters/literature.md
     - Keywords list: keywords.md
     - Contributors: contributor_list.md
 
