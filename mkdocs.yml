@@ -22,7 +22,9 @@ theme:
   favicon: assets/images/elixir_favicon.ico
   custom_dir: overrides
   features:
-    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - toc.integrate
   font: 
     text: Lato
 
@@ -37,7 +39,7 @@ plugins:
   - search
   - bibtex:
       bib_file: "references.bib"
-  
+  - mkdocs-video # embed videos to the docs
 
 markdown_extensions:
   - abbr
@@ -61,6 +63,8 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
+  - neoteroi.cards
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/neoteroi-mkdocs.css
