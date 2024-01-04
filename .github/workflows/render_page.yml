@@ -1,17 +1,21 @@
 name: render page
-
 on:
   push:
     branches:
-      - main 
+      - main
+  workflow_dispatch:
+  schedule:
+    # every week on Sunday
+    - cron: "0 0 * * 0"
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: 3.x
       - run: |
-          pip install mkdocs-material mkdocs-bibtex neoteroi-mkdocs mkdocs-video
+          pip install -r requirements.txt
           mkdocs gh-deploy --force
