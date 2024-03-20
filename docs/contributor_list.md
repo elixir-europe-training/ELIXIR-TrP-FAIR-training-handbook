@@ -13,6 +13,7 @@
 - Hélène  Chiapello [:custom-orcid:](https://orcid.org/0000-0001-5102-0632/) [:simple-github:](https://github.com/hchiapello/)
 - Iryna Kuchma [:custom-orcid:](https://orcid.org/0000-0002-2064-3439/) [:simple-github:](https://github.com/irynakuchma/)
 - Iulianna van der Lek [:custom-orcid:](https://orcid.org/0000-0002-0736-0311/) [:simple-github:](https://github.com/IvdL22/)
+- Jessica Lindvall [:custom-orcid:](https://orcid.org/0000-0002-5042-8481/) 
 - Kathryn Unsworth [:custom-orcid:](https://orcid.org/0000-0002-5407-9987/) 
 - Krzys Poterlowicz [:custom-orcid:](https://orcid.org/0000-0001-6173-5674/) 
 - Leyla Jael Castro [:custom-orcid:](https://orcid.org/0000-0003-3986-0510/) [:simple-github:](https://github.com/ljgarcia/)

@@ -19,7 +19,8 @@ contr_list <- rename(contr_list, github_name = "GitHub name") |>
             github_name,
             "/)"
         ))
-    )
+    ) |> 
+    arrange(Name)
 
 writeLines(paste(
     "-", contr_list$Name,
