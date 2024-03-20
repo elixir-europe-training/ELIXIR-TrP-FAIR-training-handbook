@@ -12,9 +12,6 @@
       "orcid": "0000-0002-7877-5565"
     },
     {
-      "name": "Alice Matimba"
-    },
-    {
       "name": "Allegra Via",
       "affiliation": "ELIXIR-IT, Sapienza University of Rome"
     },
@@ -37,9 +34,6 @@
       "name": "Celia van Gelder",
       "affiliation": "DTL, ELIXIR-NL, Health-RI",
       "orcid": "0000-0002-0223-2329"
-    },
-    {
-      "name": "Daniel Thomas Lopez"
     },
     {
       "name": "Daniel Wibberg",
@@ -112,19 +106,6 @@
       "orcid": "0000-0002-1194-0546"
     },
     {
-      "name": "Maja Rey",
-      "affiliation": "ELIXIR-DE"
-    },
-    {
-      "name": "Marcela Davila"
-    },
-    {
-      "name": "Maria Doyle"
-    },
-    {
-      "name": "Marta Lloret"
-    },
-    {
       "name": "Melissa Burke",
       "affiliation": "Australian BioCommons",
       "orcid": "0000-0002-5571-8664"
@@ -163,16 +144,7 @@
       "orcid": "0000-0001-9062-6303"
     },
     {
-      "name": "Rachel Berkson"
-    },
-    {
-      "name": "Renato Alves"
-    },
-    {
       "name": "Roland KRAUSE"
-    },
-    {
-      "name": "Russell Schwartz"
     },
     {
       "name": "Sara El-Gebali",
@@ -181,12 +153,6 @@
     },
     {
       "name": "Sarah Morgan"
-    },
-    {
-      "name": "Saskia Hiltemann"
-    },
-    {
-      "name": "Shaun Aron"
     },
     {
       "name": "Steven Morgan",
@@ -200,9 +166,6 @@
       "name": "Tarcisio Mendes de Farias",
       "affiliation": "ELIXIR-CH, SIB Swiss Institute of Bioinformatics",
       "orcid": "0000-0002-3175-5372"
-    },
-    {
-      "name": "Vera Matser"
     },
     {
       "name": "Verena Ras",
