@@ -1,6 +1,8 @@
 library(googlesheets4)
 library(dplyr)
 
+gs4_deauth()
+
 contr_list <- read_sheet("https://docs.google.com/spreadsheets/d/1MRv1CauwmMRM2GCnFBtrfcMyF9hYHbw1slbKb_aXklI/edit#gid=1378181774",
     sheet = "contributors from all events"
 )
