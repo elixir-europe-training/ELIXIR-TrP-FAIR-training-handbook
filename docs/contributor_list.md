@@ -28,7 +28,7 @@
 - Olivier Sand [:custom-orcid:](https://orcid.org/0000-0003-1465-1640/) [:simple-github:](https://github.com/olisand/)
 - Patricia Carvajal Lopez  
 - Patricia M. Palagi [:custom-orcid:](https://orcid.org/0000-0001-9062-6303/) [:simple-github:](https://github.com/ppalagi/)
-- Roland KRAUSE  
+- Roland Krause [:custom-orcid:](https://orcid.org/0000-0001-9938-7126/) [:simple-github:](https://github.com/rolandkrause/)
 - Sara El-Gebali [:custom-orcid:](https://orcid.org/0000-0003-1378-5495/) [:simple-github:](https://github.com/selgebali/)
 - Sarah Morgan  
 - Steven Morgan [:custom-orcid:](https://orcid.org/0000-0001-6038-6126/) [:simple-github:](https://github.com/stevenjm11/)
