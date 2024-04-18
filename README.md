@@ -1,5 +1,9 @@
 # FAIR-training-handbook
 
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8239503.svg)](https://doi.org/10.5281/zenodo.8239503)
+
 **Any issues?** Contact Geert van Geest (@GeertvanGeest)
 
 ## How to contribute (for non-git gurus)
