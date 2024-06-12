@@ -1,4 +1,5 @@
-<p align="center"><img src="../docs/assets/images/FAIRtraining_handbook_with_elixir_logo.svg" width="500"/></p>
+<img src="../docs/assets/images/FAIRtraining_handbook_with_elixir_logo.svg" width="500"/>
+
 
 Are you a developer of training material? Do you want to get more community involvement with your training material by making it **Findable** **Accessible** **Interoperable** and **Reusable** (**FAIR**)? Look no further, you are at the right (web)address! The ten [chapters](chapters/00_preface.md) provide guidance on how you can FAIRify your training material. 
 
@@ -19,3 +20,5 @@ This is an initiative of the [ELIXIR FAIR training focus group](https://elixir-e
 - [10. Recognition, acknowledgment, authorship](chapters/chapter_10.md)
 
 \bibliography
+
+![contribute](../docs/assets/images/click_2_contribute.svg){width="100"}
