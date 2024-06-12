@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/main/docs/assets/images/FAIRtraining_handbook_with_elixir_logo.svg" width="500"/>
+<p align="center"><img src="https://raw.githubusercontent.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/main/docs/assets/images/FAIRtraining_handbook_with_elixir_logo.svg" width="500" /></p>
 
 
 Are you a developer of training material? Do you want to get more community involvement with your training material by making it **Findable** **Accessible** **Interoperable** and **Reusable** (**FAIR**)? Look no further, you are at the right (web)address! The ten [chapters](chapters/00_preface.md) provide guidance on how you can FAIRify your training material. 
