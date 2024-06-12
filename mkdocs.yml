@@ -20,7 +20,7 @@ nav:
 
 theme:
   name: material
-  logo: assets/images/white-orange-logo.png
+  #logo: assets/images/white-orange-logo.png
   logo: assets/images/white_color_logo_fairtrainingHandbook.svg
   favicon: assets/images/fair_handbook_favicon.ico
   custom_dir: overrides
