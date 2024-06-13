@@ -21,3 +21,10 @@ This is an initiative of the [ELIXIR FAIR training focus group](https://elixir-e
 
 \bibliography
 
+_________________________________
+
+
+[![give feedback](../docs/assets/images/small_contribute_button.svg)](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/issues/new)
+
+<span style="font-size:1.5em; color:#bebf32;">Please give us your feedback, we are always working on improving this book to attend the needs of its users. When writing your feedback give it a title specifying if it is a general feedback or chapter specific (in this case add the chapter number or name). Thank you.</span> 
+

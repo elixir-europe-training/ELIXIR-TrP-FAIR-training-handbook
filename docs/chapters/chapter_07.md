@@ -175,3 +175,9 @@ Here are some recommendations to help get you started:
 ## Resources and references
 \bibliography
 
+
+___________________________________________
+
+[![feedback](../assets/images/small_contribute_button_chapter.svg)](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/issues/new)
+
+<span style="font-size:1.5em; color:#bebf32;">Please give us your feedback, we are always working on improving this book to attend the needs of its users. When writing your feedback please add the chapter number or name. Thank you.</span> 

@@ -210,3 +210,9 @@ However, if you are maintaining your own repository of training materials, you w
 
 Now you have completed the chapter, you should have reached the [learning outcomes](#learning-outcomes). Can you explain why PIDs are important for training materials? What is your plan for assigning PIDs to your own materials?
 
+
+___________________________________________
+
+[![feedback](../assets/images/small_contribute_button_chapter.svg)](https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/issues/new)
+
+<span style="font-size:1.5em; color:#bebf32;">Please give us your feedback, we are always working on improving this book to attend the needs of its users. When writing your feedback please add the chapter number or name. Thank you.</span> 
