@@ -2,7 +2,7 @@
 tags:
     - FAIR
     - Open
-    - Findable
+    - Findability
     - Accessibility
     - Interoperability
     - Reusability

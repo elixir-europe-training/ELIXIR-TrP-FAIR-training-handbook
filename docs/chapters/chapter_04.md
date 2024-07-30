@@ -3,8 +3,9 @@ tags:
     - Metadata
     - Controlled vocabularies
     - Annotation
-    - FAIR
     - Bioschemas
+    - Findability
+    - Reusability
 ---
 
 !!! Checklist  

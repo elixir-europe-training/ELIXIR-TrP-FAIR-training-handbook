@@ -7,6 +7,8 @@ tags:
     - Registries
     - Repositories
     - Social media
+    - Reusability
+    - Findability
 
 ---
 !!! Checklist  
