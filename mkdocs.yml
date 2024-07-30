@@ -67,6 +67,7 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
   - neoteroi.cards
+  - addbioschemas
 
 extra_css:
   - stylesheets/extra.css
