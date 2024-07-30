@@ -6,6 +6,8 @@ tags:
     - ORCID
     - PMID
     - Persistent identifier
+    - Findability
+    - Reusability
 ---
 
 !!! Checklist  

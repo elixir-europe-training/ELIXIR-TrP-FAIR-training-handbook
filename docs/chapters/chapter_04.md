@@ -5,6 +5,8 @@ tags:
     - Annotation
     - FAIR
     - Bioschemas
+    - Findability
+    - Reusability
 ---
 
 !!! Checklist  
