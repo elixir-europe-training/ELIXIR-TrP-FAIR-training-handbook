@@ -2,6 +2,7 @@
 
 library(dplyr)
 library(googledrive)
+library(readxl)
 
 drive_deauth()
 
