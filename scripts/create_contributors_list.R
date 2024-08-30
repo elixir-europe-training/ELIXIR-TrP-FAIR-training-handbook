@@ -3,6 +3,8 @@
 library(dplyr)
 library(googledrive)
 
+drive_deauth()
+
 dl <- drive_download(
   as_id(
     "https://docs.google.com/spreadsheets/d/1Nk0Fbx5PtFYxz6xB6YSzLlhHb-N6J2nb/edit?gid=1360009440"
