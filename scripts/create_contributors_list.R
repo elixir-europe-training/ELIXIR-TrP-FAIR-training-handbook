@@ -11,8 +11,7 @@ dl <- drive_download(
     "https://docs.google.com/spreadsheets/d/1Nk0Fbx5PtFYxz6xB6YSzLlhHb-N6J2nb/edit?gid=1360009440"
   ),
   path = "temp1.xlsx",
-  overwrite = TRUE,
-  type = "xlsx"
+  overwrite = TRUE
 )
 
 
