@@ -5,6 +5,7 @@ library(googledrive)
 library(readxl)
 
 drive_deauth()
+drive_auth_configure()
 
 dl <- drive_download(
   as_id(
@@ -14,6 +15,7 @@ dl <- drive_download(
   overwrite = TRUE
 )
 
+drive_api_key()
 
 contr_list <-
   readxl::read_excel("temp1.xlsx", sheet = "contributors from all events")
