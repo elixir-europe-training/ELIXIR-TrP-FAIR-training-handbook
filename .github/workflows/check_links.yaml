@@ -3,7 +3,13 @@ name: Check links
 
 on:
   push:
+    paths:
+      - 'docs/**'
+      - .github/workflows/check_links.yaml
   pull_request:
+    paths:
+      - 'docs/**'
+      - .github/workflows/check_links.yaml
 
 jobs:
   check-links:
