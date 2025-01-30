@@ -69,9 +69,9 @@ There are three Bioschemas profiles related to training: [Course](https://biosch
 
 ## Metadata in action - case studies
 
-1. Metadata in GitHub pages: [How Bioschemas uses the training profiles with GitHub pages and Jekyll](https://bioschemas.org/tutorials/community/training)
+1. There is a dedicated lesson on using bioschemas e.g. in GitHub pages. Find it [here](https://elixir-europe-training.github.io/ELIXIR-TrP-Bioschemas/)
 
-2. Metadata in html pages: metadata will usually be in the \<head\> part between \<script\> tags of type "application/ld+json"
+2. Metadata in html pages: metadata will usually be in the `<head>` part between `<script>` tags of type `"application/ld+json"`
 
     *Example*: [Basic proteomics course instance](https://training.vib.be/all-trainings/basic-proteomics-0) - Right-click => Inspect to see the html code
 
