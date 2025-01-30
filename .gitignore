@@ -1,2 +1,6 @@
 .DS_Store*
 site/
+
+env/
+.Rproj.user
+
