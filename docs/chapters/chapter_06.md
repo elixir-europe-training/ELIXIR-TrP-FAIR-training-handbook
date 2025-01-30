@@ -46,9 +46,9 @@ You have a set of materials that you are considering making accessible and are f
 
 ## Related chapters
 
-* [Chapter 5: Give it a unique identifier](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_05/)  
-* [Chapter 7: Make it reusable](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_07/) 
-* [Chapter 9: Boosting discoverability](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_09/)
+* [Chapter 5: Give it a unique identifier](chapter_05.md)  
+* [Chapter 7: Make it reusable](chapter_07.md) 
+* [Chapter 9: Boosting discoverability](chapter_07.md)
 
 ## Accessibility in the context of FAIR
 

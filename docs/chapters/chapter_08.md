@@ -105,13 +105,13 @@ Logos and images that illustrate the chosen licence can be a great way of adding
 
 ## Reusing licenced materials
 
-If you wish to reuse someone else’s materials you must first check that the licence they have applied to them allows it. You will also need to ensure that you recognise and cite their work appropriately (<a href="https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_10/">see Chapter 10</a>).
+If you wish to reuse someone else’s materials you must first check that the licence they have applied to them allows it. You will also need to ensure that you recognise and cite their work appropriately [see chapter 10](chapter_10.md).
 
 The licence that you can apply to the new version of the materials depends on the original licence and how you have changed, adapted or remixed the materials. Creative Commons provides a <a href="https://certificates.creativecommons.org/cccertedu/chapter/4-4-remixing-cc-licensed-work/">guide on how to do this in different situations</a>.
 
 ## Next steps
 
-Choosing an appropriate licence is an important step in encouraging appropriate recognition of your work and encouraging contributions and collaborations. Read more about recognition and contributions to training materials in <a href="https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_10/">Chapter 10</a>.
+Choosing an appropriate licence is an important step in encouraging appropriate recognition of your work and encouraging contributions and collaborations. Read more about recognition and contributions to training materials in [chapter 10](chapter_10.md).
 
 \bibliography
 

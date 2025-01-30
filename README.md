@@ -69,7 +69,7 @@ mkdocs serve
 
 To host it locally.
 
-Check it out with your browser at [http://localhost:8000/](http://localhost:8000/).
+Check it out with your browser at `http://localhost:8000`.
 
 If you commit to the branch `main` (the default branch), the website will be automatically updated in 30-60 seconds.
 

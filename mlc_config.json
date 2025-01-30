@@ -1,3 +1,14 @@
 {
-  "aliveStatusCodes": [200, 403, 418, 503]
+  "aliveStatusCodes": [200, 403, 418, 503],
+  "ignorePatterns": [
+    {
+      "pattern": "https://www.mygoblet.org"
+    },
+    {
+      "pattern" : "https://www.go-fair.org/resources/faq/ask-question-difference-fair-data-open-data/"
+    },
+    {
+      "pattern" : "https://www.dtls.nl"
+    }
+  ]
 }
