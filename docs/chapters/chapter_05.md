@@ -32,8 +32,8 @@ In this chapter, we present what a persistent identifier (PID) is, and how to ge
 
 ## Prerequisites
 Before you start with this chapter, we recommend that you first read:
-* [Chapter 2- Structure materials for FAIRness](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/)  
-* [Chapter 3- Getting ready to create your materials](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/)
+* [Chapter 2- Structure materials for FAIRness](chapter_02.md)  
+* [Chapter 3- Getting ready to create your materials](chapter_03.md)
 
 These chapters will help you to structure your training materials, find a suitable storage location, and think about collaborators and potential readers. This knowledge will then help you to decide whether you need to assign each material its own identifier or organise the entire collection under one identifier.
 
@@ -192,7 +192,7 @@ Before getting a PID for your training materials, you need to think about how yo
 
 All questions are valid, you just need to make sure that when you share the materials, all related data will be findable, accessible and reusable as much as possible. With that in mind, you might want to find a strategy to help others reuse your training materials if they are very extensive. For example, a full day’s or a full week’s training event may consist not only of presentations, but also a description of each session, activities, videos, etc. So in this case, it could be handy to split the training into smaller sessions with individual PIDs, which can then be packaged into a collection.
 
-By far the easiest way to get a PID for your training materials is by sharing them in a public repository that assigns a PID on your behalf. You can learn more about this in [RDMkit](https://rdmkit.elixir-europe.org/identifiers.html) and [Chapter 2](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and [Chapter 3](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/).
+By far the easiest way to get a PID for your training materials is by sharing them in a public repository that assigns a PID on your behalf. You can learn more about this in [RDMkit](https://rdmkit.elixir-europe.org/identifiers.html) and [Chapter 2](chapter_02.md) and [Chapter 3](chapter_03.md).
 
 For example, in the case study you read earlier, the Australian BioCommons shared materials via Zenodo, which automatically assigns a DOI to the materials. Similarly, the CLARIN Virtual Collection Registry assigns a PID (either Handle or DOI) to materials added to a virtual collection. If you are sharing your materials via GitHub, you also have the option of using Zenodo to archive your [repository on GitHub](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content) and issue a DOI for the archive. 
 

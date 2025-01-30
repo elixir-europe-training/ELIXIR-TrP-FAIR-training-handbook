@@ -29,10 +29,10 @@ Preparing training materials is time-consuming and challenging for both new and 
 The bioinformatics training community set out to address these challenges by adapting the FAIR Data Principles to training materials. The result of this community exercise was 10 Simple Rules for Making Training Materials FAIR (Figure 1) [@Garcia2020]. This handbook expands on these rules by providing extra guidance and advice on the process of making your training materials FAIR.
 
 !!! Note "FAIR and Open"
-    Did you know that ‘FAIR’ is not the same as ‘Open’? The FAIR Data motto makes this difference quite clear: “as open as possible, as closed as necessary”. Read more in [Chapter 1](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_01/).
+    Did you know that ‘FAIR’ is not the same as ‘Open’? The FAIR Data motto makes this difference quite clear: “as open as possible, as closed as necessary”. Read more in [Chapter 1](chapter_01.md).
 
 ## Training materials - what’s in scope?
-What is a training material and what types of training materials should you consider making FAIR? A simple definition of training material is anything you would produce yourself (or reuse) as a support for your teaching activity. These can be slides, datasets, videos, software, a GitHub repo, a collection of exercises, Virtual Machines (VMs)/Containers, etc. In summary, any digital object that can be used to deliver a lesson, course, curriculum, etc. For more information, please read [Chapter 2](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and [Chapter 3](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/).
+What is a training material and what types of training materials should you consider making FAIR? A simple definition of training material is anything you would produce yourself (or reuse) as a support for your teaching activity. These can be slides, datasets, videos, software, a GitHub repo, a collection of exercises, Virtual Machines (VMs)/Containers, etc. In summary, any digital object that can be used to deliver a lesson, course, curriculum, etc. For more information, please read [Chapter 2](chapter_02.md) and [Chapter 3](chapter_03.md).
 
 ## What’s Next?
 Read the following chapters to discover options for implementing FAIR with your training materials. Your path through this handbook needn’t be linear; jump around the chapters and dip into the ones that are most relevant to you.

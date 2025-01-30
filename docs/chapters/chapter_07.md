@@ -34,7 +34,7 @@ In this chapter training materials can be either an individual training material
 
 ## Prerequisites
 
-How you manage the metadata associated with your training materials depends on where and in what format you are sharing your materials. It’s recommended that you read [Chapter 2: Structure materials for FAIRness](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and  [Chapter 3 - getting ready reate your materials for reuse](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_03/) before starting on this chapter.
+How you manage the metadata associated with your training materials depends on where and in what format you are sharing your materials. It’s recommended that you read [Chapter 2: Structure materials for FAIRness](chapter_02.md) and  [Chapter 3 - getting ready reate your materials for reuse](chapter_03.md) before starting on this chapter.
 
 
 ## Introduction
@@ -143,7 +143,7 @@ The same is true for training materials. Sharing metadata alongside your trainin
 Whichever format you choose, use a consistent method for all of your training materials. This will save you time and make it easier to find, compare and contrast materials.
 
 !!! info "Structuring metadata for machines"
-    Metadata can also be structured to help machines search and catalogue this information. For more on this see [Chapter 4](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_04/).
+    Metadata can also be structured to help machines search and catalogue this information. For more on this see [Chapter 4](chapter_04.md).
 
 Now it’s your turn to write a training recipe.
 

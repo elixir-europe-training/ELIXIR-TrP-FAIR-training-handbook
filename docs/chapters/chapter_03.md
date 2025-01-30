@@ -35,8 +35,8 @@ Here, we will describe a few platforms that can be used to host and share your m
 
 ## Prerequisites
 
-- Learners are expected to have done [Chapter 1](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_01/) and [Chapter 2](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/) and understand the need for FAIRifying their training materials and/or building their training materials FAIR from the beginning. 
-- From [Chapter 2](https://elixir-fair-training.github.io/FAIR-training-handbook/chapters/chapter_02/), they are aware of what types of material they have or will have (lectures, exercises, video, datasets etc.). 
+- Learners are expected to have done [Chapter 1](chapter_01.md) and [Chapter 2](chapter_02.md) and understand the need for FAIRifying their training materials and/or building their training materials FAIR from the beginning. 
+- From [Chapter 2](chapter_02.md), they are aware of what types of material they have or will have (lectures, exercises, video, datasets etc.). 
 
 Learners may benefit from:
 
