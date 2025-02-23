@@ -1,0 +1,1208 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../chapter_04/">
+      
+      
+        <link rel="next" href="../chapter_06/">
+      
+      
+      <link rel="icon" href="../../assets/images/fair_handbook_favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.5">
+    
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://webstats.elixir-europe.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '9']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+
+    
+      
+        <title>5. Get a persistent identifier for your training material - FAIR training handbook</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8608ea7d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/neoteroi-mkdocs.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+
+  <meta property="og:url"                content="https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/" />
+  <meta property="og:title"              content="FAIR training handbook" />
+  <meta property="og:description"        content="Are you a developer of training material? Do you want to get more community involvement with your training material by making it Findable Accessible Interoperable and Reusable (FAIR)? Look no further, you are at the right (web)address!" />
+  <meta property="og:image"              content="https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/assets/images/logo/FAIRtrainingHandbook_longversion_logo_lightBG.png" />
+  
+  <meta name="twitter:card"              content="summary_large_image" />
+  <meta name="twitter:title"             content="FAIR training handbook" />
+  <meta name="twitter:description"       content="Are you a developer of training material? Do you want to get more community involvement with your training material by making it Findable Accessible Interoperable and Reusable (FAIR)? Look no further, you are at the right (web)address!" />
+  <meta name="twitter:image"             content="https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/assets/images/logo/FAIRtrainingHandbook_longversion_logo_lightBG.png" />
+
+
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#description" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="FAIR training handbook" class="md-header__button md-logo" aria-label="FAIR training handbook" data-md-component="logo">
+      
+  <img src="../../assets/images/logo/fair_handbook_simple_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR training handbook
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              5. Get a persistent identifier for your training material
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/elixir-europe-training/FAIR-training-handbook" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    elixir-europe-training/FAIR-training-handbook
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="FAIR training handbook" class="md-nav__button md-logo" aria-label="FAIR training handbook" data-md-component="logo">
+      
+  <img src="../../assets/images/logo/fair_handbook_simple_logo.png" alt="logo">
+
+    </a>
+    FAIR training handbook
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/elixir-europe-training/FAIR-training-handbook" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    elixir-europe-training/FAIR-training-handbook
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Chapters
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../00_preface/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preface
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_01/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. Why FAIR training & training materials?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_02/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Choose material types and formats that facilitate FAIRness
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_03/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. Get ready to create your materials or reuse
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Use metadata to describe training materials
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    5. Get a persistent identifier for your training material
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    5. Get a persistent identifier for your training material
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Description
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-persistent-identifier-pid-and-why-should-i-use-it-for-training-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a Persistent Identifier (PID) and why should I use it for training materials?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types-of-pids-relevant-for-training-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Types of PIDs relevant for training materials
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Types of PIDs relevant for training materials">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-a-doi" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a DOI?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-an-orcid" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is an ORCID?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What is an ORCID?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#get-yourself-an-orcid" class="md-nav__link">
+    <span class="md-ellipsis">
+      Get yourself an ORCID
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-does-it-work-in-the-real-world-case-studies-of-using-pids-in-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      How does it work in the real world: Case Studies of Using PIDs in Training
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How does it work in the real world: Case Studies of Using PIDs in Training">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-assigning-a-unique-doi-combined-with-orcid-for-each-event-in-a-community" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Assigning a unique DOI combined with ORCID for each event in a community
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-creating-virtual-collections-of-training-materials-and-assigning-own-pids" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Creating virtual collections of training materials and assigning own PIDs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-sparate-dois-for-mix-and-matching-in-a-community" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Sparate DOIs for mix and matching in a community
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-get-a-doi-for-your-training-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to get a DOI for your training materials
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluate-yourself" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evaluate yourself
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6. Make it accessible
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7. Make it reusable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_08/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    8. Provide a license
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_09/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    9. Boost discoverability
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10. Recognition, acknowledgment, authorship
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../literature/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Literature
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../checklist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Checklist
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../keywords/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Keywords list
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributor_list/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contributors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../../keywords/#tag:doi" class="md-tag">DOI</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:findability" class="md-tag">Findability</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:id" class="md-tag">ID</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:orcid" class="md-tag">ORCID</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:pmid" class="md-tag">PMID</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:persistent-identifier" class="md-tag">Persistent identifier</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:reusability" class="md-tag">Reusability</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:unique-identifier" class="md-tag">Unique identifier</a>
+      
+    
+  </nav>
+
+
+  
+    <a href="https://github.com/elixir-europe-training/FAIR-training-handbook/edit/main/docs/chapters/chapter_05.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/elixir-europe-training/FAIR-training-handbook/raw/main/docs/chapters/chapter_05.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+  <h1>5. Get a persistent identifier for your training material</h1>
+
+<div><div class="admonition checklist">
+<p class="admonition-title">Checklist</p>
+<p>5.1 Give your training material a PID, e.g. a DOI.</p>
+<p>5.2 Give yourself a PID, e.g. an ORCID.</p>
+<p>5.3 Add these unique identifiers to the training materials metadata.</p>
+</div>
+<h2 id="description">Description</h2>
+<p>In this chapter, we present what a persistent identifier (PID) is, and how to get one for your training materials. This step is essential to achieving FAIR training materials, as it is  directly linked to Findability and Reuse. By getting a PID, the visibility of your work is enhanced, and the associated deposit works as a backup of your work by handing over the maintenance to the designated repository.</p>
+<div class="admonition info">
+<p class="admonition-title">Learning outcomes</p>
+<p><strong>At the end of this chapter you should be able to:</strong></p>
+<ol>
+<li>Explain what a PID is and its importance for enabling and sharing training resources in the context of FAIR and open education and training.</li>
+<li>List and differentiate the types of PIDs that are relevant for publishing and sharing training materials.</li>
+<li>Assign an appropriate PID to your training materials. </li>
+<li>Get an author ID ORCID.</li>
+</ol>
+</div>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Before you start with this chapter, we recommend that you first read:
+* <a href="../chapter_02/">Chapter 2- Structure materials for FAIRness</a><br>
+* <a href="../chapter_03/">Chapter 3- Getting ready to create your materials</a></p>
+<p>These chapters will help you to structure your training materials, find a suitable storage location, and think about collaborators and potential readers. This knowledge will then help you to decide whether you need to assign each material its own identifier or organise the entire collection under one identifier.</p>
+<h2 id="what-is-a-persistent-identifier-pid-and-why-should-i-use-it-for-training-materials">What is a Persistent Identifier (PID) and why should I use it for training materials?</h2>
+<p>Open science seeks to improve the sharing of a large body of knowledge on a wide scale. To facilitate this, it is necessary that each element to  be shared can be easily and unambiguously identified and retrieved. The solution to this challenge is to assign each piece of information (training material, data, software, document, author etc.) a unique and permanent identifier (PID: Persistent Identifier).</p>
+<p><em>Imagine the following scenario</em>: If you go to the opera, you leave your coat in the cloakroom in exchange for a ticket. From that moment on, you don’t have to worry about where your coat is stored. You enjoy the performance, knowing that your ticket allows you to get your coat back. This ticket carries a unique identifier (a number on the ticket) issued by a trusted third party (the wardrobe attendant) who makes sure that this number is unique and remains assigned to your coat.</p>
+<p>In the same way, having a persistent identifier for training materials makes them easier to <strong>find</strong> among all the other materials in the same repository (i.e., the cloakroom). Furthermore, this facilitates long-lasting material accessibility as backup. Using PIDs for authors also makes it easier to identify and acknowledge individual contributions to developing and maintaining the materials. This makes the materials easier to cite when it comes to <strong>reusing</strong> them.</p>
+<p><strong>The PIDs must comply with a few rules:</strong></p>
+<ul>
+<li>
+<p><strong>Globally unique:</strong></p>
+<p>To enable global uniqueness, a PID should comply with a <strong>controlled syntax</strong> to avoid clashes, for instance, by having <strong>namespaces</strong> that are <strong>governed</strong> by clearly defined <strong>authorities</strong>. (the number of your ticket is unique, so you are sure you will get your coat back and not someone else’s)</p>
+</li>
+<li>
+<p><strong>Persistent:</strong> </p>
+<p>The identifier, and the object to which it points, should be <strong>maintained</strong> for a <strong>long period of time</strong>. The syntax used for the identifier should be also persistent (<em>don’t change the way you label your tickets; don’t dispose of the coat during the opera</em>).</p>
+</li>
+<li>
+<p><strong>Resolvable</strong>: </p>
+<p>The identifier allows both <strong>human</strong> and <strong>machine</strong> users to <strong>access the resource</strong> (<em>the ticket tells you where to get your coat back</em>). </p>
+</li>
+</ul>
+<p>By now you must be asking: in the context of training, for what do I need PIDs? Let us help you with that! For training materials, PIDs can be assigned to:</p>
+<ul>
+<li>Individual training materials (e.g., a set of slides, a training dataset)</li>
+<li>A collection of materials associated with a training event or topic</li>
+<li>The authors of the materials</li>
+</ul>
+<p>In the following sections, we discuss how to get these PIDs for your training materials. Some real-world case studies provide a few examples of approaches to giving PIDs to your training materials.</p>
+<h2 id="types-of-pids-relevant-for-training-materials">Types of PIDs relevant for training materials</h2>
+<p>Although many different PID types can be applied to objects and authors, here we will focus only on the ones that are most often assigned to training materials, namely DOIs and ORCID.</p>
+<h3 id="what-is-a-doi">What is a DOI?</h3>
+<p>If you want to share your training material with the rest of the world, we recommend using a <strong>Digital Object Identifier (DOI)</strong> (doi.org). DOIs are one of the most common PIDs used by public repositories. If you would like to learn more about the concept of DOIs, take a look at this <a href="https://www.doi.org/factsheets/DOIKeyFacts.html">fact sheet</a>.
+DOI stands for Digital Object Identifier, and it is a <strong>unique</strong>, <strong>persistent</strong> and permanent identification of objects (physical or digital). And as DOIs are coupled with metadata, they can be modified over time to keep track of the locations and characteristics of the objects they identify, both for you and your users. You benefit from efficient management and accurate tracking, as well as gaining the ability to more easily automate processes and collaborate with partners in your community. DOI relies on a non-profit organisation that is the governance body of the federation of registration agencies. DOIs are generated automatically when you make your resources available in a repository such as Dataverse or Zenodo, or when a research article is published.</p>
+<h3 id="what-is-an-orcid">What is an ORCID?</h3>
+<p>ORCID, which stands for Open Researcher and Contributor ID, is a global, non-profit organisation which provides a <strong>unique</strong> and <strong>persistent</strong> identifier free of charge to researchers. Especially if you have a common name, you’ll know how important it is to distinguish homonyms! It is extremely useful to be correctly identified, worldwide. ORCID takes homonymy into account, and the system also allows you to add aliases to your profile in the event that your name changes,  making sure that it will be tracked back to you. Another benefit is that your ORCID will stay the same, even when your affiliation changes, ensuring that you get the credit you deserve and helping you keep track of your work.</p>
+<p>You can watch the video below for more information. </p>
+<iframe src="https://player.vimeo.com/video/97150912?h=de3e7e4505" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen alt="Video: What is ORCID?"></iframe>
+<p><a href="https://vimeo.com/97150912">What is ORCID?</a> from <a href="https://vimeo.com/orcidvideos">ORCID</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<p>As you can see, PIDs for authors make it much easier to <strong>Find</strong> materials written by a particular person, and also make it easier to ensure the credits for the right person. The Open Researcher and Contributor ID (ORCID) is increasingly used by journals and funders to uniquely identify individuals. It is already a requirement at the NIH (National Institutes of Health), CDC (Centers for Disease Control and Prevention), and more than 110 publishers. Therefore, it is a good option for authors of training materials as well.</p>
+<h4 id="get-yourself-an-orcid">Get yourself an ORCID</h4>
+<p>Watch the video below to learn how to get your own ORCID.</p>
+<iframe src="https://player.vimeo.com/video/495762735?h=a7bc6b8ce7" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen alt="Video:A quick tour of the ORCID Record"></iframe>
+<p><a href="https://vimeo.com/495762735">A Quick Tour of the ORCID Record</a> from <a href="https://vimeo.com/orcidvideos">ORCID</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<div class="admonition example">
+<p class="admonition-title">Exercise</p>
+<p>Learning experience: Read the case studies below to see some examples of how PIDs are used for training materials. Afterwards, think critically about your material and which case would fit your needs better. You can write down your ideas, create a schema, etc.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Customised Persistent IDs, Pros &amp; Cons:</p>
+<p>To be updated
+- What is it
+- How to do it
+- Pros &amp; Cons</p>
+</div>
+<h2 id="how-does-it-work-in-the-real-world-case-studies-of-using-pids-in-training">How does it work in the real world: Case Studies of Using PIDs in Training</h2>
+<p>Before explaining how to assign PIDs to training materials, we would like to show you some illustrations  of how organisations are approaching this in practice.</p>
+<h3 id="1-assigning-a-unique-doi-combined-with-orcid-for-each-event-in-a-community">1. Assigning a unique DOI combined with ORCID for each event in a community</h3>
+<p>At <a href="https://www.biocommons.org.au/">Australian BioCommons</a>, training materials from webinars and workshops are shared via a dedicated <a href="https://zenodo.org/communities/australianbiocommons-training/">Zenodo community</a>. BioCommons chose to use Zenodo to share training materials because they do not have a repository of their own, and Zenodo has established ways of managing metadata, DOIs and versioning. It is also widely used in the scientific community.</p>
+<p>For each event, a Zenodo record is created that includes detailed metadata, new training materials and links to previous materials that were reused as part of the training (Figure 1).</p>
+<p>Two types of PIDs are used when sharing materials from our events.</p>
+<ul>
+<li>
+<p>DOIs - Zenodo automatically assigns a DOI to the event. DOIs are also used when linking to related materials to ensure that there is no ambiguity about which materials were used.</p>
+</li>
+<li>
+<p>ORCID - Trainers’ ORCIDs are used to ensure that they get the credit for their efforts and to make it clear who participated in the event.</p>
+</li>
+</ul>
+<figure>
+    <img src="../../assets/images/zenodo_highlighting_pids.png" width="500" alt="Screenshot of an Australian BioCommons training record in Zenodo highlighting the use of ORCIDs and DOI">
+</figure>
+
+<p><strong>Figure 1:</strong> The Australian BioCommons collates materials from their events and shares them via Zenodo where they are assigned a DOI and authors are identified via their ORCIDs. <a href="https://zenodo.org/doi/10.5281/zenodo.5781811">View this record on Zenodo.</a></p>
+<h3 id="2-creating-virtual-collections-of-training-materials-and-assigning-own-pids">2. Creating virtual collections of training materials and assigning own PIDs</h3>
+<p>For <a href="https://www.clarin.eu/">CLARIN</a>, a training event usually consists of slides, handouts, a GitHub page, video tutorials, language resources, datasets and/or tools. The slides and handouts are published on the event web page, while the video recordings of the presentations are published on the CLARIN YouTube channel. In addition, the language resources and tools used during the training are stored in the CLARIN national repositories, with a <strong>unique</strong> identifier assigned by the institution and can be cited.</p>
+<p>One solution to have a PID assigned to all the materials used during one training event is to create a virtual collection in the CLARIN <a href="https://collections.clarin.eu/public?7">Virtual Collection Registry</a>. A virtual collection is a coherent set of links of digital objects that can be easily created, accessed and cited with the help of <strong>unique identifiers</strong>, for example, a DOI. The links can originate from different archives. <a href="http://hdl.handle.net/11372/VC-1033">Here</a> is an example of a virtual collection created for a hands-on tutorial on transcribing interview data</p>
+<figure>
+    <img src="../../assets/images/clarin_image1.png" width="500" alt="Screenshot of CLARIN metadata from workshop tutorial SSHOC">
+</figure>
+<p><strong>Figure 2:</strong> Example of a training collection in the CLARIN Virtual Collection Registry that has been assigned a persistent identifier.</p>
+<figure>
+    <img src="../../assets/images/fig3-chap5.jpg" width="500" alt="Screenshot 'zoom'  of CLARIN metadata from workshop tutorial SSHOC, and citation">
+</figure>
+
+<p><strong>Figure 3:</strong> Example of a BibTeX citation in the CLARIN Virtual Collection Registry.</p>
+<p>Other practices that the trainers in the CLARIN community have adopted are:</p>
+<ul>
+<li>First, depositing the training materials together with the datasets in their CLARIN national data repository. See example:<a href="http://hdl.handle.net/20.500.11752/OPEN-537">Archilochus of Paros: Elegiac Fragments - XML Archive</a>. The advantage of using this path is that the authors can add more extensive metadata to describe their materials. </li>
+<li>Second, depositing the training materials on Zenodo. See example: <a href="https://doi.org/10.5281/zenodo.5506969">Introduction to Speech Analysis</a>.  In this case, <strong>related identifiers</strong> are included that lead users to the main platform where the course is stored and maintained. </li>
+<li>Third, adding the metadata of the training materials to the SSHOC Open Marketplace, see example: <a href="https://marketplace.sshopencloud.eu/training-material/duVII1">Jupyter notebooks for Europeana newspaper text resource processing with CLARIN NLP tools</a>. In this case, the Marketplace does not assign any unique identifiers, but the authors can identify themselves via their ORCID and can suggest a citation format for their collection.</li>
+</ul>
+<blockquote>
+<p><strong>You can do the same by using Zenodo, for example, by publishing and assigning a DOI not only to the entire training collection, but also to each item in the collection, as can be seen in the next example.</strong></p>
+</blockquote>
+<h3 id="3-sparate-dois-for-mix-and-matching-in-a-community">3. Sparate DOIs for mix and matching in a community</h3>
+<p>The <a href="https://www.dtls.nl">Dutch Techcentre for Life Sciences</a> (DTL) has a <a href="https://zenodo.org/communities/dtl/?page=1&amp;size=20">Zenodo community</a> to upload presentations and course materials. DTL has chosen to give separate DOIs for individual, often topical, elements of a course. An example is the <a href="https://www.aanmelder.nl/fair-data-stewardship-2021">Helis Academy FAIR Datastewardship Course</a>, a course of 6 half days. </p>
+<p>Providing a separate DOI has the following advantages: It is easier to mix and match different modules as part of a learning path, i.e. different combinations of our training modules can be made for the various target audiences, tailored to that specific purpose. When updating or revising a single module, it is more convenient to have that module as a separate entity with its own DOI, in order to easily keep track of the versions of different modules.</p>
+<p>At the level of the full course, we have chosen to use ELIXIR TeSS as the registry. Links to our training event details and training materials can be found <a href="https://tess.elixir-europe.org/events/helis-course-fair-data-stewardship">here</a>.</p>
+<figure>
+    <img src="../../assets/images/fig4-chap5.png" width="500" alt="Screenshot DTL data stewardship course DOIs view">
+</figure>
+<p><strong>Figure 4:</strong> Example from the DTL Helis FAIR Data Stewardship Course with separate DOIs per topic. See more <a href="https://www.aanmelder.nl/fair-data-stewardship-2021">here</a>.</p>
+<figure>
+    <img src="../../assets/images/fig5-chap5.png" width="500" alt="Screenshot Zenodo page for day 1 course from DTL">
+</figure>
+<p><strong>Figure 5:</strong> Zenodo record for the Introductory Module of the DTL FAIR Data Stewardship Course. View <a href="https://doi.org/10.5281/zenodo.4629718">this record</a> on Zenodo.</p>
+<h2 id="how-to-get-a-doi-for-your-training-materials">How to get a DOI for your training materials</h2>
+<p>Before getting a PID for your training materials, you need to think about how you want to organise your materials and how extensive your collection is. To help, ask yourself the following:</p>
+<ul>
+<li>Do you want to get a PID for each training material?</li>
+<li>Do you want to get one PID for your whole training or course?</li>
+<li>Do you want to get a separate PID for each topic/module? For example, for a course containing several topics.</li>
+<li>Do you want to create a collection of topics with a PID where each concept will also have a PID and associated metadata?</li>
+<li>Do you want to get one PID for your whole training or course?</li>
+</ul>
+<p>All questions are valid, you just need to make sure that when you share the materials, all related data will be findable, accessible and reusable as much as possible. With that in mind, you might want to find a strategy to help others reuse your training materials if they are very extensive. For example, a full day’s or a full week’s training event may consist not only of presentations, but also a description of each session, activities, videos, etc. So in this case, it could be handy to split the training into smaller sessions with individual PIDs, which can then be packaged into a collection.</p>
+<p>By far the easiest way to get a PID for your training materials is by sharing them in a public repository that assigns a PID on your behalf. You can learn more about this in <a href="https://rdmkit.elixir-europe.org/identifiers.html">RDMkit</a> and <a href="../chapter_02/">Chapter 2</a> and <a href="../chapter_03/">Chapter 3</a>.</p>
+<p>For example, in the case study you read earlier, the Australian BioCommons shared materials via Zenodo, which automatically assigns a DOI to the materials. Similarly, the CLARIN Virtual Collection Registry assigns a PID (either Handle or DOI) to materials added to a virtual collection. If you are sharing your materials via GitHub, you also have the option of using Zenodo to archive your <a href="https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content">repository on GitHub</a> and issue a DOI for the archive. </p>
+<p>However, if you are maintaining your own repository of training materials, you will need to have a system in place for assigning and maintaining persistent identifiers. RDMkit provides guidance on the issues you will need to consider when doing this.</p>
+<div class="admonition info">
+<p class="admonition-title">How to choose a repository</p>
+<p>Do you need help in choosing a repository for your materials? Take a look at this advice in <a href="../chapter_03/">Chapter 3</a>. </p>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Exercise</p>
+<p>Activity: Go to your favourite repository and check:
+    a. Do they use DOI? 
+    b. If not, what kind of identifier do they use? Is it a Persistent identifier?</p>
+</div>
+<h2 id="evaluate-yourself">Evaluate yourself</h2>
+<p>Now you have completed the chapter, you should have reached the <a href="#learning-outcomes">learning outcomes</a>. Can you explain why PIDs are important for training materials? What is your plan for assigning PIDs to your own materials?</p>
+<hr>
+<p><a href="https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/issues/new"><img alt="feedback" src="../../assets/images/small_contribute_button_chapter.svg"></a></p>
+<p><span style="color:#bebf32;">Please give us your feedback, we are always working on improving this book to attend the needs of its users. When writing your feedback please add the chapter number or name. Thank you.</span> </p></div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../chapter_04/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 4. Use metadata to describe training materials">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                4. Use metadata to describe training materials
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../chapter_06/" class="md-footer__link md-footer__link--next" aria-label="Next: 6. Make it accessible">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                6. Make it accessible
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+  
+    
+  
+
+
+
+
+  
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
+<input class="md-toggle" type="checkbox" id="__settings" checked>
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="github" checked>
+          <span class="task-list-indicator"></span>
+          GitHub
+        </label>
+      </li>
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.footer", "toc.integrate", "content.action.edit", "content.action.view"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+    
+  </body>
+</html>

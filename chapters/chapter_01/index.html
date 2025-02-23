@@ -1,0 +1,1057 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../00_preface/">
+      
+      
+        <link rel="next" href="../chapter_02/">
+      
+      
+      <link rel="icon" href="../../assets/images/fair_handbook_favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.5">
+    
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://webstats.elixir-europe.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '9']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+
+    
+      
+        <title>1. Why FAIR training & training materials? - FAIR training handbook</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8608ea7d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/neoteroi-mkdocs.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+
+  <meta property="og:url"                content="https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/" />
+  <meta property="og:title"              content="FAIR training handbook" />
+  <meta property="og:description"        content="Are you a developer of training material? Do you want to get more community involvement with your training material by making it Findable Accessible Interoperable and Reusable (FAIR)? Look no further, you are at the right (web)address!" />
+  <meta property="og:image"              content="https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/assets/images/logo/FAIRtrainingHandbook_longversion_logo_lightBG.png" />
+  
+  <meta name="twitter:card"              content="summary_large_image" />
+  <meta name="twitter:title"             content="FAIR training handbook" />
+  <meta name="twitter:description"       content="Are you a developer of training material? Do you want to get more community involvement with your training material by making it Findable Accessible Interoperable and Reusable (FAIR)? Look no further, you are at the right (web)address!" />
+  <meta name="twitter:image"             content="https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/assets/images/logo/FAIRtrainingHandbook_longversion_logo_lightBG.png" />
+
+
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#description" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="FAIR training handbook" class="md-header__button md-logo" aria-label="FAIR training handbook" data-md-component="logo">
+      
+  <img src="../../assets/images/logo/fair_handbook_simple_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR training handbook
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              1. Why FAIR training & training materials?
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/elixir-europe-training/FAIR-training-handbook" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    elixir-europe-training/FAIR-training-handbook
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="FAIR training handbook" class="md-nav__button md-logo" aria-label="FAIR training handbook" data-md-component="logo">
+      
+  <img src="../../assets/images/logo/fair_handbook_simple_logo.png" alt="logo">
+
+    </a>
+    FAIR training handbook
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/elixir-europe-training/FAIR-training-handbook" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    elixir-europe-training/FAIR-training-handbook
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Chapters
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../00_preface/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preface
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    1. Why FAIR training & training materials?
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    1. Why FAIR training & training materials?
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Description
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-fair-data-principles-in-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      The FAIR Data principles in details
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#initial-considerations-for-applying-fair-principles-to-training-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initial considerations for applying FAIR principles to training materials
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fair-vs-open" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR vs OPEN
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluate-yourself" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evaluate yourself
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_02/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Choose material types and formats that facilitate FAIRness
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_03/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. Get ready to create your materials or reuse
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Use metadata to describe training materials
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5. Get a persistent identifier for your training material
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6. Make it accessible
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7. Make it reusable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_08/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    8. Provide a license
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_09/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    9. Boost discoverability
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10. Recognition, acknowledgment, authorship
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../literature/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Literature
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../checklist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Checklist
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../keywords/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Keywords list
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributor_list/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contributors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../../keywords/#tag:accessibility" class="md-tag">Accessibility</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:fair" class="md-tag">FAIR</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:findability" class="md-tag">Findability</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:interoperability" class="md-tag">Interoperability</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:open" class="md-tag">Open</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:regulations" class="md-tag">Regulations</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:reproducibility" class="md-tag">Reproducibility</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:reusability" class="md-tag">Reusability</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:training" class="md-tag">Training</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:training-materials" class="md-tag">Training materials</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:types-of-training-materials" class="md-tag">Types of training materials</a>
+      
+    
+  </nav>
+
+
+  
+    <a href="https://github.com/elixir-europe-training/FAIR-training-handbook/edit/main/docs/chapters/chapter_01.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/elixir-europe-training/FAIR-training-handbook/raw/main/docs/chapters/chapter_01.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+  <h1>1. Why FAIR training & training materials?</h1>
+
+<div><div class="admonition checklist">
+<p class="admonition-title">Checklist</p>
+<p>1.1 Congrats, by reading so far, you are already making the first steps to make your training materials FAIR. Just keep reading the rest of the handbook.</p>
+</div>
+<h2 id="description">Description</h2>
+<p>In this chapter we explain what the FAIR principles are, the importance of these principles and their increased adoption over the years, as well as the pros and cons of making training materials FAIR. We will give a brief history of FAIR data, and how these principles were extended and adapted to training materials. </p>
+<div class="admonition info">
+<p class="admonition-title">Learning outcomes</p>
+<p><strong>At the end of this chapter you should be able to:</strong></p>
+<ol>
+<li>Explain what FAIR means</li>
+<li>Describe the difference between FAIR and Open </li>
+<li>Determine whether a given type of training material can in principle be FAIRifyed</li>
+<li>List the main pros and cons of FAIRifying training materials</li>
+</ol>
+</div>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>None, except the interest to continue reading further.  </p>
+<h2 id="the-fair-data-principles-in-details">The FAIR Data principles in details</h2>
+<p>Preparing training materials is a fundamental step in developing new training sessions, which is time-consuming and demanding for both new and experienced trainers. One approach to solving this issue is by finding and (re)using already existent materials. However, it requires that the authors of these have shared, properly described, and made these available for (re)use. It can be difficult to locate online resources that are appropriate for your teaching goals and that don’t have licence or copyright constraints. They frequently lack the necessary metadata to permit their (re)use, are dispersed across numerous repositories, or are compartmentalised within their original institutions.</p>
+<p>The FAIR data principles, which stand for findable, accessible, interoperable, and reusable, were released in 2016 . The purpose of the FAIR Data Principles is to increase the value of data by making it simpler to find through the use of unique identifiers and simpler to combine and integrate through the use of formal shared knowledge representation. They were created to be understood/applied not only by humans but also by machines, in an automated way. Training materials are data as well, and as for any digital object, by applying and adopting the FAIR principles, we are adding value to them. </p>
+<h2 id="initial-considerations-for-applying-fair-principles-to-training-materials">Initial considerations for applying FAIR principles to training materials</h2>
+<p>First things first: what is a training material, and which training materials should you consider making FAIR? Well, a simple definition of training material is anything you would produce yourself (or reuse) as support for your teaching activity. These can be slides, datasets, videos, software, a GitHub repo, a collection of exercises, VMs/Containers, etc. In summary, any digital object which can be used to deliver a lesson, course or curriculum. In <a href="../chapter_02/">Chapter 2</a>, we further describe types of materials and their levels of FAIRness as well. </p>
+<p>In 2018, a community of educators, trainers and training facilitators formed the ELIXIR FAIR Training focus group, which started the exercise of reflecting on what would be needed (what would it take) to make training FAIR and thus training materials FAIR. The result of this community exercise was published in the PLoS Computational Biology Ten Simple Rules collection with the paper <a href="https://doi.org/10.1371/journal.pcbi.1007854">10 Simple Rules for Making Training Materials Findable, Accessible, Interoperable and Reusable (FAIR)</a> <sup id="fnref:Garcia2020"><a class="footnote-ref" href="#fn:Garcia2020">1</a></sup>. which is summarised in Figure 1. Overall, the rules were defined to help instructors and training facilitators make their first steps into making training materials FAIR, enabling others to find, (re)use, and adapt them. Much water has flowed under the bridge since then, and many people have tried to FAIRify (at least partially) their materials, and we still see and feel that it’s not so simple to do all the steps at once.</p>
+<p>But if this is not so simple, why should we care to make training materials FAIR? The main reason behind it is to share. The more we share training materials, the more we spread our knowledge with trainers, and by sharing, we are giving back to the community in a virtuous circle. Going beyond this magnanimous idea, we can improve our course content based on the feedback we receive from peers and learners, and we can also learn from them and progress. By sharing, we provide inspiration for other trainers on how to run an exercise or how we explain a concept in our lectures, in the same way that we get inspiration from others, from books or websites. </p>
+<figure>
+  <img src="../../assets/images/10SimpleRulesFAIR.png" width="500" alt="Image depicting the 10 Simple Rules for Making Training Materials FAIR. Each rule is associated with a stylised icon. The first rule—to share—is the central starting point; the Findability rules include description, identity, and registration; the latter two, together with access rules, correspond to Accessibility; Interoperability stands on its own, with one rule about formats; the remaining four rules cover different aspects of Reusability.">
+
+</figure>
+
+<p>Figure 1: Ten simple rules for making training materials FAIR. Reproduced under CC-BY-SA 4.0 from Garcia et al<sup id="fnref2:Garcia2020"><a class="footnote-ref" href="#fn:Garcia2020">1</a></sup>.</p>
+<p>Today, sharing training materials is not an issue anymore because a vast data ecosystem is available. However, training materials are very diverse and less integrated, which makes it harder for both computers and human beings to find them, and for humans to reuse them. Today, a quick web search can help us find videos (on YouTube), presentations (in Zenodo or FigShare), and whole course materials (on GitHub, in decentralised institutional websites, or open globally-scoped repositories). Given that these repositories accept a wide range of data types in a wide range of formats and impose minimal limits (or criteria) on the descriptors of the data deposition, it can be difficult to determine the context in which the content was created or used (for which course, which audience), and thus being able to reuse it.</p>
+<p>Consider the following example in the domain of single-cell omics training to obtain an idea of the obstacles faced. A search in TeSS (the ELIXIR’s Training portal) material session using the expression “single-cell” will generate a list of a minimum of ten items - they are thus Findable. The difficulty is to know which ones can be used and in which context. They are therefore Findable but may not be Accessible or Accessible under a restrictive licence which would not allow you to Reuse them in your teaching context. And if they are Accessible, they may be in a format that requires specific software that requires a paid licence as well, for instance, an exercise in Matlab, which makes Interoperability more difficult or impossible if you don’t have that licence. </p>
+<p>Findable, Accessible, and Reusable are three principles that one can intuitively and easily visualise their application for training materials. Interoperability is a little less but becomes less mysterious when we reflect on training material formats, and the interoperations trainers or learners can do to reuse them. We must note however that the FAIR principles were depicted to be followed/applicable by humans and machines. Even though it’s difficult to imagine a machine reusing your training materials to teach, we need the machines to facilitate and interface F, A, I and R. The following paragraph, copied/pasted from the FAIR principles , can further shed some light on our reflections:</p>
+<blockquote>
+<p>Humans and machines often face distinct barriers when attempting to find and process data on the Web. Humans have an intuitive sense of ‘semantics’ (the meaning or intent of a digital object) because we are capable of identifying and interpreting a wide variety of contextual cues, whether those take the form of structural/visual/iconic cues in the layout of a Web page, or the content of narrative notes. As such, we are less likely to make errors in the selection of appropriate data or other digital objects, although humans will face similar difficulties if sufficient contextual metadata is lacking. The primary limitation of humans, however, is that we are unable to operate at the scope, scale, and speed necessitated by the scale of contemporary scientific data and complexity of e-Science. It is for this reason that humans increasingly rely on computational agents to undertake discovery and integration tasks on their behalf. This necessitates machines to be capable of autonomously and appropriately acting when faced with the wide range of types, formats, and access-mechanisms/protocols that will be encountered during their self-guided exploration of the global data ecosystem. It also necessitates that the machines keep an exquisite record of provenance such that the data they are collecting can be accurately and adequately cited. Assisting these agents, therefore, is a critical consideration for all participants in the data management and stewardship process—from researchers and data producers to data repository hosts.</p>
+</blockquote>
+<div class="admonition example">
+<p class="admonition-title">Exercise</p>
+<p>Reflect on the FAIR principles and with your own words and examples, explain what are the FAIR principles and how they can be applied to your training materials. </p>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Exercise</p>
+<p>Reflect on your training materials or those that you have used at school as a child. List 2-3 examples of materials that cannot be FAIRified. </p>
+</div>
+<h2 id="fair-vs-open">FAIR vs OPEN</h2>
+<p>Even though the expressions FAIR and Open are very frequently used as synonymous by many, we will see that they are not. Open Science started as a movement aiming to make scientific research – in the broadest sense, i.e. including publications, data, software, and educational resources – openly accessible to the public. Other related terms are Open Access and Open Data. Open Access is the term that relates to publications. It aims to give researchers, students, and the interested public free and immediate access to scholarly publications. </p>
+<p>Open Data aims to encourage sharing data and code on repositories to make research results transparent and reproducible. However, paraphrasing the <a href="https://www.go-fair.org/resources/faq/ask-question-difference-fair-data-open-data/">GO-FAIR consortium</a>: FAIR does not necessarily mean OPEN. The FAIR principles enable something to be as open as possible and as closed as necessary. The level of openness defined in a data access licence affects the accessibility (A) of the data but not F, I, or R. </p>
+<p>The following is an interesting explanation from the <a href="https://www.go-fair.org/resources/faq/ask-question-difference-fair-data-open-data/">GO-FAIR consortium</a> that will help you understand why FAIR is not equal to Open:</p>
+<blockquote>
+<p>The ‘A’ in FAIR stands for ‘Accessible under well defined conditions’. There may be legitimate reasons to shield data and services generated with public funding from public access. These include personal privacy, national security, and competitiveness. The FAIR principles, although inspired by Open Science, explicitly and deliberately do not address moral and ethical issues pertaining to the openness of data. In the envisioned Internet of FAIR Data and Services, the degree to which any piece of data is available, or even advertised as being available (via its metadata) is entirely at the discretion of the data owner. FAIR only speaks to the need to describe a process – mechanised or manual – for accessing discovered data; a requirement to openly and richly describe the context within which those data were generated, to enable evaluation of its utility; to explicitly define the conditions under which they may be reused; and to provide clear instructions on how they should be cited when reused [11]. None of these principles necessitate data being “open” or “free”. They do, however, require clarity and transparency around the conditions governing access and reuse. As such, while FAIR data does not need to be open, in order to comply with the condition of reusability, FAIR data are required to have a clear, preferably machine readable, license. The transparent but controlled accessibility of data and services, as opposed to the ambiguous blanket-concept of “open”, allows the participation of a broad range of sectors – public and private – as well as genuine equal partnership with stakeholders in all societies around the world.</p>
+</blockquote>
+<p>To contextualise the GO-FAIR consortium paragraph above, you can imagine that several universities, institutions, companies or countries worldwide still have institutional or national regulations that stipulate that in-house products should remain within their walls and are only accessible internally. In this case, training materials produced by their professors and instructors’ employees should remain their property, and only internal access would be granted to their students, learners, and citizens. These materials are thus not Open, but they can still be FAIRifyed to benefit these internal users and your reusability as a trainer. By FAIRifying training materials, we are also documenting how and when they were used, which can be handy to refresh our minds later when we teach the same content again and as a good practice in data management as well. </p>
+<div class="admonition example">
+<p class="admonition-title">Exercise</p>
+<p>Write down the main difference between Open and FAIR. </p>
+</div>
+<h2 id="evaluate-yourself">Evaluate yourself</h2>
+<p>Now that you have completed the chapter, you should have reached the learning outcomes. Scroll up, and see whether you managed.</p>
+<hr>
+<p><a href="https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/issues/new"><img alt="feedback" src="../../assets/images/small_contribute_button_chapter.svg"></a></p>
+<p><span style="color:#bebf32;">Please give us your feedback, we are always working on improving this book to attend the needs of its users. When writing your feedback please add the chapter number or name. Thank you.</span> </p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:Garcia2020">
+<p>Leyla Garcia, Bérénice Batut, Melissa L. Burke, Mateusz Kuzak, Fotis Psomopoulos, Ricardo Arcila, Teresa K. Attwood, Niall Beard, Denise Carvalho-Silva, Alexandros C. Dimopoulos, Victoria Dominguez del Angel, Michel Dumontier, Kim T. Gurwitz, Roland Krause, Peter McQuilton, Loredana Le Pera, Sarah L. Morgan, Päivi Rauste, Allegra Via, Pascal Kahlem, Gabriella Rustici, Celia W. G. van Gelder, and Patricia M. Palagi. Ten simple rules for making training materials fair. <em>PLOS Computational Biology</em>, 16(5):1–9, 05 2020. URL: <a href="https://doi.org/10.1371/journal.pcbi.1007854">https://doi.org/10.1371/journal.pcbi.1007854</a>, <a href="https://doi.org/10.1371/journal.pcbi.1007854">doi:10.1371/journal.pcbi.1007854</a>. <a class="footnote-backref" href="#fnref:Garcia2020" title="Jump back to footnote 1 in the text">↩</a><a class="footnote-backref" href="#fnref2:Garcia2020" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+</ol>
+</div></div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../00_preface/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Preface">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Preface
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../chapter_02/" class="md-footer__link md-footer__link--next" aria-label="Next: 2. Choose material types and formats that facilitate FAIRness">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                2. Choose material types and formats that facilitate FAIRness
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+  
+    
+  
+
+
+
+
+  
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
+<input class="md-toggle" type="checkbox" id="__settings" checked>
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="github" checked>
+          <span class="task-list-indicator"></span>
+          GitHub
+        </label>
+      </li>
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.footer", "toc.integrate", "content.action.edit", "content.action.view"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+    
+  </body>
+</html>

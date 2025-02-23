@@ -1,0 +1,1148 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../chapter_06/">
+      
+      
+        <link rel="next" href="../chapter_08/">
+      
+      
+      <link rel="icon" href="../../assets/images/fair_handbook_favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.5">
+    
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://webstats.elixir-europe.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '9']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+
+    
+      
+        <title>7. Make it reusable - FAIR training handbook</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8608ea7d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/neoteroi-mkdocs.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+
+  <meta property="og:url"                content="https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/" />
+  <meta property="og:title"              content="FAIR training handbook" />
+  <meta property="og:description"        content="Are you a developer of training material? Do you want to get more community involvement with your training material by making it Findable Accessible Interoperable and Reusable (FAIR)? Look no further, you are at the right (web)address!" />
+  <meta property="og:image"              content="https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/assets/images/logo/FAIRtrainingHandbook_longversion_logo_lightBG.png" />
+  
+  <meta name="twitter:card"              content="summary_large_image" />
+  <meta name="twitter:title"             content="FAIR training handbook" />
+  <meta name="twitter:description"       content="Are you a developer of training material? Do you want to get more community involvement with your training material by making it Findable Accessible Interoperable and Reusable (FAIR)? Look no further, you are at the right (web)address!" />
+  <meta name="twitter:image"             content="https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/assets/images/logo/FAIRtrainingHandbook_longversion_logo_lightBG.png" />
+
+
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#description" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="FAIR training handbook" class="md-header__button md-logo" aria-label="FAIR training handbook" data-md-component="logo">
+      
+  <img src="../../assets/images/logo/fair_handbook_simple_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR training handbook
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              7. Make it reusable
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/elixir-europe-training/FAIR-training-handbook" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    elixir-europe-training/FAIR-training-handbook
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="FAIR training handbook" class="md-nav__button md-logo" aria-label="FAIR training handbook" data-md-component="logo">
+      
+  <img src="../../assets/images/logo/fair_handbook_simple_logo.png" alt="logo">
+
+    </a>
+    FAIR training handbook
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/elixir-europe-training/FAIR-training-handbook" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    elixir-europe-training/FAIR-training-handbook
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Chapters
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../00_preface/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preface
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_01/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. Why FAIR training & training materials?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_02/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Choose material types and formats that facilitate FAIRness
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_03/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. Get ready to create your materials or reuse
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Use metadata to describe training materials
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5. Get a persistent identifier for your training material
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6. Make it accessible
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    7. Make it reusable
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    7. Make it reusable
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Description
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-to-include-in-your-recipe" class="md-nav__link">
+    <span class="md-ellipsis">
+      What to include in your recipe
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-learning-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Writing learning outcomes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#providing-additional-contextual-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Providing additional contextual information
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-and-where-to-share-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      How and where to share metadata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources-and-references" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources and references
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_08/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    8. Provide a license
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_09/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    9. Boost discoverability
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter_10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10. Recognition, acknowledgment, authorship
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../literature/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Literature
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../checklist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Checklist
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../keywords/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Keywords list
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributor_list/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contributors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../../keywords/#tag:contextual-information" class="md-tag">Contextual information</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:learning-outcomes" class="md-tag">Learning outcomes</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:metadata" class="md-tag">Metadata</a>
+      
+    
+      
+      
+      
+        <a href="../../keywords/#tag:reusability" class="md-tag">Reusability</a>
+      
+    
+  </nav>
+
+
+  
+    <a href="https://github.com/elixir-europe-training/FAIR-training-handbook/edit/main/docs/chapters/chapter_07.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/elixir-europe-training/FAIR-training-handbook/raw/main/docs/chapters/chapter_07.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+  <h1>7. Make it reusable</h1>
+
+<div><div class="admonition checklist">
+<p class="admonition-title">Checklist</p>
+<p>7.1 Choose the metadata (data about the data) descriptors that you will use to describe your materials, and that is the most commonly used by your community</p>
+<p>7.2 Provide as many metadata as possible that best describe your materials</p>
+<p>7.3 Insert the metadata in a Readme file, in your slides, anywhere that it is easy by humans and machines to find/read them</p>
+</div>
+<h2 id="description">Description</h2>
+<p>In this chapter, we explore the type of information required for people to decide if and how they can reuse training materials they are otherwise unfamiliar with. This information is an important part of the metadata and should be included alongside the materials. We consider existing metadata recommendations for training materials and different ways of representing this information in a detailed but logical and useful format.</p>
+<p>In this chapter training materials can be either an individual training material (e.g. a dataset, slides) or a collection of materials associated with a particular training session.</p>
+<div class="admonition info">
+<p class="admonition-title">Learning outcomes</p>
+<p>By the end of this chapter, learners will be able to:</p>
+<ol>
+<li>List the information which will allow other trainers to reuse training materials</li>
+<li>Write learning outcomes that clearly articulate training goals</li>
+<li>Choose a suitable method for sharing contextual information about their training materials.</li>
+<li>Construct a detailed description (run sheet/recipe) which will allow others to reuse their training materials</li>
+</ol>
+</div>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>How you manage the metadata associated with your training materials depends on where and in what format you are sharing your materials. It’s recommended that you read <a href="../chapter_02/">Chapter 2: Structure materials for FAIRness</a> and  <a href="../chapter_03/">Chapter 3 - getting ready reate your materials for reuse</a> before starting on this chapter.</p>
+<h2 id="introduction">Introduction</h2>
+<p>Imagine you have made the most delicious cake ever to be created. Perhaps it is a multi-layered chocolate cake with cream and cherries on top. Believing that food is better when shared, you want to make sure that your friends and family can make it too. How would you go about doing this?</p>
+<p>You’d likely start with a recipe. This recipe would include a description of the cake, a list of ingredients and equipment, and instructions on how to combine the ingredients. You might also include extra information like how many people it serves or tips on steps that can be done ahead of time. </p>
+<p>Your friend decides to bake the cake but they can’t eat cherries and don’t have some of the ingredients and equipment that you have. They decide to experiment by substituting ingredients and methods from another recipe to make their own perfect chocolate cake. </p>
+<p>The same is true for training. The training session can be thought of as the cake, the training materials are the ingredients, and the methods are instructions on how to combine and use the materials to deliver the training. </p>
+<p>Training materials and sessions can be reused in whole, in part or simply as inspiration. Regardless, when reusing training materials it is likely that they will need to be adapted to new contexts to account, for example, for different audiences and settings. To enable others to reuse your materials it’s important to provide a detailed recipe.</p>
+<h2 id="what-to-include-in-your-recipe">What to include in your recipe</h2>
+<div class="admonition example">
+<p class="admonition-title">Learning activity: What to include in your recipe</p>
+<p>In this activity we consider what types of information to include in a training recipe. </p>
+<ol>
+<li>Find three examples of training materials relevant to your field. This may be an individual training material or a training session. (Alternatively, take a look at some of the case studies linked below).</li>
+<li>What information is included in the training recipe for these materials?</li>
+<li>Is the same information provided in all three examples?</li>
+<li>Would you need more information to decide whether you could reuse them and how?</li>
+</ol>
+</div>
+<p>Information about training sessions and materials is referred to as <a href="https://faircookbook.elixir-europe.org/content/recipes/introduction/metadata-fair.html">metadata</a>. Metadata makes it easier for you and others to understand how a particular material or set of materials can be reused. </p>
+<p>Making training FAIR requires materials and sessions to be described with rich metadata. Ideally, this includes a universally agreed set of information. Many training communities, including <a href="https://bioschemas.org/profiles/Course/0.9-DRAFT-2020_12_08">Bioschemas</a> and the <a href="https://www.google.com/url?q=https://doi.org/10.15497/RDA00073&amp;sa=D&amp;source=docs&amp;ust=1661905403636069&amp;usg=AOvVaw17J5RLnyWOwcoTVR6YbELT">Research Data Alliance (RDA)</a> <sup id="fnref:hoebelheinrich_nancy_j_2022_6769695"><a class="footnote-ref" href="#fn:hoebelheinrich_nancy_j_2022_6769695">1</a></sup>, are working towards defining these sets of information but broad agreement on the categories to be included is yet to be reached. In our paper <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854">10 simple rules for making training materials FAIR</a> <sup id="fnref:Garcia2020"><a class="footnote-ref" href="#fn:Garcia2020">2</a></sup> we used the Bioschema and RDA sets to create a list of the information (metadata) that is important for training materials.</p>
+<p><strong>Table 1:</strong> Metadata that is important for training materials and guidance on what to include in each category (reproduced from Garcia <em>et al</em> 2020 <sup id="fnref2:Garcia2020"><a class="footnote-ref" href="#fn:Garcia2020">2</a></sup> under CC BY 4.0)</p>
+<table>
+<thead>
+<tr>
+<th><strong>Type of metadata</strong></th>
+<th><strong>What to include</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Title</td>
+<td>Title of the training material.</td>
+</tr>
+<tr>
+<td>Contact details</td>
+<td>Author(s) name and contact details.</td>
+</tr>
+<tr>
+<td>Licensing/(re)use details</td>
+<td>Licence under which the materials are shared, and rules/conditions for (re)use and contribution.</td>
+</tr>
+<tr>
+<td>Preferred citation</td>
+<td>Instructions on how to cite your material.</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>Overview of the subject matter, aims of the training and the language in which the training is delivered.</td>
+</tr>
+<tr>
+<td>Learning outcomes</td>
+<td>Statements that indicate what trainees should be able to do upon successful completion of the training.</td>
+</tr>
+<tr>
+<td>Target audience</td>
+<td>The intended audience, their prerequisite knowledge/skills, their general background, and how the training material will help them.</td>
+</tr>
+<tr>
+<td>Required resources</td>
+<td>Technical resources and related materials (software requirements, datasets, infrastructure requirements, etc.).</td>
+</tr>
+<tr>
+<td>Keywords</td>
+<td>Keywords or tags identifying the topic of the materials.</td>
+</tr>
+<tr>
+<td>Structure &amp; duration</td>
+<td>Description of the structure of the materials and setting in which to deliver them, including the time allocated to each part (lectures, exercises, etc.)</td>
+</tr>
+<tr>
+<td>Additional information</td>
+<td>Items that provide additional information about (re)use and delivery of the materials (e.g., general tips/guidance).</td>
+</tr>
+<tr>
+<td>Links and references</td>
+<td>Links and references that are relevant to the content, but not required for delivery of the materials.</td>
+</tr>
+<tr>
+<td>Date of last revision</td>
+<td>Date of last update of the materials, and the version.</td>
+</tr>
+</tbody>
+</table>
+<p>For some of these categories the information is factual and it is obvious what to include (e.g. contact details, licence, date of last revision) but for other categories (e.g. learning outcomes, additional information) the content is more abstract and requires a little more thought.</p>
+<p>For these more abstract categories, the quality, or richness, of the information provided is important for enabling reuse. For example, in our cake analogy, if your recipe only included the title “Best cake ever” and a list of ingredients “flour, eggs and milk” and instructions to “combine and bake” it would be difficult for someone to use the recipe to bake the same cake. Indeed they could end up with biscuits instead of a cake! At the same time there is a balance to be struck between providing enough information to be useful and too much overwhelming detail. </p>
+<p>Let’s look at ‘learning outcomes’ and ‘additional information’ in more detail.</p>
+<div class="admonition info">
+<p class="admonition-title">A word on keywords, ontologies and controlled vocabularies</p>
+<p>Keywords are important for boosting the findability of training materials. Where possible, keywords should be chosen from an agreed upon list of terms (i.e an ontology or controlled vocabulary) that is relevant to your field. This helps ensure that keywords are used consistently and reduces ambiguity. For biology and bioinformatics <a href="https://edamontology.org/page">EDAM</a>  is an example of an ontology that includes agreed terms for data types, data identifiers, data formats, operations, and topics and you can use services like the <a href="https://www.ebi.ac.uk/ols/index">Ontology Lookup Service</a> to look up terms and keywords. </p>
+<p>You can learn more about ontologies in this <a href="https://www.ebi.ac.uk/training/online/courses/biocuration-collection/ontologies/">video from the EMBL-EBI</a>.</p>
+</div>
+<h2 id="writing-learning-outcomes">Writing learning outcomes</h2>
+<p>Writing learning outcomes in a consistent format makes them easier to understand and compare across different materials and sessions. These statements help trainees to determine if the training session is right for them. Trainers can also use them to determine if training materials cover the topics they wish to teach and if they are pitched at an appropriate level.</p>
+<p>A bonus to writing learning outcomes is that it can help you define the purpose, intended audience  of your training session and what participants need to know (the prerequisites) before joining it.</p>
+<div class="admonition example">
+<p class="admonition-title">Learning experience: writing learning outcomes</p>
+<ol>
+<li>Watch this video on <a href="https://drive.google.com/file/d/1T078jh5wWD5k5CdN1tf-YldXdyXZ3FnR/view?usp=sharing">how to write SMART learning outcomes</a></li>
+</ol>
+<p><iframe src="https://drive.google.com/file/d/1T078jh5wWD5k5CdN1tf-YldXdyXZ3FnR/preview" width="320" height="240" allow="autoplay"></iframe></p>
+<ol start="2">
+<li>Now write a set of learning outcomes for your own materials. </li>
+<li>Share your learning outcomes with a friend. Are they able to tell what the goals of your training are?</li>
+</ol>
+</div>
+<h2 id="providing-additional-contextual-information">Providing additional contextual information</h2>
+<p>Providing context about the delivery method helps other trainers<strong> </strong>plan for reuse. It’s also really useful if you have to repeat the same session sometime in the future! </p>
+<p>These are the things that come under ‘Required resources’, ‘Structure and duration’ and ‘Additional notes’ in the table.</p>
+<p>For example, were these materials part of a workshop? Was the training delivered online or in person? How much time is needed for each activity? Was special software needed?</p>
+<div class="admonition example">
+<p class="admonition-title">Learning experience: adding contextual information</p>
+<ol>
+<li>Find some examples of ways in which trainers provide ‘additional information’ and context about how to use training materials.</li>
+<li>How did they include this information?</li>
+<li>What information did they include?</li>
+</ol>
+</div>
+<p>There are several ways to include additional information. For example <a href="https://swcarpentry.github.io/shell-novice/">Carpentries lessons</a> include ‘Instructor notes’ while <a href="https://github.com/sib-swiss/first-steps-with-python-training/">this example from the Swiss Institute of Bioinformatics</a> uses a README file in their GitHub repository to collate this information and the <a href="https://zenodo.org/record/6350808#.YqfKV-xBw3Q">Australian BioCommons</a> provides information in a table of metadata. You might even consider adding an extra slide to your slide deck when you share it.  In fact what you include and how, really depends on the materials and training session in question. To write your own notes, start by thinking of this as a training love letter to yourself. If you were to reuse these materials in 2, 5, 10 years time, what else would you need to know about the session?</p>
+<p>It can be tempting to include a lot of detailed information here. Remember that you can also facilitate reuse of your materials by welcoming contributions and inviting people to get in touch if they need more information.</p>
+<h2 id="how-and-where-to-share-metadata">How and where to share metadata</h2>
+<p>Recipes are typically written in a similar format that includes a photo of the dish alongside detailed metadata including i) a description ii) a list of ingredients iii) method/instructions. This makes it easy to quickly check if that recipe is right for you.</p>
+<p>The same is true for training materials. Sharing metadata alongside your training materials makes it quicker and easier to review the materials. How you share this metadata depends on where you are sharing it. For example, repositories such as Zenodo prompt you to add metadata by providing a form for you to fill in when you upload your materials. If your repository is not specialised for training materials or doesn’t provide a form it may be necessary to add additional information in a free text format such as a README file. </p>
+<p>Whichever format you choose, use a consistent method for all of your training materials. This will save you time and make it easier to find, compare and contrast materials.</p>
+<div class="admonition info">
+<p class="admonition-title">Structuring metadata for machines</p>
+<p>Metadata can also be structured to help machines search and catalogue this information. For more on this see <a href="../chapter_04/">Chapter 4</a>.</p>
+</div>
+<p>Now it’s your turn to write a training recipe.</p>
+<div class="admonition example">
+<p class="admonition-title">Learning experience: Write your own training recipe</p>
+<ol>
+<li>Make a table of the types of information you need to include in your metadata (you may wish to use the table above for inspiration). </li>
+<li>Complete the table for your training material providing detailed information.</li>
+<li>Ask a friend to read your recipe. Do they have enough information to understand the materials and the context they were used in?</li>
+</ol>
+</div>
+<p>Here are some recommendations to help get you started:</p>
+<ul>
+<li>Create a templates to help you remember which information to include and to ensure consistency</li>
+<li>Write learning outcomes in a SMART format</li>
+<li>Include contextual information</li>
+</ul>
+<p><strong>Examples of ways in which information about training materials can be shared</strong></p>
+<ul>
+<li><a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html">Galaxy 101 for everyone</a> </li>
+<li><a href="https://zenodo.org/record/6350808#.YqfKV-xBw3Q">Australian BioCommons Materials</a> (PDF metadata table)</li>
+<li><a href="https://swcarpentry.github.io/shell-novice/">Carpentries lesson</a> (Instructor notes)</li>
+<li><a href="https://github.com/sib-swiss/first-steps-with-python-training/">SIB First steps with Python in Life Sciences</a> (README file)</li>
+<li>A training dataset/Slide deck</li>
+</ul>
+<h2 id="resources-and-references">Resources and references</h2>
+<hr>
+<p><a href="https://github.com/elixir-europe-training/ELIXIR-TrP-FAIR-training-handbook/issues/new"><img alt="feedback" src="../../assets/images/small_contribute_button_chapter.svg"></a></p>
+<p><span style="color:#bebf32;">Please give us your feedback, we are always working on improving this book to attend the needs of its users. When writing your feedback please add the chapter number or name. Thank you.</span> </p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:hoebelheinrich_nancy_j_2022_6769695">
+<p>Nancy J Hoebelheinrich, Katarzyna Biernacka, Michelle Brazas, Leyla Jael Castro, Nicola Fiore, Margareta Hellström, Emma Lazzeri, Ellen Leenarts, Paula Maria Martinez Lavanchy, Elizabeth Newbold, Amy Nurnberger, Esther Plomp, Lucia Vaira, Celia W G van Gelder, and Angus Whyte. Recommendations for a minimal metadata set to aid harmonised discovery of learning resources. June 2022. URL: <a href="https://doi.org/10.15497/RDA00073">https://doi.org/10.15497/RDA00073</a>, <a href="https://doi.org/10.15497/RDA00073">doi:10.15497/RDA00073</a>. <a class="footnote-backref" href="#fnref:hoebelheinrich_nancy_j_2022_6769695" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:Garcia2020">
+<p>Leyla Garcia, Bérénice Batut, Melissa L. Burke, Mateusz Kuzak, Fotis Psomopoulos, Ricardo Arcila, Teresa K. Attwood, Niall Beard, Denise Carvalho-Silva, Alexandros C. Dimopoulos, Victoria Dominguez del Angel, Michel Dumontier, Kim T. Gurwitz, Roland Krause, Peter McQuilton, Loredana Le Pera, Sarah L. Morgan, Päivi Rauste, Allegra Via, Pascal Kahlem, Gabriella Rustici, Celia W. G. van Gelder, and Patricia M. Palagi. Ten simple rules for making training materials fair. <em>PLOS Computational Biology</em>, 16(5):1–9, 05 2020. URL: <a href="https://doi.org/10.1371/journal.pcbi.1007854">https://doi.org/10.1371/journal.pcbi.1007854</a>, <a href="https://doi.org/10.1371/journal.pcbi.1007854">doi:10.1371/journal.pcbi.1007854</a>. <a class="footnote-backref" href="#fnref:Garcia2020" title="Jump back to footnote 2 in the text">↩</a><a class="footnote-backref" href="#fnref2:Garcia2020" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+</ol>
+</div></div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../chapter_06/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 6. Make it accessible">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                6. Make it accessible
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../chapter_08/" class="md-footer__link md-footer__link--next" aria-label="Next: 8. Provide a license">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                8. Provide a license
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+  
+    
+  
+
+
+
+
+  
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
+<input class="md-toggle" type="checkbox" id="__settings" checked>
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="github" checked>
+          <span class="task-list-indicator"></span>
+          GitHub
+        </label>
+      </li>
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.footer", "toc.integrate", "content.action.edit", "content.action.view"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+    
+  </body>
+</html>
