@@ -12,7 +12,7 @@ tags:
     - Types of training materials
     - Regulations
 ---
-<!-- Chapter: Why FAIR training & training materils -->
+<!-- Chapter: Why FAIR training & training materials -->
 
 !!! Checklist  
 

@@ -37,7 +37,7 @@ If you want to build large tables, have a look at [markdown tables generator](ht
 
 ### Adding references
 
-This website supports bibtex (pandoc style). In order to add a reference, add it in bibtex format to `references.bib`, cite it in your markdown document with `[@refid]` (for the ten simple rules paper this would be `[@Garcia2020]`), and at the bottom of the page add the line `\full_bibliography`. You can find an example in `docs/index.md`. 
+This website supports bibtex (pandoc style). In order to add a reference, add it in bibtex format to `references.bib`, cite it in your markdown document with `[@refid]` (for the ten simple rules paper this would be `[@Garcia2020]`), and at the bottom of the page add the line `\bibliography` - this renders just the references cited on that page. You can find an example in `docs/index.md`. The Literature page (`docs/chapters/literature.md`) instead uses `\full_bibliography`, which renders every reference in `references.bib`, cited or not.
 
 Citations are resolved by `scripts/render_citations.py` before the site is built (see "If working locally" below) - there is no live plugin doing this, so edits under `docs/` won't show resolved citations until that script runs.
 

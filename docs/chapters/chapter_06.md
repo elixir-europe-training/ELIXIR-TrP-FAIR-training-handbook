@@ -48,7 +48,7 @@ You have a set of materials that you are considering making accessible and are f
 
 * [Chapter 5: Give it a unique identifier](chapter_05.md)  
 * [Chapter 7: Make it reusable](chapter_07.md) 
-* [Chapter 9: Boosting discoverability](chapter_07.md)
+* [Chapter 9: Boosting discoverability](chapter_09.md)
 
 ## Accessibility in the context of FAIR
 
@@ -59,7 +59,7 @@ Accessibility refers to the ability to retrieve content. Accessibility defines w
 
 Training material which is accessible to trainees prior to a course lets them take a look and helps them to prepare for the course. During the course, it means all trainees benefit from training materials and participate in hands-on exercises. By allowing trainees to access the materials after the course, they can review it at their own pace, redo exercises, and consolidate their knowledge. By extending the accessibility of the materials to trainees who did not follow the course, you promote the opportunity of recruiting future trainees, and you may favour self-learning for people that weren’t able to attend a training session.
 
-By making your training materials accessible to other trainers, you give them the opportunity to view the materials and possibly be inspired by them, or even to reuse them in their own courses (see Chapter 8 Licensing). Trainers who reuse your material may even provide feedback (possibling improving the materials) or even collaborating with you to develop further training materials.
+By making your training materials accessible to other trainers, you give them the opportunity to view the materials and possibly be inspired by them, or even to reuse them in their own courses (see Chapter 8 Licensing). Trainers who reuse your material may even provide feedback (possibly improving the materials) or even collaborating with you to develop further training materials.
 
 Another incentive to making your training materials accessible is to point out the work you have done, for instance for funding bodies or hiring committees.
 

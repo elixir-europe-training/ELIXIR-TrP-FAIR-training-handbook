@@ -1,7 +1,7 @@
 - Alexandra Holinski  
 - Alexia Cardona [:custom-orcid:](https://orcid.org/0000-0002-7877-5565/) [:simple-github:](https://github.com/ac812/)
 - Allegra Via  [:simple-github:](https://github.com/allegravia/)
-- Anastasios Anastasios Papaioannou [:custom-orcid:](https://orcid.org/0000-0002-8959-4559/) 
+- Anastasios Papaioannou [:custom-orcid:](https://orcid.org/0000-0002-8959-4559/) 
 - Anna Swan [:custom-orcid:](https://orcid.org/0000-0003-1810-3756/) [:simple-github:](https://github.com/annaswan1/)
 - Bruna Piereck [:custom-orcid:](https://orcid.org/0000-0001-5958-0669/) [:simple-github:](https://github.com/bpiereck/)
 - Celia van Gelder [:custom-orcid:](https://orcid.org/0000-0002-0223-2329/) [:simple-github:](https://github.com/celiavg/)

@@ -8,6 +8,8 @@ no plugin API yet). Copies docs/ to docs_build/ and, in that copy only:
     pointing at the matching entry in docs/chapters/literature.md
   - replaces the literal line \\full_bibliography with the full, formatted
     reference list (pybtex "plain" style), each entry anchored by its key
+  - replaces the literal line \\bibliography with the formatted reference
+    list for just the citations used earlier on that same page
 
 Run this before `zensical build` / `zensical serve`. Never edit files
 under docs_build/ directly - it is regenerated on every run.
@@ -28,6 +30,7 @@ REFERENCES_PAGE = BUILD_DIR / "chapters" / "literature.md"
 
 CITE_RE = re.compile(r"\[@([\w:./-]+(?:\s*,\s*@?[\w:./-]+)*)\]")
 FULL_BIBLIOGRAPHY_MARKER = "\\full_bibliography"
+PAGE_BIBLIOGRAPHY_MARKER = "\\bibliography"
 
 
 def strip_braces(name):
@@ -75,6 +78,7 @@ def relative_link(src_md_path, target_md_path):
 def process_file(md_path, bib_data, entries_html):
     text = md_path.read_text(encoding="utf-8")
     changed = False
+    cited_keys = []
 
     def cite_repl(match):
         nonlocal changed
@@ -86,6 +90,8 @@ def process_file(md_path, bib_data, entries_html):
             if key not in bib_data.entries:
                 links.append(f"**[unknown citation: {key}]**")
                 continue
+            if key not in cited_keys:
+                cited_keys.append(key)
             label = author_year_label(bib_data.entries[key])
             links.append(f"[{label}]({rel}#{key})")
         return " ".join(links)
@@ -96,6 +102,15 @@ def process_file(md_path, bib_data, entries_html):
         changed = True
         items = [f'<p id="{key}">{html}</p>' for key, html in entries_html.items()]
         text = text.replace(FULL_BIBLIOGRAPHY_MARKER, "\n".join(items))
+
+    if PAGE_BIBLIOGRAPHY_MARKER in text:
+        changed = True
+        items = [
+            f'<p id="{key}">{entries_html[key]}</p>'
+            for key in cited_keys
+            if key in entries_html
+        ]
+        text = text.replace(PAGE_BIBLIOGRAPHY_MARKER, "\n".join(items))
 
     if changed:
         md_path.write_text(text, encoding="utf-8")

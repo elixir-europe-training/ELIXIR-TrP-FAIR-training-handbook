@@ -12,7 +12,7 @@ tags:
 
     10.1 Define roles (author, trainer/teacher and contributor) for the people involved in developing the training material.
     
-    10.1 Give credit to those who contributed to your materials according to their roles.
+    10.2 Give credit to those who contributed to your materials according to their roles.
     
     10.3 Cite materials you have reused or were inspired by.
     
@@ -23,6 +23,7 @@ tags:
 
 This chapter will explain why it is important to add attributions to your training material. We will define the roles of author, trainers and contributor and ways of how to attribute credit to them in the contact of training material. It will also discuss of how you can encourage others to contribute to your material. 
 
+<a id="learning-outcomes"></a>
 !!! info "Learning outcomes"
     **At the end of this chapter you should be able to:**
 

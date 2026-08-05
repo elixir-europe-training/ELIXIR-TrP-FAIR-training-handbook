@@ -65,7 +65,7 @@ You can upload your materials manually provided you are a registered member. If 
 
 ## Online repositories
 
-If you are using platforms such as Zenodo, GitHub and GitLab (see [Chapter 3: Getting readty to create your materials or reuse](chapter_03.md))) in the development of your training materials, you are already making them accessible to the community. All a trainee or trainer needs to do is search for a topic and, if your materials are properly indexed, they will be able to view them and download them depending on the access right (see [Chapter 6: Make it accessible](chapter_06.md)).
+If you are using platforms such as Zenodo, GitHub and GitLab (see [Chapter 3: Getting ready to create your materials or reuse](chapter_03.md)) in the development of your training materials, you are already making them accessible to the community. All a trainee or trainer needs to do is search for a topic and, if your materials are properly indexed, they will be able to view them and download them depending on the access right (see [Chapter 6: Make it accessible](chapter_06.md)).
 
 !!! note
      A training repository (or repo) is a central location in which training materials are stored and managed. Online repositories are thus used to deposit your training materials and share them with the community.
