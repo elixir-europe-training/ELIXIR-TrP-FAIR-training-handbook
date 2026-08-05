@@ -1,6 +1,6 @@
 setuptools
-mkdocs-material
-mkdocs-bibtex
+zensical
 neoteroi-mkdocs
-mkdocs-video
 addbioschemas
+pybtex
+pyyaml

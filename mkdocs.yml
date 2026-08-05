@@ -1,3 +1,13 @@
+# Built with zensical (https://zensical.org), not plain MkDocs.
+#
+# docs_dir points at a generated copy of docs/ because citations
+# ([@key] / \full_bibliography) and the keyword index ([TAGS] in
+# keywords.md) are pre-rendered by scripts/render_citations.py and
+# scripts/render_keywords.py before zensical reads this tree - see
+# README.md for the build/serve workflow. Always edit sources under
+# docs/, never under docs_build/.
+docs_dir: docs_build
+
 site_name: FAIR training handbook
 nav:
     - Home: index.md
@@ -39,12 +49,12 @@ repo_url: https://github.com/elixir-europe-training/FAIR-training-handbook
 edit_uri: edit/main/docs/
 
 plugins:
-  - tags:
-      tags_file: keywords.md
   - search
-  - bibtex:
-      bib_file: "references.bib"
-  - mkdocs-video # embed videos to the docs
+  # tags, mkdocs-bibtex and mkdocs-video are not supported by zensical.
+  # Citations and the keyword index are now handled by
+  # scripts/render_citations.py and scripts/render_keywords.py. Video
+  # embeds use raw HTML <iframe> tags directly in markdown (already the
+  # case throughout docs/ - the mkdocs-video plugin was unused).
 
 markdown_extensions:
   - abbr

@@ -37,7 +37,9 @@ If you want to build large tables, have a look at [markdown tables generator](ht
 
 ### Adding references
 
-This website supports bibtex (pandoc style). In order to add a reference, add it in bibtex format to `references.bib`, cite it in your markdown document with `[@refid]` (for the ten simple rules paper this would be `[@Garcia2020]`), and at the bottom of the page add the line `\bibliography`. You can find an example in `docs/index.md`. 
+This website supports bibtex (pandoc style). In order to add a reference, add it in bibtex format to `references.bib`, cite it in your markdown document with `[@refid]` (for the ten simple rules paper this would be `[@Garcia2020]`), and at the bottom of the page add the line `\full_bibliography`. You can find an example in `docs/index.md`. 
+
+Citations are resolved by `scripts/render_citations.py` before the site is built (see "If working locally" below) - there is no live plugin doing this, so edits under `docs/` won't show resolved citations until that script runs.
 
 ## Aims
 
@@ -49,25 +51,25 @@ Please contact Geert van Geest if you want to contribute to this repo.
 
 ## If working locally
 
-This website is generated with [MkDocs](https://www.mkdocs.org/), with the theme [Material](https://squidfunk.github.io/mkdocs-material/).
+This website is generated with [Zensical](https://zensical.org), the successor to MkDocs from the same team behind the [Material](https://squidfunk.github.io/mkdocs-material/) theme.
 
-To host it locally, install MkDocs:
+Clone this repository to your local computer, then install the dependencies:
 ```bash
-pip install mkdocs
+pip install -r requirements.txt
 ```
 
-and Material:
-```bash
-pip install mkdocs-material
-```
-
-Clone this repository to your local computer. Then, make the repository your current directory and type:
+Citations (`[@refid]`) and the keyword index (`keywords.md`) are pre-rendered into a generated `docs_build/` directory before every build or serve - run this from the repository root first, and again after editing any source file under `docs/`:
 
 ```bash
-mkdocs serve
+python scripts/render_citations.py
+python scripts/render_keywords.py
 ```
 
-To host it locally.
+Then host the site locally:
+
+```bash
+zensical serve
+```
 
 Check it out with your browser at `http://localhost:8000`.
 

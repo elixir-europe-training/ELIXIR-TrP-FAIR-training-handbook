@@ -8,17 +8,28 @@ on:
     # every week on Sunday
     - cron: "0 0 * * 0"
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.13'
       - run: |
           pip install -r requirements.txt
-          mkdocs gh-deploy --force
+          python scripts/render_citations.py
+          python scripts/render_keywords.py
+          zensical build
       # - uses: r-lib/actions/setup-r@v2
       #   with:
       #     r-version: 'renv'
@@ -33,3 +44,16 @@ jobs:
       #     add: "docs/contributor_list.md .zenodo.json"
       #     committer_name: "GitHub Actions"
       #     committer_email: "actions@github.com"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
