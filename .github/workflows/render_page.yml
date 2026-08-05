@@ -27,7 +27,7 @@ jobs:
           python-version: '3.13'
       - run: |
           pip install -r requirements.txt
-          python scripts/render_citations.py
+          python scripts/render_citations.py --references-page chapters/literature.md
           python scripts/render_keywords.py
           zensical build
       # - uses: r-lib/actions/setup-r@v2

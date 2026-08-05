@@ -5,15 +5,24 @@ Replaces the mkdocs-bibtex plugin, which zensical does not support (it has
 no plugin API yet). Copies docs/ to docs_build/ and, in that copy only:
 
   - replaces [@key] (and [@key1, key2, ...]) with an "(Author, Year)" link
-    pointing at the matching entry in docs/chapters/literature.md
+    pointing at the matching entry in the references page
   - replaces the literal line \\full_bibliography with the full, formatted
     reference list (pybtex "plain" style), each entry anchored by its key
   - replaces the literal line \\bibliography with the formatted reference
     list for just the citations used earlier on that same page
 
+Usage:
+    render_citations.py [--references-page PATH]
+
+--references-page is the path (relative to docs/) of the page inline
+citations link to and where \\full_bibliography renders the complete
+list. Defaults to "chapters/references.md" - pass a project-specific
+path if the reference/literature page lives somewhere else.
+
 Run this before `zensical build` / `zensical serve`. Never edit files
 under docs_build/ directly - it is regenerated on every run.
 """
+import argparse
 import os
 import re
 import shutil
@@ -26,7 +35,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC_DIR = ROOT / "docs"
 BUILD_DIR = ROOT / "docs_build"
 BIB_FILE = ROOT / "references.bib"
-REFERENCES_PAGE = BUILD_DIR / "chapters" / "literature.md"
+DEFAULT_REFERENCES_PAGE = "chapters/references.md"
 
 CITE_RE = re.compile(r"\[@([\w:./-]+(?:\s*,\s*@?[\w:./-]+)*)\]")
 FULL_BIBLIOGRAPHY_MARKER = "\\full_bibliography"
@@ -65,8 +74,8 @@ def load_bibliography():
 
 
 def relative_link(src_md_path, target_md_path):
-    # Written relative to the markdown *source* tree (e.g. "literature.md" or
-    # "chapters/literature.md"), matching how a hand-authored MkDocs/Zensical
+    # Written relative to the markdown *source* tree (e.g. "references.md" or
+    # "chapters/references.md"), matching how a hand-authored MkDocs/Zensical
     # link would look. Zensical rewrites this itself to account for the
     # directory-URL output structure (foo.md -> foo/index.html) - a link
     # already adjusted for that here would get adjusted a second time.
@@ -75,7 +84,7 @@ def relative_link(src_md_path, target_md_path):
     return rel_path.replace(os.sep, "/")
 
 
-def process_file(md_path, bib_data, entries_html):
+def process_file(md_path, bib_data, entries_html, references_page):
     text = md_path.read_text(encoding="utf-8")
     changed = False
     cited_keys = []
@@ -83,7 +92,7 @@ def process_file(md_path, bib_data, entries_html):
     def cite_repl(match):
         nonlocal changed
         changed = True
-        rel = relative_link(md_path, REFERENCES_PAGE)
+        rel = relative_link(md_path, references_page)
         keys = [k.strip().lstrip("@") for k in match.group(1).split(",")]
         links = []
         for key in keys:
@@ -117,6 +126,16 @@ def process_file(md_path, bib_data, entries_html):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--references-page",
+        default=DEFAULT_REFERENCES_PAGE,
+        help="Path (relative to docs/) of the references/literature page. "
+        "Default: %(default)s",
+    )
+    args = parser.parse_args()
+    references_page = BUILD_DIR / args.references_page
+
     if BUILD_DIR.exists():
         shutil.rmtree(BUILD_DIR)
     shutil.copytree(SRC_DIR, BUILD_DIR)
@@ -124,7 +143,7 @@ def main():
     bib_data, entries_html = load_bibliography()
     md_files = list(BUILD_DIR.rglob("*.md"))
     for md_path in md_files:
-        process_file(md_path, bib_data, entries_html)
+        process_file(md_path, bib_data, entries_html, references_page)
 
     print(f"render_citations: rendered {len(md_files)} pages into {BUILD_DIR}")
 

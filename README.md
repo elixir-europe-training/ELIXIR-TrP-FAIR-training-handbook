@@ -61,7 +61,7 @@ pip install -r requirements.txt
 Citations (`[@refid]`) and the keyword index (`keywords.md`) are pre-rendered into a generated `docs_build/` directory before every build or serve - run this from the repository root first, and again after editing any source file under `docs/`:
 
 ```bash
-python scripts/render_citations.py
+python scripts/render_citations.py --references-page chapters/literature.md
 python scripts/render_keywords.py
 ```
 
