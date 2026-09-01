@@ -1,5 +1,5 @@
 .DS_Store*
 site/
 docs_build/
-env/
-.Rproj.user
+.venv/
+.cache/
